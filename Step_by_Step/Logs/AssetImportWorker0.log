@@ -1,0 +1,2603 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.0f1 (3721df5a8b28) revision 3613151'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16304 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity Projects\2020.2.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/CGL/Collaborative-Project_BA1/Step_by_Step/Step_by_Step
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63538
+Successfully changed project path to: D:/CGL/Collaborative-Project_BA1/Step_by_Step/Step_by_Step
+D:/CGL/Collaborative-Project_BA1/Step_by_Step/Step_by_Step
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 29.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.0f1 (3721df5a8b28)
+[Subsystems] Discovering subsystems at path D:/Unity Projects/2020.2.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/CGL/Collaborative-Project_BA1/Step_by_Step/Step_by_Step/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   
+    VRAM:     4018 MB
+    Driver:   27.21.14.6079
+Initialize mono
+Mono path[0] = 'D:/Unity Projects/2020.2.0f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Projects/2020.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity Projects/2020.2.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Projects/2020.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000884 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 28.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.094 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000627 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D977A6EA50 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971C2E640 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971DC72E0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D97249C020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976838020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9724BB430 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976838020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9724BB430 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9724BB430 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971A0D020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971F6FBA0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976A64010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.893 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1491 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.6 MB.
+System memory in use after: 72.7 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 1928.
+Total: 3.323300 ms (FindLiveObjects: 0.217100 ms CreateObjectMapping: 0.138700 ms MarkObjects: 2.785000 ms  DeleteObjects: 0.181300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Testlevel.unity
+  artifactKey: Guid(b91a140b179f3a74aa6d60ccf6116ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Testlevel.unity using Guid(b91a140b179f3a74aa6d60ccf6116ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db17dbbbeb608a5bc15d9a616a51f3c7') in 0.013959 seconds
+  Import took 0.017229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a9dea219e1fbaeb7a4918837952358') in 0.007380 seconds
+  Import took 0.009740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.994800 seconds.
+  path: Assets/Prefab/Character.prefab
+  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed52f57c4095d8584eb771f0e54dc3a') in 0.137755 seconds
+  Import took 0.140151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.144858 seconds.
+  path: Assets/Prefab/Character.prefab
+  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7045c3c564d07f912e0e7799bd1dc019') in 0.018649 seconds
+  Import took 0.022385 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000636 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D976875A30 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D977661020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971DC68E0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9765D9040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D97694E010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9765D9040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9719ED010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9765D9040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9765D9040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971E11A80 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971BB1010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971C247F0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.893 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.7 MB.
+System memory in use after: 73.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1938.
+Total: 2.187300 ms (FindLiveObjects: 0.145000 ms CreateObjectMapping: 0.046400 ms MarkObjects: 1.920400 ms  DeleteObjects: 0.074300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000633 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D976AB8010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D97675FFB0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D977CEB040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D999AF09F0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D97655D010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D97675FFB0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D977B66010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978210020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971A48010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976538830 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D977CEB040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D977C17C00 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.769 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.0 MB.
+System memory in use after: 74.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1940.
+Total: 1.860600 ms (FindLiveObjects: 0.139600 ms CreateObjectMapping: 0.044100 ms MarkObjects: 1.608100 ms  DeleteObjects: 0.068100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 235.251509 seconds.
+  path: Assets/Prefab
+  artifactKey: Guid(d332a5ac5dc478c4496158592007c59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab using Guid(d332a5ac5dc478c4496158592007c59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e5479b27f6fd26c451be76ed4d324e6') in 0.008170 seconds
+  Import took 0.010548 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000637 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D99A3093F0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971BB8960 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978DA7EE0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978DF3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976A64010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971BB8960 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9719ED010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D972382010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D97933FC80 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971BB1010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A377830 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978D81580 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.784 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.4 MB.
+System memory in use after: 74.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1942.
+Total: 2.208400 ms (FindLiveObjects: 0.134500 ms CreateObjectMapping: 0.039300 ms MarkObjects: 1.956500 ms  DeleteObjects: 0.077100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000797 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D978D7E020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D97745BC20 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978DA7EE0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D975FE0080 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B12C010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D97745BC20 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D97249C020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978123F10 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976230EA0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9722D0570 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976538830 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D972352020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.746 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.8 MB.
+System memory in use after: 74.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1944.
+Total: 2.418900 ms (FindLiveObjects: 0.146000 ms CreateObjectMapping: 0.043700 ms MarkObjects: 2.156400 ms  DeleteObjects: 0.071700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 209.355863 seconds.
+  path: Assets/Prefab/Character.prefab
+  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604920db3d9afc73bfc31b670ee2dd22') in 0.042570 seconds
+  Import took 0.044937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.754978 seconds.
+  path: Assets/Prefab/Character.prefab
+  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf8b109e4d85d1c9360a1354b47abeb') in 0.008311 seconds
+  Import took 0.010778 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000649 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D978BB5E00 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D999FBA090 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978DA7EE0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D97658D060 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976A64010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D97629A040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D972382010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976230080 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D788268D90 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D999F77030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A299530 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.739 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.0 MB.
+System memory in use after: 75.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1947.
+Total: 1.821200 ms (FindLiveObjects: 0.129200 ms CreateObjectMapping: 0.040000 ms MarkObjects: 1.586500 ms  DeleteObjects: 0.064800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.041092 seconds.
+  path: Assets/Prefab/Character.prefab
+  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5c9d0ab0c5a246725d5d5adb42fea0') in 0.050145 seconds
+  Import took 0.052960 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000680 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D971EC5CB0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D999FBA090 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978BB15E0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D999AF09F0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971E1DAA0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D97629A040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D979268020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978CF5850 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976538830 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9793E84A0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976DEF050 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.753 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.6 MB.
+System memory in use after: 74.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1950.
+Total: 2.061600 ms (FindLiveObjects: 0.131200 ms CreateObjectMapping: 0.040900 ms MarkObjects: 1.810500 ms  DeleteObjects: 0.078000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000657 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D971D12EE0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976A96030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D788268D90 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D972382010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99AFF5020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976A96030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978D93010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D977A5B010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D999FC20A0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D788268D90 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D999F7CAB0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.749 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.9 MB.
+System memory in use after: 75.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1952.
+Total: 1.664900 ms (FindLiveObjects: 0.140000 ms CreateObjectMapping: 0.041900 ms MarkObjects: 1.414900 ms  DeleteObjects: 0.066900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001014 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D978363F20 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9724E9B40 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976A3E030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A32AF80 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976A3E030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D977A5B010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976A9E040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D979077020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D97956D010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.748 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.1 MB.
+System memory in use after: 75.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1954.
+Total: 1.993900 ms (FindLiveObjects: 0.166600 ms CreateObjectMapping: 0.061700 ms MarkObjects: 1.693900 ms  DeleteObjects: 0.070700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000846 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D971D12EE0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978C69010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978C0EFC0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D97835A0F0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99AFF5020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978C69010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978D93010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D97933FC80 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978DF8020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971DC68E0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978CF5850 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.792 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.7 MB.
+System memory in use after: 74.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1956.
+Total: 1.916300 ms (FindLiveObjects: 0.136000 ms CreateObjectMapping: 0.043200 ms MarkObjects: 1.668100 ms  DeleteObjects: 0.068300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000866 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D788272C70 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978C69010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978C0EFC0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D97835A0F0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D999D84E50 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978C69010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978D93010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9768E0010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978993020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971DC68E0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D972352020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.801 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.0 MB.
+System memory in use after: 75.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1958.
+Total: 4.556800 ms (FindLiveObjects: 0.140600 ms CreateObjectMapping: 0.044500 ms MarkObjects: 4.286100 ms  DeleteObjects: 0.084300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000644 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D978363E60 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978DF0010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9724E9B40 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976A3E030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99AFF5020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A3194E0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978100010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978CEAE90 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971A48010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978C71020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D979077020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976002570 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.912 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.1 MB.
+System memory in use after: 75.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1960.
+Total: 1.701000 ms (FindLiveObjects: 0.142400 ms CreateObjectMapping: 0.046900 ms MarkObjects: 1.444300 ms  DeleteObjects: 0.066400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000844 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D971A11030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978DF0010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971DC68E0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D975FE0080 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B1A2020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9719FF020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A1F7040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978CEAE90 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D977A5B010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978C71020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971DC68E0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D977C17C00 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.020 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.8 MB.
+System memory in use after: 74.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1962.
+Total: 10.489900 ms (FindLiveObjects: 0.244600 ms CreateObjectMapping: 0.168800 ms MarkObjects: 7.542200 ms  DeleteObjects: 2.532500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000788 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D977B8DD40 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978DA7EE0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971AFB010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99AFF5020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978F53030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971AFB010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D97675F030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978BB15E0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D979077020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976AFE010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.606 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.1 MB.
+System memory in use after: 75.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1964.
+Total: 2.062100 ms (FindLiveObjects: 0.130600 ms CreateObjectMapping: 0.040000 ms MarkObjects: 1.813200 ms  DeleteObjects: 0.077100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001788 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D977B8DD40 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976FA9430 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D977AE4030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A5E4020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B448010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D977AE4030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D977A5B010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976934010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978C71020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D977C17C00 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.826 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.5 MB.
+System memory in use after: 74.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1966.
+Total: 1.713700 ms (FindLiveObjects: 0.153700 ms CreateObjectMapping: 0.064100 ms MarkObjects: 1.424800 ms  DeleteObjects: 0.070000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001015 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D99A542910 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D977B89560 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9719FF020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A91C010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978F53030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B448010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D977A5B010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978DF8020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D979077020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B5A8050 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.018 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.9 MB.
+System memory in use after: 74.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1968.
+Total: 8.559600 ms (FindLiveObjects: 0.572600 ms CreateObjectMapping: 0.353000 ms MarkObjects: 7.512800 ms  DeleteObjects: 0.119900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002053 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D99A542910 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9762A2050 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9719FF020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971E1DAA0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B448010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978CEAE90 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B9CE090 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978ADB510 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D979077020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971F9B020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.176 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.1 MB.
+System memory in use after: 75.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1970.
+Total: 3.546300 ms (FindLiveObjects: 0.330400 ms CreateObjectMapping: 0.142400 ms MarkObjects: 2.812400 ms  DeleteObjects: 0.259700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000651 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D99A542910 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D97244A010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D999BAA010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A8DA020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B448010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978BA1040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D977A5B010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D979585040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D97244A010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A442060 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.791 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.6 MB.
+System memory in use after: 74.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1972.
+Total: 2.146200 ms (FindLiveObjects: 0.146900 ms CreateObjectMapping: 0.044800 ms MarkObjects: 1.811700 ms  DeleteObjects: 0.141700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000638 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D788272C70 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D999FFD820 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9719FF020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D999DC5ED0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D972362040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978CEAE90 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A90A080 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978C71020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D977B0C020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B5A8050 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.771 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.9 MB.
+System memory in use after: 75.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1974.
+Total: 1.725900 ms (FindLiveObjects: 0.145800 ms CreateObjectMapping: 0.047300 ms MarkObjects: 1.467600 ms  DeleteObjects: 0.064500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000959 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D788272C70 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A72C010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9719FF020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D999DC5ED0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A828040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978CEAE90 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A90A080 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99BDA3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D977B0C020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B5A8050 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.811 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.1 MB.
+System memory in use after: 75.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1976.
+Total: 1.993600 ms (FindLiveObjects: 0.164500 ms CreateObjectMapping: 0.052500 ms MarkObjects: 1.633900 ms  DeleteObjects: 0.141600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000705 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D978AED030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A4730A0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D977AE4030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99C3F9230 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D972362040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D977AE4030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A90A080 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978DF8020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D977B0C020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A2BB950 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.790 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.7 MB.
+System memory in use after: 74.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1978.
+Total: 1.812200 ms (FindLiveObjects: 0.141400 ms CreateObjectMapping: 0.040800 ms MarkObjects: 1.557600 ms  DeleteObjects: 0.071400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2101.748000 seconds.
+  path: Assets/Prefab/Character.prefab
+  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38f24a2d9509db920a073f51905c81e') in 0.066450 seconds
+  Import took 0.071235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.172160 seconds.
+  path: Assets/Prefab/Character.prefab
+  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa49a7bed832deacb2de9c701c51a3f') in 0.008489 seconds
+  Import took 0.011843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.265225 seconds.
+  path: Assets/Prefab/Character.prefab
+  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da986b26d2147e7b4b2cbb421864262') in 0.017004 seconds
+  Import took 0.019451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 497.943001 seconds.
+  path: Assets/Prefab/Character.prefab
+  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23093b261796a40ffbb6e0fd52c09db') in 0.013811 seconds
+  Import took 0.017027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.776330 seconds.
+  path: Assets/Prefab/Character.prefab
+  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911b7f8ce86d00c37ce348b5ceb156ef') in 0.016712 seconds
+  Import took 0.019212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.976736 seconds.
+  path: Assets/Prefab/Character.prefab
+  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0022bf671c4e5beb073ed17208ce96') in 0.011353 seconds
+  Import took 0.015418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015084 seconds.
+  path: Assets/Prefab/Character.prefab
+  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0022bf671c4e5beb073ed17208ce96') in 0.012424 seconds
+  Import took 0.019318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.419957 seconds.
+  path: Assets/Prefab/Character.prefab
+  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496d19aecc702a57d93d8f2bda251086') in 0.012296 seconds
+  Import took 0.015261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.615943 seconds.
+  path: Assets/Prefab/Character.prefab
+  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b0cc576909fbe5ea645a8b7a7fe42c') in 0.012781 seconds
+  Import took 0.016538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.773995 seconds.
+  path: Assets/Prefab/Character.prefab
+  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0246bd2bf8bcde012d8822ff529bde69') in 0.015970 seconds
+  Import took 0.019081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.927034 seconds.
+  path: Assets/Prefab/Character.prefab
+  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd4d5bd827346752f18557aaf2706d0') in 0.009503 seconds
+  Import took 0.015001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.083775 seconds.
+  path: Assets/Prefab/Character.prefab
+  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da3d44878629cae9a930542b0dd80cc') in 0.009495 seconds
+  Import took 0.011773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.788322 seconds.
+  path: Assets/Prefab/Character.prefab
+  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461480a2a2adaeb2e80641991f5a6438') in 0.008766 seconds
+  Import took 0.011059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.762080 seconds.
+  path: Assets/Prefab/Character.prefab
+  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd60d4ef46478501660d60bc775182068') in 0.019378 seconds
+  Import took 0.024452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.553945 seconds.
+  path: Assets/Prefab/Character.prefab
+  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8924352e7be8f5f03d8e0bb51b4b2b89') in 0.011848 seconds
+  Import took 0.014696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.490670 seconds.
+  path: Assets/Prefab/Character.prefab
+  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951302c657caaecbb4fea76ccfe156cc') in 0.007400 seconds
+  Import took 0.010242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.093457 seconds.
+  path: Assets/Prefab/Character.prefab
+  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80516c3ad32e175e6c487f30a65e010') in 0.008567 seconds
+  Import took 0.011612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.701664 seconds.
+  path: Assets/Prefab/Character.prefab
+  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0cea6a39bbf831e60f5923675fb243') in 0.013042 seconds
+  Import took 0.015701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.064030 seconds.
+  path: Assets/Prefab/Character.prefab
+  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e384319893ce68afdcd5f4e054acb225') in 0.016523 seconds
+  Import took 0.022838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.835648 seconds.
+  path: Assets/Prefab/Character.prefab
+  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcdc105b1898d0b87fbcf47d06a97bc3') in 0.009177 seconds
+  Import took 0.012357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.298074 seconds.
+  path: Assets/Prefab/Character.prefab
+  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa8dbe84ae64a7c688c7b232fa19d63') in 0.012176 seconds
+  Import took 0.014748 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000869 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D99A542910 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978DF0010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A36AFD0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978D93010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99BB52030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A828040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978D93010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A90A080 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99BDA3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976539030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99C2D2030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.814 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.1 MB.
+System memory in use after: 75.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1981.
+Total: 1.647000 ms (FindLiveObjects: 0.134300 ms CreateObjectMapping: 0.040000 ms MarkObjects: 1.407800 ms  DeleteObjects: 0.064100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 125.333888 seconds.
+  path: Assets/Prefab/Character.prefab
+  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2816a9cf9baabe4ad11dda9ff216da8b') in 0.047565 seconds
+  Import took 0.052446 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000668 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D99A831E70 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A72C010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976348030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A39EC70 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D972362040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976348030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A90A080 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978C71020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D97812A030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99C2D2030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.754 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.2 MB.
+System memory in use after: 75.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1984.
+Total: 1.700200 ms (FindLiveObjects: 0.136900 ms CreateObjectMapping: 0.043300 ms MarkObjects: 1.453900 ms  DeleteObjects: 0.065200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.140335 seconds.
+  path: Assets/Prefab/Character.prefab
+  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd798b845b01f94a999238f77b31101a9') in 0.042335 seconds
+  Import took 0.044771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.163178 seconds.
+  path: Assets/Prefab/Character.prefab
+  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d09ae143217a4616991dbd62da21546') in 0.007018 seconds
+  Import took 0.009728 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000650 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D978BB55F0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A36AFD0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D977E3A0A0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99BCDD050 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A828040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D999FF1080 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A90A080 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99BDA3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D999F77050 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D999ED3020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.738 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.8 MB.
+System memory in use after: 74.9 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1987.
+Total: 1.687700 ms (FindLiveObjects: 0.163600 ms CreateObjectMapping: 0.048200 ms MarkObjects: 1.409200 ms  DeleteObjects: 0.066000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000676 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D999FF9090 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D977B88040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D975FE0080 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99BF8A050 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D972362040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A90A080 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A30C2E0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D977B88040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B05F0B0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.749 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.2 MB.
+System memory in use after: 75.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1989.
+Total: 2.015500 ms (FindLiveObjects: 0.301500 ms CreateObjectMapping: 0.076000 ms MarkObjects: 1.568900 ms  DeleteObjects: 0.068000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000630 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D971C7B1F0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A36AFD0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D999BAA010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99C3F8090 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D972362040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B1C6070 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A90A080 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971E11A80 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99C17A050 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99C5FB030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.759 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.5 MB.
+System memory in use after: 74.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1991.
+Total: 1.765100 ms (FindLiveObjects: 0.157200 ms CreateObjectMapping: 0.048100 ms MarkObjects: 1.493600 ms  DeleteObjects: 0.065500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000710 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D971C7B1F0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A36AFD0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D999BAA010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B244010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D977AE4030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A90A080 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971E11A80 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99C17A050 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B5090D0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.732 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.9 MB.
+System memory in use after: 75.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1993.
+Total: 2.032300 ms (FindLiveObjects: 0.155600 ms CreateObjectMapping: 0.049300 ms MarkObjects: 1.746900 ms  DeleteObjects: 0.079600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000867 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D971A10E60 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A36AFD0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B1C6070 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B8B8010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D972362040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B1C6070 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A90A080 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D977ED5030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B450020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99CC92010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.791 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.2 MB.
+System memory in use after: 75.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1995.
+Total: 4.733300 ms (FindLiveObjects: 0.155900 ms CreateObjectMapping: 0.055100 ms MarkObjects: 4.449300 ms  DeleteObjects: 0.072100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000675 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D971C7B1F0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A36AFD0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D999BAA010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B8B8010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D999BAA010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A90A080 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971E11A80 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B450020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B4C9050 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.832 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.6 MB.
+System memory in use after: 74.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1997.
+Total: 2.230300 ms (FindLiveObjects: 0.180200 ms CreateObjectMapping: 0.087600 ms MarkObjects: 1.891700 ms  DeleteObjects: 0.069700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000679 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D971C7B1F0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D97244A010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D999BAA010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99C630A30 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D972362040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D999BAA010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A90A080 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971E11A80 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D97244A010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99C376020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.933 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.0 MB.
+System memory in use after: 75.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1999.
+Total: 2.328100 ms (FindLiveObjects: 0.145300 ms CreateObjectMapping: 0.232800 ms MarkObjects: 1.879400 ms  DeleteObjects: 0.069700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001074 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D971C7B1F0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A3214F0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D999BAA010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99C630A30 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D999BAA010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A90A080 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971E11A80 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A3214F0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D999DC5ED0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.822 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.2 MB.
+System memory in use after: 75.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2001.
+Total: 2.610900 ms (FindLiveObjects: 0.159200 ms CreateObjectMapping: 0.048600 ms MarkObjects: 2.319900 ms  DeleteObjects: 0.081500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000690 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D977AEDE60 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978F60640 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978AE3200 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99CDB0080 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D972362040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978AE3200 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A90A080 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971E11A80 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B450020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99C908020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.986 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.7 MB.
+System memory in use after: 74.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2003.
+Total: 1.836200 ms (FindLiveObjects: 0.147500 ms CreateObjectMapping: 0.043200 ms MarkObjects: 1.569700 ms  DeleteObjects: 0.074700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000647 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D97236BE70 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978F60640 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978AE3200 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99CDB0080 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B1C2060 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978AE3200 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99C297040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971E11A80 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B450020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99BCFD090 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.009 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.1 MB.
+System memory in use after: 75.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2005.
+Total: 2.726100 ms (FindLiveObjects: 0.158000 ms CreateObjectMapping: 0.049100 ms MarkObjects: 2.406800 ms  DeleteObjects: 0.110900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000896 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D999FFB0A0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A36AFD0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B1C2060 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99C6B4020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B1C2060 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B1C2060 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99C9A20B0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971E11A80 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B450020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99C768030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.162 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.2 MB.
+System memory in use after: 75.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2007.
+Total: 3.771900 ms (FindLiveObjects: 0.161800 ms CreateObjectMapping: 0.502900 ms MarkObjects: 3.018400 ms  DeleteObjects: 0.087900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000848 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D978AED030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99A36AFD0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D972362040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99C6B4020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D972362040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D972362040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99C9A20B0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971E11A80 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B450020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99C798050 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.750 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.9 MB.
+System memory in use after: 74.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2009.
+Total: 1.749100 ms (FindLiveObjects: 0.151100 ms CreateObjectMapping: 0.048500 ms MarkObjects: 1.479900 ms  DeleteObjects: 0.068700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000706 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D9720ADCD0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976982220 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971A07030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B1E2060 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B1C2060 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971A07030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978BBC260 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971E11A80 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976539030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99C7E2020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.995 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.2 MB.
+System memory in use after: 75.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2011.
+Total: 1.923700 ms (FindLiveObjects: 0.155600 ms CreateObjectMapping: 0.047300 ms MarkObjects: 1.653000 ms  DeleteObjects: 0.066900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002094 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D99C713CD0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976982220 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971A07030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B1E2060 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B1C2060 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971A07030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978BBC260 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D971E11A80 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978993020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99C7E2020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.118 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.2 MB.
+System memory in use after: 75.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2013.
+Total: 5.577600 ms (FindLiveObjects: 0.391600 ms CreateObjectMapping: 0.384600 ms MarkObjects: 4.725100 ms  DeleteObjects: 0.075000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001151 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D99C713CD0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9724E9B40 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978AE3200 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99CB88060 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B1C2060 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B1C2060 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99CAF4050 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976B16040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978993020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99C7E2020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.022 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.0 MB.
+System memory in use after: 75.0 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2015.
+Total: 3.188000 ms (FindLiveObjects: 0.148600 ms CreateObjectMapping: 0.042700 ms MarkObjects: 2.904300 ms  DeleteObjects: 0.091100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000766 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D99C713CD0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978993020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99CCDA070 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99D29B020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B1C2060 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B1C2060 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99CAF4050 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976B16040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978993020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B1E2060 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.842 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.3 MB.
+System memory in use after: 75.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2017.
+Total: 3.166700 ms (FindLiveObjects: 0.146200 ms CreateObjectMapping: 0.043200 ms MarkObjects: 2.900800 ms  DeleteObjects: 0.075500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000933 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D9720ADCD0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978F60640 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D972362040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99D42C010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B1C2060 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99C7F2040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99D3530A0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99C1BA080 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B450020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B55B010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.789 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.7 MB.
+System memory in use after: 74.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2019.
+Total: 1.777600 ms (FindLiveObjects: 0.154400 ms CreateObjectMapping: 0.040600 ms MarkObjects: 1.500400 ms  DeleteObjects: 0.080500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000686 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D9720ADCD0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D976CE3010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978F60640 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D972362040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99D42C010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B1C2060 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D978B11010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99C7F2040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99CAF4050 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99C1BA080 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99B450020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D99CBEC030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.761 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1456 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.1 MB.
+System memory in use after: 75.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2021.
+Total: 2.402500 ms (FindLiveObjects: 0.159300 ms CreateObjectMapping: 0.050100 ms MarkObjects: 2.120700 ms  DeleteObjects: 0.071000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2778.683211 seconds.
+  path: Assets/Prefab/Character.prefab
+  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c60ebbaec7d965206c405ccdf6c0ac') in 0.062723 seconds
+  Import took 0.065531 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

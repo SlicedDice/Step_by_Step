@@ -15,8 +15,8 @@ public class CharacterController : MonoBehaviour
     public float feetMassBase = 50f; //The base weight of the feet, changes how strong the character is held on the ground
     public float footWeightWhileMoving = 5f; //Exactly as the variable name describes, this is the variable effecting how heavy the foot is while moving a stilt
 
-    public GameObject stiltControllerLeft;
-    public GameObject stiltControllerRight; //Two Variables referencing the small object used to control the stilts
+    public GameObject stiltLeft;
+    public GameObject stiltRight; //Two Variables referencing the stilts
 
     private Vector2 lastMousePos = new Vector2(); //The last position of the mouse; to calculate the mouse movement
 
@@ -44,31 +44,38 @@ public class CharacterController : MonoBehaviour
     {
         if (Input.GetKey("w"))
         {
-            mainRB.AddForce(transform.forward * balanceThrust);
+            mainRB.AddForce(-transform.forward * balanceThrust);
         }
         else if (Input.GetKey("s"))
         {
-            mainRB.AddForce(-transform.forward * balanceThrust);
+            mainRB.AddForce(transform.forward * balanceThrust);
         }
         else if (Input.GetKey("a"))
         {
-            mainRB.AddForce(-transform.right * balanceThrust);
+            mainRB.AddForce(transform.right * balanceThrust);
         }
         else if (Input.GetKey("d"))
         {
-            mainRB.AddForce(transform.right * balanceThrust);
+            mainRB.AddForce(-transform.right * balanceThrust);
         }
     }
 
     //Function for controlling the individual stilts
     void walkingControls()
     {
+        CharacterJoint charJointLeft = stiltLeft.GetComponent<CharacterJoint>();
+        Vector3 tmpL = charJointLeft.connectedAnchor;
+
+        CharacterJoint charJointRight = stiltRight.GetComponent<CharacterJoint>();
+        Vector3 tmpR = charJointRight.connectedAnchor;
 
         if (Input.GetMouseButton(0))
         {
+            
             Vector2 deltaMouseMov = mouseMov(); 
             Rigidbody leftFootRB = leftFoot.GetComponent<Rigidbody>();
-            Rigidbody leftStiltContr = stiltControllerLeft.GetComponent<Rigidbody>();
+    
+            charJointLeft.connectedAnchor = new Vector3(tmpL.x, -0.1f, tmpL.z);
 
             leftFootRB.mass = footWeightWhileMoving;
             leftFootRB.AddForce(transform.forward * -deltaMouseMov.y * 2);
@@ -78,7 +85,8 @@ public class CharacterController : MonoBehaviour
         {
             Vector2 deltaMouseMov = mouseMov();
             Rigidbody rightFootRB = rightFoot.GetComponent<Rigidbody>();
-            Rigidbody rightStiltContr = stiltControllerRight.GetComponent<Rigidbody>();
+
+            charJointRight.connectedAnchor = new Vector3(tmpR.x, -0.1f, tmpR.z);
 
             rightFootRB.mass = footWeightWhileMoving;
             rightFootRB.AddForce(transform.forward * -deltaMouseMov.y * 2);
@@ -88,6 +96,12 @@ public class CharacterController : MonoBehaviour
         {
             leftFoot.GetComponent<Rigidbody>().mass = feetMassBase;
             rightFoot.GetComponent<Rigidbody>().mass = feetMassBase;
+            
+            charJointLeft.connectedAnchor = new Vector3(tmpL.x, -0.25f, tmpL.z);
+            charJointRight.connectedAnchor = new Vector3(tmpR.x, -0.25f, tmpR.z);
+
+            
+
         }
         
     }
