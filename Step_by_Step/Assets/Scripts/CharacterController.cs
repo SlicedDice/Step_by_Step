@@ -106,7 +106,6 @@ public class CharacterController : MonoBehaviour
         
     }
     
-
     //Function to calculate and return the movement of the mouse relative to the last update
     Vector2 mouseMov()
     {
