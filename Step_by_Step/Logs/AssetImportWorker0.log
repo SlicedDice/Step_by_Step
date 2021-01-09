@@ -1,558 +1,675 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.0f1 (3721df5a8b28) revision 3613151'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16304 MB
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'ru' Physical Memory: 16249 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Unity Projects\2020.2.0f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.2.0f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/CGL/Collaborative-Project_BA1/Step_by_Step/Step_by_Step
+D:/CGL2020/GROUP PROJECT/GIT/Step_by_Step/Step_by_Step
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61321
-Successfully changed project path to: D:/CGL/Collaborative-Project_BA1/Step_by_Step/Step_by_Step
-D:/CGL/Collaborative-Project_BA1/Step_by_Step/Step_by_Step
+62815
+Successfully changed project path to: D:/CGL2020/GROUP PROJECT/GIT/Step_by_Step/Step_by_Step
+D:/CGL2020/GROUP PROJECT/GIT/Step_by_Step/Step_by_Step
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 31.55 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 34.43 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.0f1 (3721df5a8b28)
-[Subsystems] Discovering subsystems at path D:/Unity Projects/2020.2.0f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/CGL/Collaborative-Project_BA1/Step_by_Step/Step_by_Step/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/CGL2020/GROUP PROJECT/GIT/Step_by_Step/Step_by_Step/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Renderer: NVIDIA GeForce GTX 1060 with Max-Q Design (ID=0x1c20)
     Vendor:   
-    VRAM:     4018 MB
+    VRAM:     6052 MB
     Driver:   27.21.14.6079
 Initialize mono
-Mono path[0] = 'D:/Unity Projects/2020.2.0f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity Projects/2020.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Unity Projects/2020.2.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity Projects/2020.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001032 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001690 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 28.38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 34.64 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.031 seconds
+- Completed reload, in  1.225 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000624 seconds.
+Registered in 0.000617 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001CD8005A840 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD802C2020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF79FEE120 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF7A348A30 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF7DEB0080 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF7A348A30 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF7DF66040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF7EC6B630 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF7DEDD890 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF7A3EF620 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF7A3EF620 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF7EB7E820 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.391 seconds
+- Completed reload, in  1.044 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1500 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 109.6 MB.
-System memory in use after: 109.6 MB.
+System memory in use before: 109.3 MB.
+System memory in use after: 109.4 MB.
 
 Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 1941.
-Total: 2.994100 ms (FindLiveObjects: 0.180700 ms CreateObjectMapping: 0.068700 ms MarkObjects: 2.471000 ms  DeleteObjects: 0.272200 ms)
+Total: 3.138700 ms (FindLiveObjects: 0.192500 ms CreateObjectMapping: 0.097400 ms MarkObjects: 2.466700 ms  DeleteObjects: 0.380300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/CharacterController.cs
-  artifactKey: Guid(ae244f54fec346c4abe6ec7242f48908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CharacterController.cs using Guid(ae244f54fec346c4abe6ec7242f48908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f162c282b866c5afcc3bea5dd36093c6') in 0.095401 seconds
-  Import took 0.107029 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.0 MB.
-System memory in use after: 78.1 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1941.
-Total: 2.242000 ms (FindLiveObjects: 0.174800 ms CreateObjectMapping: 0.084200 ms MarkObjects: 1.882200 ms  DeleteObjects: 0.099600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000734 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CD8035E020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF7E4BA020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF797B2020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF7A40FF50 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD811C8010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF79B27010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF7990F020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF79949890 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF79B27010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF7A2F1040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD8104A020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF79A51020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.840 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1459 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.1 MB.
-System memory in use after: 108.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1943.
-Total: 2.230000 ms (FindLiveObjects: 0.168600 ms CreateObjectMapping: 0.055900 ms MarkObjects: 1.912300 ms  DeleteObjects: 0.091600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000665 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CD8174F360 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD82566850 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF79A6A9A0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF7A2F1040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD81575FD0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF79949890 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF7990F020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD81A1AFE0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD815649C0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD82448A60 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD8176BC10 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD81162010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.712 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1459 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.1 MB.
-System memory in use after: 108.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1945.
-Total: 1.856400 ms (FindLiveObjects: 0.154400 ms CreateObjectMapping: 0.048800 ms MarkObjects: 1.564300 ms  DeleteObjects: 0.087900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001045 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CD81C060B0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD80E20010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD820D1CD0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD80102010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD81575FD0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF79949890 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF7DEB0080 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD8230B010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF7A359FB0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD82448A60 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD8176BC10 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD82A17010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.973 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1459 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.1 MB.
-System memory in use after: 108.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1947.
-Total: 2.352200 ms (FindLiveObjects: 0.166600 ms CreateObjectMapping: 0.053000 ms MarkObjects: 1.982200 ms  DeleteObjects: 0.149200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000652 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CF79CBAF40 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD815A7020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CFA1881D20 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD81540950 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF79C76020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF79949890 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF7DEB0080 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD81A1AFE0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD80BF6020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CFA14CF040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD8104A020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF7A174010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.699 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1459 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.1 MB.
-System memory in use after: 108.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1949.
-Total: 1.866100 ms (FindLiveObjects: 0.173700 ms CreateObjectMapping: 0.051000 ms MarkObjects: 1.550600 ms  DeleteObjects: 0.089800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000628 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CD8174F360 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD82566850 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF79A6A9A0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CFA0381030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CFA085CD40 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD81A18F20 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF7DEB0080 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD81A00010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD8249B020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD80264040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD826CFE30 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CFA1108010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.760 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1459 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.2 MB.
-System memory in use after: 108.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1951.
-Total: 1.793200 ms (FindLiveObjects: 0.129800 ms CreateObjectMapping: 0.042200 ms MarkObjects: 1.537300 ms  DeleteObjects: 0.083300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000619 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CFA15303C0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD815A7020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CFA1881D20 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD807DA040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CFA085C4D0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD80BE4020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF7DEB0080 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CFA1118020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF79EDB010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD811FE020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD826CFE30 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CFA135F020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.742 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1459 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.2 MB.
-System memory in use after: 108.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1953.
-Total: 1.923800 ms (FindLiveObjects: 0.154600 ms CreateObjectMapping: 0.045700 ms MarkObjects: 1.626400 ms  DeleteObjects: 0.095800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000706 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001CD8174F360 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CFA088E020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CFA1881D20 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CFA0381030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CFA133F010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD80F9C020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF7DEB0080 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD8230B010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD81DF3890 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF7A417480 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CD820D1020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001CF7ED9C020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.701 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1459 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 108.2 MB.
-System memory in use after: 108.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1955.
-Total: 1.878000 ms (FindLiveObjects: 0.137700 ms CreateObjectMapping: 0.055600 ms MarkObjects: 1.578900 ms  DeleteObjects: 0.104400 ms)
+  path: Assets/Prefab/Character.prefab
+  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce032d638f80611ac900bfa6af126424') in 0.114811 seconds
+  Import took 0.117772 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1103.340203 seconds.
-  path: Assets/Materials/greeny_diff.mat
-  artifactKey: Guid(0337efd7544bf5e4b9105b5fa06860f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/greeny_diff.mat using Guid(0337efd7544bf5e4b9105b5fa06860f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944007ffc145524868c74fe86a1d4db5') in 0.082062 seconds
-  Import took 0.084446 seconds .
+  Time since last request: 0.000267 seconds.
+  path: Assets/Prefab/ship_full.fbx
+  artifactKey: Guid(eb0edc3f2419c39408864e90fd427a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/ship_full.fbx using Guid(eb0edc3f2419c39408864e90fd427a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340951fc7203324f0a57046e88810cfc') in 0.090132 seconds
+  Import took 0.092981 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000217 seconds.
+  Time since last request: 8.885143 seconds.
+  path: Assets/TEXTURE
+  artifactKey: Guid(d2f04e098a475ef4fa8d6f1e1b29d3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TEXTURE using Guid(d2f04e098a475ef4fa8d6f1e1b29d3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca68e9303ac7ad12e1363f1c46abd388') in 0.007130 seconds
+  Import took 0.009834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007811 seconds.
+  path: Assets/TEXTURE
+  artifactKey: Guid(d2f04e098a475ef4fa8d6f1e1b29d3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TEXTURE using Guid(d2f04e098a475ef4fa8d6f1e1b29d3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca68e9303ac7ad12e1363f1c46abd388') in 0.002400 seconds
+  Import took 0.005752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.783651 seconds.
+  path: Assets/TEXTURE/Stump
+  artifactKey: Guid(324c03d029a2a5a4aaa234b629e27cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TEXTURE/Stump using Guid(324c03d029a2a5a4aaa234b629e27cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f682f694bad04ddb908ee099960491') in 0.007325 seconds
+  Import took 0.010661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003485 seconds.
+  path: Assets/TEXTURE/Stump
+  artifactKey: Guid(324c03d029a2a5a4aaa234b629e27cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TEXTURE/Stump using Guid(324c03d029a2a5a4aaa234b629e27cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f682f694bad04ddb908ee099960491') in 0.002176 seconds
+  Import took 0.006078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.016443 seconds.
+  path: Assets/TEXTURE/leaves.png
+  artifactKey: Guid(1a3071df36dd651418736adaf90ca0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TEXTURE/leaves.png using Guid(1a3071df36dd651418736adaf90ca0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f79f47a809d658600e2d4c4b8c41c7') in 0.030881 seconds
+  Import took 0.036167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/TEXTURE/pen_tree_AlbedoTransparency.png
+  artifactKey: Guid(fb5a4f265a758d24988d65a87ffca264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TEXTURE/pen_tree_AlbedoTransparency.png using Guid(fb5a4f265a758d24988d65a87ffca264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129d336625f9d3b35cde49ad71a64d97') in 0.018026 seconds
+  Import took 0.021494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/TEXTURE/pen_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(54467489399b38240812746f0bef0536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TEXTURE/pen_DefaultMaterial_AlbedoTransparency.png using Guid(54467489399b38240812746f0bef0536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47074f059ec90a3a037b8b132cd396d0') in 0.018647 seconds
+  Import took 0.022192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/TEXTURE/leaves.png
+  artifactKey: Guid(1a3071df36dd651418736adaf90ca0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TEXTURE/leaves.png using Guid(1a3071df36dd651418736adaf90ca0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f79f47a809d658600e2d4c4b8c41c7') in 0.005957 seconds
+  Import took 0.009951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.102701 seconds.
+  path: Assets/TEXTURE/Stump/leaves.png
+  artifactKey: Guid(1a3071df36dd651418736adaf90ca0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TEXTURE/Stump/leaves.png using Guid(1a3071df36dd651418736adaf90ca0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41ca235fdd6cd242373ec22c4004998') in 0.010779 seconds
+  Import took 0.015528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.025258 seconds.
+  path: Assets/TEXTURE/ship/greendiff.png
+  artifactKey: Guid(a87cce9ef51ba5c4fa091ec002096588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TEXTURE/ship/greendiff.png using Guid(a87cce9ef51ba5c4fa091ec002096588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ad392d303fca2492d2054ce3a5f7c3') in 0.018661 seconds
+  Import took 0.021778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/TEXTURE/ship/stonesship__BaseMap.png
+  artifactKey: Guid(2d595d387cd882c49b37bf2e58a8210d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TEXTURE/ship/stonesship__BaseMap.png using Guid(2d595d387cd882c49b37bf2e58a8210d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b2a7196a92eec2fd12726e97c64754') in 0.019799 seconds
+  Import took 0.023372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/TEXTURE/ship/ship__BaseMap.png
+  artifactKey: Guid(20dde0601832a304b9d288a632507632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TEXTURE/ship/ship__BaseMap.png using Guid(20dde0601832a304b9d288a632507632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6431d8dbb51ed0cb1e59e502b7c3920') in 0.030140 seconds
+  Import took 0.033112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.790090 seconds.
+  path: Assets/TEXTURE/Stump/leaves.png
+  artifactKey: Guid(1a3071df36dd651418736adaf90ca0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TEXTURE/Stump/leaves.png using Guid(1a3071df36dd651418736adaf90ca0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800c4293c68389118a21c39f7c678cbc') in 0.009472 seconds
+  Import took 0.013869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.384329 seconds.
+  path: Assets/Prefab/stump_with_leaves.fbx
+  artifactKey: Guid(6aae0cfe2ff2b214f9c31e899e6a1943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/stump_with_leaves.fbx using Guid(6aae0cfe2ff2b214f9c31e899e6a1943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0e27f4a8cef055fd46238679e3ee9eb') in 0.067955 seconds
+  Import took 0.072255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.395546 seconds.
+  path: Assets/Prefab/stump_with_leaves.fbx
+  artifactKey: Guid(6aae0cfe2ff2b214f9c31e899e6a1943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/stump_with_leaves.fbx using Guid(6aae0cfe2ff2b214f9c31e899e6a1943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfeb85c3a62e35bf44a94f1b460c9e85') in 0.019845 seconds
+  Import took 0.023896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.947618 seconds.
+  path: Assets/Materials/corals.mat
+  artifactKey: Guid(089644cf4b109d746aa62cc42e5d5928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/corals.mat using Guid(089644cf4b109d746aa62cc42e5d5928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3027efe84420731339e812dd6c55f7') in 0.136690 seconds
+  Import took 0.140437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
   path: Assets/Materials/stones.mat
   artifactKey: Guid(cd543c4fcaa0a0445bca039161780982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/stones.mat using Guid(cd543c4fcaa0a0445bca039161780982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e71a6d3ed9b286a5d2c15ebb0f08915f') in 0.013845 seconds
-  Import took 0.016011 seconds .
+Start importing Assets/Materials/stones.mat using Guid(cd543c4fcaa0a0445bca039161780982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3f48934e2156b315b46383204e9dbc') in 0.021303 seconds
+  Import took 0.024473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Materials/greeny_diff.mat
+  artifactKey: Guid(0337efd7544bf5e4b9105b5fa06860f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/greeny_diff.mat using Guid(0337efd7544bf5e4b9105b5fa06860f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786bf308e7254e70457716f1d2190c2f') in 0.021065 seconds
+  Import took 0.025447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Materials/stump.mat
+  artifactKey: Guid(4783756eacbe3ad46a521bd6931cc6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/stump.mat using Guid(4783756eacbe3ad46a521bd6931cc6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fccefff8e5d1da406c490c4a9691b90c') in 0.011823 seconds
+  Import took 0.015073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Materials/greeny_diff.mat
+  artifactKey: Guid(0337efd7544bf5e4b9105b5fa06860f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/greeny_diff.mat using Guid(0337efd7544bf5e4b9105b5fa06860f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786bf308e7254e70457716f1d2190c2f') in 0.016045 seconds
+  Import took 0.020165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Materials/stump.mat
+  artifactKey: Guid(4783756eacbe3ad46a521bd6931cc6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/stump.mat using Guid(4783756eacbe3ad46a521bd6931cc6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fccefff8e5d1da406c490c4a9691b90c') in 0.009340 seconds
+  Import took 0.013365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Materials/stump_leaves.mat
+  artifactKey: Guid(57a4777a7e3a6254ab2ca05f9b8ee129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/stump_leaves.mat using Guid(57a4777a7e3a6254ab2ca05f9b8ee129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af059dc8dd092b3ce506bebf5bcbd68') in 0.013970 seconds
+  Import took 0.017184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Materials/Ship.mat
+  artifactKey: Guid(fd694215f6d954547a93aa5fe8e03fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Ship.mat using Guid(fd694215f6d954547a93aa5fe8e03fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7badaad50cbca66fdcee685a14ff7af') in 0.020596 seconds
+  Import took 0.024317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 274.389252 seconds.
+  path: Assets/TEXTURE/Stump/leaves.png
+  artifactKey: Guid(1a3071df36dd651418736adaf90ca0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TEXTURE/Stump/leaves.png using Guid(1a3071df36dd651418736adaf90ca0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118ddc860669812ba4d090e022e1c844') in 0.017279 seconds
+  Import took 0.021423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 450.468588 seconds.
+  path: Assets/Prefab/tree1.fbx
+  artifactKey: Guid(e72939e8407109745aed9ad0c9e86f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/tree1.fbx using Guid(e72939e8407109745aed9ad0c9e86f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832a6e1f6d44bba5d74cb112c9ee592d') in 0.038470 seconds
+  Import took 0.042796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.025675 seconds.
+  path: Assets/Prefab/tree1.fbx
+  artifactKey: Guid(e72939e8407109745aed9ad0c9e86f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/tree1.fbx using Guid(e72939e8407109745aed9ad0c9e86f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a391338fb9b48b6e8949a0c02da7048') in 0.023712 seconds
+  Import took 0.026960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.976396 seconds.
+  path: Assets/Materials/leaves.mat
+  artifactKey: Guid(a9891d3a1f98f1a4a82459950129f073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/leaves.mat using Guid(a9891d3a1f98f1a4a82459950129f073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9e656048974a82b3cfe64878cec699') in 0.008830 seconds
+  Import took 0.012476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Materials/tree_.mat
+  artifactKey: Guid(f6616fdc997f71b49ad71fe8e7e3d5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/tree_.mat using Guid(f6616fdc997f71b49ad71fe8e7e3d5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b358af0ede357f2e5fb62dc067c3536') in 0.013012 seconds
+  Import took 0.016125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1708.044193 seconds.
+  path: Assets/TEXTURE/Vegy
+  artifactKey: Guid(587700f84d972da449c448c6b0c4bcd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TEXTURE/Vegy using Guid(587700f84d972da449c448c6b0c4bcd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e9e901bb9c34d8440e9a9806bef2d8') in 0.006886 seconds
+  Import took 0.010463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.534479 seconds.
+  path: Assets/TEXTURE/Vegy/bush1.png
+  artifactKey: Guid(a5f5fda461e2ff6458ffb0d6e3dd5ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TEXTURE/Vegy/bush1.png using Guid(a5f5fda461e2ff6458ffb0d6e3dd5ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a49db208f7d8139084cabe3bcf05d5c') in 0.022205 seconds
+  Import took 0.026319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/TEXTURE/Vegy/shroom1.png
+  artifactKey: Guid(dc07cb6b5ffcf8b46aa0571df551a2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TEXTURE/Vegy/shroom1.png using Guid(dc07cb6b5ffcf8b46aa0571df551a2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d6cb0a36dd85ad15f3b93c76a2ed25') in 0.022764 seconds
+  Import took 0.026495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/TEXTURE/Vegy/grass2.png
+  artifactKey: Guid(e8b9f89ee01fba94a9ee11cc19e96c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TEXTURE/Vegy/grass2.png using Guid(e8b9f89ee01fba94a9ee11cc19e96c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3c05c38bdbfbc54b8cb971c5c553f7') in 0.021622 seconds
+  Import took 0.024943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/TEXTURE/Vegy/bush2.png
+  artifactKey: Guid(24aa612caab45304697839e56c7ae98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TEXTURE/Vegy/bush2.png using Guid(24aa612caab45304697839e56c7ae98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9e72293b622fc68766400f4074b948') in 0.018299 seconds
+  Import took 0.022823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/TEXTURE/Vegy/bush1.png
+  artifactKey: Guid(a5f5fda461e2ff6458ffb0d6e3dd5ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TEXTURE/Vegy/bush1.png using Guid(a5f5fda461e2ff6458ffb0d6e3dd5ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a49db208f7d8139084cabe3bcf05d5c') in 0.012283 seconds
+  Import took 0.014717 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000224 seconds.
-  path: Assets/Materials/Ship.mat
-  artifactKey: Guid(fd694215f6d954547a93aa5fe8e03fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Ship.mat using Guid(fd694215f6d954547a93aa5fe8e03fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd8bccddd236e5512a1bba115774e68') in 0.027889 seconds
-  Import took 0.030208 seconds .
+  path: Assets/TEXTURE/Vegy/greendiff.png
+  artifactKey: Guid(f05c29761d1275a40b30bb5421baf6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TEXTURE/Vegy/greendiff.png using Guid(f05c29761d1275a40b30bb5421baf6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29c049a06ad0e1aa88c4fb23a16846a') in 0.011778 seconds
+  Import took 0.014431 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.306763 seconds.
-  path: Assets/Prefab/Character.prefab
-  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298e17f9399b0b81403fd5927600aec0') in 0.024023 seconds
-  Import took 0.026373 seconds .
+  Time since last request: 0.000255 seconds.
+  path: Assets/TEXTURE/Vegy/grass1.png
+  artifactKey: Guid(ab0fdd795add1654c99edf0f729bc674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TEXTURE/Vegy/grass1.png using Guid(ab0fdd795add1654c99edf0f729bc674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78691ef34fda11de45aae2e0b153140') in 0.015670 seconds
+  Import took 0.018504 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Prefab/ship_full.fbx
-  artifactKey: Guid(eb0edc3f2419c39408864e90fd427a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ship_full.fbx using Guid(eb0edc3f2419c39408864e90fd427a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a784e99cdc806a5c1ed73a1985afd90') in 0.078570 seconds
-  Import took 0.080817 seconds .
+  Time since last request: 15.158296 seconds.
+  path: Assets/TEXTURE/Vegy/bush1.png
+  artifactKey: Guid(a5f5fda461e2ff6458ffb0d6e3dd5ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TEXTURE/Vegy/bush1.png using Guid(a5f5fda461e2ff6458ffb0d6e3dd5ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bcbf40cf470c01a58ba382b5170861b') in 0.016005 seconds
+  Import took 0.019877 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 148.558441 seconds.
-  path: Assets/Prefab
-  artifactKey: Guid(d332a5ac5dc478c4496158592007c59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab using Guid(d332a5ac5dc478c4496158592007c59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e5479b27f6fd26c451be76ed4d324e6') in 0.007185 seconds
-  Import took 0.009923 seconds .
+  Time since last request: 4.840188 seconds.
+  path: Assets/TEXTURE/Vegy/bush2.png
+  artifactKey: Guid(24aa612caab45304697839e56c7ae98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TEXTURE/Vegy/bush2.png using Guid(24aa612caab45304697839e56c7ae98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31cb7d8b7035805f753b3cacc235bed5') in 0.032875 seconds
+  Import took 0.037592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.809584 seconds.
+  path: Assets/TEXTURE/Vegy/grass1.png
+  artifactKey: Guid(ab0fdd795add1654c99edf0f729bc674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TEXTURE/Vegy/grass1.png using Guid(ab0fdd795add1654c99edf0f729bc674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67fad94578d4d294bc2a2e1d6f399bf') in 0.018755 seconds
+  Import took 0.022257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.823390 seconds.
+  path: Assets/TEXTURE/Vegy/grass2.png
+  artifactKey: Guid(e8b9f89ee01fba94a9ee11cc19e96c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TEXTURE/Vegy/grass2.png using Guid(e8b9f89ee01fba94a9ee11cc19e96c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c4df4ceba04c8bfe7b5536d10c4685') in 0.017196 seconds
+  Import took 0.020938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.974530 seconds.
+  path: Assets/TEXTURE/Vegy/greendiff.png
+  artifactKey: Guid(f05c29761d1275a40b30bb5421baf6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TEXTURE/Vegy/greendiff.png using Guid(f05c29761d1275a40b30bb5421baf6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c740dbf9281887675f3d2d2ffff7b97') in 0.029663 seconds
+  Import took 0.033326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.745274 seconds.
+  path: Assets/TEXTURE/Vegy/shroom1.png
+  artifactKey: Guid(dc07cb6b5ffcf8b46aa0571df551a2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TEXTURE/Vegy/shroom1.png using Guid(dc07cb6b5ffcf8b46aa0571df551a2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e583d4a4b4c058042e0604dd1c71c30d') in 0.032870 seconds
+  Import took 0.036746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.886213 seconds.
+  path: Assets/Prefab/bush1.fbx
+  artifactKey: Guid(d7141e337d579e9469571315f4cd2e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/bush1.fbx using Guid(d7141e337d579e9469571315f4cd2e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f873526bf73cd6797b72a8676adb135') in 0.042543 seconds
+  Import took 0.046414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Prefab/bush2.fbx
+  artifactKey: Guid(ce937f4816fea0644ae0a27a6936f1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/bush2.fbx using Guid(ce937f4816fea0644ae0a27a6936f1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2991d25233812151e14228172b7277') in 0.026120 seconds
+  Import took 0.028892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Prefab/shroom1.fbx
+  artifactKey: Guid(d03fe4aedefed29459eb1e45ac8a2e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/shroom1.fbx using Guid(d03fe4aedefed29459eb1e45ac8a2e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985d8b7eab482e022a2fa28b41893419') in 0.020709 seconds
+  Import took 0.023391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Prefab/grass1.fbx
+  artifactKey: Guid(7aaeb5c6b742e844895a8de17a6fe063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/grass1.fbx using Guid(7aaeb5c6b742e844895a8de17a6fe063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be7fd049d93f7e158fc2a2fc599a251') in 0.021495 seconds
+  Import took 0.024202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Prefab/grass2.fbx
+  artifactKey: Guid(3473814d8d6d9dd48a4bfc3567d9415b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/grass2.fbx using Guid(3473814d8d6d9dd48a4bfc3567d9415b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ddc94fe049a1d264e2699fe56e72382') in 0.025731 seconds
+  Import took 0.029128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.376481 seconds.
+  path: Assets/Prefab/shroom1.fbx
+  artifactKey: Guid(d03fe4aedefed29459eb1e45ac8a2e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/shroom1.fbx using Guid(d03fe4aedefed29459eb1e45ac8a2e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd416bb76503b7fa5e712f8385a56dc35') in 0.018569 seconds
+  Import took 0.023267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.256199 seconds.
+  path: Assets/Prefab/grass2.fbx
+  artifactKey: Guid(3473814d8d6d9dd48a4bfc3567d9415b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/grass2.fbx using Guid(3473814d8d6d9dd48a4bfc3567d9415b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883cb211a14c17dda863504a2d16f2ad') in 0.022333 seconds
+  Import took 0.027149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000799 seconds.
+  path: Assets/Prefab/grass2.fbx
+  artifactKey: Guid(3473814d8d6d9dd48a4bfc3567d9415b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/grass2.fbx using Guid(3473814d8d6d9dd48a4bfc3567d9415b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883cb211a14c17dda863504a2d16f2ad') in 0.014807 seconds
+  Import took 0.018595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.393746 seconds.
+  path: Assets/Prefab/grass1.fbx
+  artifactKey: Guid(7aaeb5c6b742e844895a8de17a6fe063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/grass1.fbx using Guid(7aaeb5c6b742e844895a8de17a6fe063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506f5f7186275a6f6d3891680721469f') in 0.019913 seconds
+  Import took 0.023574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004848 seconds.
+  path: Assets/Prefab/grass1.fbx
+  artifactKey: Guid(7aaeb5c6b742e844895a8de17a6fe063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/grass1.fbx using Guid(7aaeb5c6b742e844895a8de17a6fe063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506f5f7186275a6f6d3891680721469f') in 0.014731 seconds
+  Import took 0.018357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.004915 seconds.
+  path: Assets/Prefab/bush2.fbx
+  artifactKey: Guid(ce937f4816fea0644ae0a27a6936f1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/bush2.fbx using Guid(ce937f4816fea0644ae0a27a6936f1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c1ecd3ed7bcd11fc38fd29311d44bf') in 0.020972 seconds
+  Import took 0.025223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004611 seconds.
+  path: Assets/Prefab/bush2.fbx
+  artifactKey: Guid(ce937f4816fea0644ae0a27a6936f1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/bush2.fbx using Guid(ce937f4816fea0644ae0a27a6936f1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c1ecd3ed7bcd11fc38fd29311d44bf') in 0.015295 seconds
+  Import took 0.020183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.005297 seconds.
+  path: Assets/Prefab/bush1.fbx
+  artifactKey: Guid(d7141e337d579e9469571315f4cd2e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/bush1.fbx using Guid(d7141e337d579e9469571315f4cd2e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4624eb0d71313b3349b675371ed8a751') in 0.020449 seconds
+  Import took 0.024899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004483 seconds.
+  path: Assets/Prefab/bush1.fbx
+  artifactKey: Guid(d7141e337d579e9469571315f4cd2e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/bush1.fbx using Guid(d7141e337d579e9469571315f4cd2e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4624eb0d71313b3349b675371ed8a751') in 0.021726 seconds
+  Import took 0.025431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.153478 seconds.
+  path: Assets/Materials/Material.001.mat
+  artifactKey: Guid(e7e27682fc977fb42a8c7f0199fe3900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Material.001.mat using Guid(e7e27682fc977fb42a8c7f0199fe3900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b154921e3e5458313e1d3dd203ef88') in 0.019603 seconds
+  Import took 0.023587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Materials/Material.005.mat
+  artifactKey: Guid(d9d7921d4ba7aba4a9eff5d417383217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Material.005.mat using Guid(d9d7921d4ba7aba4a9eff5d417383217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c21585081442066818ecc137a3894c7') in 0.022070 seconds
+  Import took 0.025528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Materials/Material.004.mat
+  artifactKey: Guid(cdaf9210a2c2bf24fb7e59a37df03d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Material.004.mat using Guid(cdaf9210a2c2bf24fb7e59a37df03d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1780c5f0f62576f0511a833af98c83c') in 0.025469 seconds
+  Import took 0.029298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Materials/Material.002.mat
+  artifactKey: Guid(28381d966cd87e144b2ae77138cf6737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Material.002.mat using Guid(28381d966cd87e144b2ae77138cf6737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b90bab506e00d9426f3680979af7fb7') in 0.019591 seconds
+  Import took 0.024325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Materials/Material.mat
+  artifactKey: Guid(719afb64bc1f78840a09feba174b77a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Material.mat using Guid(719afb64bc1f78840a09feba174b77a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd201197282e296ba0469e21497ebb4d8') in 0.023432 seconds
+  Import took 0.027423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002712 seconds.
+  path: Assets/Materials/Material.mat
+  artifactKey: Guid(719afb64bc1f78840a09feba174b77a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Material.mat using Guid(719afb64bc1f78840a09feba174b77a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd201197282e296ba0469e21497ebb4d8') in 0.015483 seconds
+  Import took 0.019691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1070.411372 seconds.
+  path: Assets/Materials/bush1.mat
+  artifactKey: Guid(cdaf9210a2c2bf24fb7e59a37df03d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/bush1.mat using Guid(cdaf9210a2c2bf24fb7e59a37df03d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3889c78d1257042fd62dc3c8bf3a8047') in 0.042287 seconds
+  Import took 0.046232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Materials/bush2.mat
+  artifactKey: Guid(d9d7921d4ba7aba4a9eff5d417383217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/bush2.mat using Guid(d9d7921d4ba7aba4a9eff5d417383217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046f258c401ef785b376d2842bc5dbcb') in 0.017318 seconds
+  Import took 0.020927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Materials/grass2.mat
+  artifactKey: Guid(e7e27682fc977fb42a8c7f0199fe3900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/grass2.mat using Guid(e7e27682fc977fb42a8c7f0199fe3900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef8e42f6c0a111a6eb9918fd7a2fda8') in 0.027813 seconds
+  Import took 0.030703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Materials/tree_leaves.mat
+  artifactKey: Guid(a9891d3a1f98f1a4a82459950129f073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/tree_leaves.mat using Guid(a9891d3a1f98f1a4a82459950129f073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c8a54e8a0db9d8de81ab4976aaa63d') in 0.020275 seconds
+  Import took 0.023350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Materials/stump.mat
+  artifactKey: Guid(4783756eacbe3ad46a521bd6931cc6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/stump.mat using Guid(4783756eacbe3ad46a521bd6931cc6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c9a4c5a2b79cafa1f015408b8c4586') in 0.018475 seconds
+  Import took 0.021787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Materials/stump_leaves.mat
+  artifactKey: Guid(57a4777a7e3a6254ab2ca05f9b8ee129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/stump_leaves.mat using Guid(57a4777a7e3a6254ab2ca05f9b8ee129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922de40a12982956fb91fec200c1335b') in 0.023360 seconds
+  Import took 0.027379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Materials/corals.mat
+  artifactKey: Guid(089644cf4b109d746aa62cc42e5d5928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/corals.mat using Guid(089644cf4b109d746aa62cc42e5d5928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf43b54dc5bf93b56a5026e9be2813a') in 0.018984 seconds
+  Import took 0.021997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Materials/tree_branch.mat
+  artifactKey: Guid(f6616fdc997f71b49ad71fe8e7e3d5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/tree_branch.mat using Guid(f6616fdc997f71b49ad71fe8e7e3d5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7f294cdd74b2bee0689d83b0fb4ac0') in 0.030801 seconds
+  Import took 0.034593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Materials/Shroom1.mat
+  artifactKey: Guid(28381d966cd87e144b2ae77138cf6737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Shroom1.mat using Guid(28381d966cd87e144b2ae77138cf6737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4139715e64ec285e2a321e24c8b2ca18') in 0.036480 seconds
+  Import took 0.039431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Materials/grass1.mat
+  artifactKey: Guid(719afb64bc1f78840a09feba174b77a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/grass1.mat using Guid(719afb64bc1f78840a09feba174b77a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb34a835880d0703c329dd3597eaeeb') in 0.014885 seconds
+  Import took 0.017667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.615239 seconds.
+  path: Assets/TEXTURE/ship
+  artifactKey: Guid(3e501e5db6772274fb48f03121d5a729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TEXTURE/ship using Guid(3e501e5db6772274fb48f03121d5a729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38bef55a09bfc072e870ceb75fe9f56a') in 0.007469 seconds
+  Import took 0.010407 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
