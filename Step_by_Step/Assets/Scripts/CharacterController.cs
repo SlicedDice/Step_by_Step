@@ -33,7 +33,7 @@ public class CharacterController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
         balanceControls();
         walkingControls();
         lastMousePos = Input.mousePosition;
@@ -69,12 +69,14 @@ public class CharacterController : MonoBehaviour
         CharacterJoint charJointRight = stiltRight.GetComponent<CharacterJoint>();
         Vector3 tmpR = charJointRight.connectedAnchor;
 
+        Vector3 tmp1 = new Vector3(0.875f, 0.0f, 1.125f);
+        Vector3 tmp2 = new Vector3(-1.125f, 0.0f, 0.875f);
         if (Input.GetMouseButton(0))
         {
-            
-            Vector2 deltaMouseMov = mouseMov(); 
+
+            Vector2 deltaMouseMov = mouseMov();
             Rigidbody leftFootRB = leftFoot.GetComponent<Rigidbody>();
-    
+
             charJointLeft.connectedAnchor = new Vector3(tmpL.x, -0.1f, tmpL.z);
 
             leftFootRB.mass = footWeightWhileMoving;
@@ -96,23 +98,23 @@ public class CharacterController : MonoBehaviour
         {
             leftFoot.GetComponent<Rigidbody>().mass = feetMassBase;
             rightFoot.GetComponent<Rigidbody>().mass = feetMassBase;
-            
+
             charJointLeft.connectedAnchor = new Vector3(tmpL.x, -0.25f, tmpL.z);
             charJointRight.connectedAnchor = new Vector3(tmpR.x, -0.25f, tmpR.z);
 
-            
+
 
         }
-        
+
     }
-    
+
     //Function to calculate and return the movement of the mouse relative to the last update
     Vector2 mouseMov()
     {
         Vector2 currMousePos = Input.mousePosition;
         Vector2 deltaMousePos = lastMousePos - currMousePos;
         lastMousePos = currMousePos;
-        
+
         return deltaMousePos;
     }
 }
