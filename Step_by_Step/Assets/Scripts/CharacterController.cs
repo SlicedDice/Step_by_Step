@@ -8,18 +8,24 @@ public class CharacterController : MonoBehaviour
     //Variables
     public GameObject mainBody; //Object Reference to control the body
     private Rigidbody mainRB; //Rigidbody of the main body. Will be initialized in Start()
-    public float balanceThrust = 1f; //Variable affecting how strong the character balances
+    public float balanceThrust; //Variable affecting how strong the character balances
 
     public GameObject rightFoot; //Object Refernece to the stilt's right foot
     public GameObject leftFoot; //Object Refernece to the stilt's left foot
-    public float feetMassBase = 50f; //The base weight of the feet, changes how strong the character is held on the ground
-    public float footWeightWhileMoving = 5f; //Exactly as the variable name describes, this is the variable effecting how heavy the foot is while moving a stilt
+    public float feetMassBase; //The base weight of the feet, changes how strong the character is held on the ground
+    public float footWeightWhileMoving; //Exactly as the variable name describes, this is the variable effecting how heavy the foot is while moving a stilt
 
     public GameObject stiltLeft;
     public GameObject stiltRight; //Two Variables referencing the stilts
 
     private Vector2 lastMousePos = new Vector2(); //The last position of the mouse; to calculate the mouse movement
 
+
+    public bool foundCollectible = false; //Test Collectible Item, until all actual collectible items are decided on
+
+
+    private Vector3 respawnLocation; //Location when respawning with (R)
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +34,7 @@ public class CharacterController : MonoBehaviour
         leftFoot.GetComponent<Rigidbody>().mass = feetMassBase;
         rightFoot.GetComponent<Rigidbody>().mass = feetMassBase;
 
+        respawnLocation = new Vector3(-1.27999997f, -1.88810349f, 0.159999996f);
     }
 
     // Update is called once per frame
@@ -36,7 +43,45 @@ public class CharacterController : MonoBehaviour
 
         balanceControls();
         walkingControls();
+
+        generalControls();
+
         lastMousePos = Input.mousePosition;
+    }
+
+
+    void generalControls()
+    {
+        if (Input.GetKey("r"))
+        {
+            Time.timeScale = 0;
+
+            resetCharacterPos();
+            transform.localPosition = respawnLocation;
+            Time.timeScale = 1;
+        }
+    }
+    void resetCharacterPos()
+    {
+        mainBody.GetComponent<Rigidbody>().velocity = new Vector3(0f, 0f, 0f);
+        mainBody.transform.localPosition = new Vector3(0f, 0f, 0f);
+        mainBody.transform.localRotation = new Quaternion(0f, 0f, 0f, 1f);
+
+        stiltLeft.GetComponent<Rigidbody>().velocity = new Vector3(0f, 0f, 0f);
+        stiltLeft.transform.localPosition = new Vector3(0.310000002f, -0.800000012f, 0f);
+        stiltLeft.transform.localRotation = new Quaternion(0f, 0f, 0f, 1f);
+
+        stiltRight.GetComponent<Rigidbody>().velocity = new Vector3(0f, 0f, 0f);
+        stiltRight.transform.localPosition = new Vector3(-0.310000002f, -0.800000012f, 0f);
+        stiltRight.transform.localRotation = new Quaternion(0f, 0f, 0f, 1f);
+
+        leftFoot.GetComponent<Rigidbody>().velocity = new Vector3(0f, 0f, 0f); 
+        leftFoot.transform.localPosition = new Vector3(0.310000002f, -2.30100012f, 0f);
+        leftFoot.transform.localRotation = new Quaternion(0f, 0f, 0f, 1f);
+
+        rightFoot.GetComponent<Rigidbody>().velocity = new Vector3(0f, 0f, 0f);
+        rightFoot.transform.localPosition = new Vector3(-0.310000002f, -2.30100012f, 0f);
+        rightFoot.transform.localRotation = new Quaternion(0f, 0f, 0f, 1f);
     }
 
     //Function for balancing the character
@@ -80,8 +125,8 @@ public class CharacterController : MonoBehaviour
             charJointLeft.connectedAnchor = new Vector3(tmpL.x, -0.1f, tmpL.z);
 
             leftFootRB.mass = footWeightWhileMoving;
-            leftFootRB.AddForce(transform.forward * -deltaMouseMov.y * 2);
-            leftFootRB.AddForce(transform.right * -deltaMouseMov.x * 2);
+            leftFootRB.AddForce(tmp1 * deltaMouseMov.y * 2);
+            leftFootRB.AddForce(tmp2 * -deltaMouseMov.x * 2);
         }
         else if (Input.GetMouseButton(1))
         {
@@ -91,8 +136,8 @@ public class CharacterController : MonoBehaviour
             charJointRight.connectedAnchor = new Vector3(tmpR.x, -0.1f, tmpR.z);
 
             rightFootRB.mass = footWeightWhileMoving;
-            rightFootRB.AddForce(transform.forward * -deltaMouseMov.y * 2);
-            rightFootRB.AddForce(transform.right * -deltaMouseMov.x * 2);
+            rightFootRB.AddForce(tmp1 * deltaMouseMov.y * 2);
+            rightFootRB.AddForce(tmp2 * -deltaMouseMov.x * 2);
         }
         else
         {
