@@ -1,1627 +1,291 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.0f1 (3721df5a8b28) revision 3613151'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16304 MB
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'ru' Physical Memory: 16249 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Unity Projects\2020.2.0f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.2.0f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/CGL/Collaborative-Project_BA1/Step_by_Step/Step_by_Step
+D:/CGL2020/GROUP PROJECT/GIT/Step_by_Step/Step_by_Step
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54959
-Successfully changed project path to: D:/CGL/Collaborative-Project_BA1/Step_by_Step/Step_by_Step
-D:/CGL/Collaborative-Project_BA1/Step_by_Step/Step_by_Step
+50659
+Successfully changed project path to: D:/CGL2020/GROUP PROJECT/GIT/Step_by_Step/Step_by_Step
+D:/CGL2020/GROUP PROJECT/GIT/Step_by_Step/Step_by_Step
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 27.54 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 38.04 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.0f1 (3721df5a8b28)
-[Subsystems] Discovering subsystems at path D:/Unity Projects/2020.2.0f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/CGL/Collaborative-Project_BA1/Step_by_Step/Step_by_Step/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/CGL2020/GROUP PROJECT/GIT/Step_by_Step/Step_by_Step/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Renderer: NVIDIA GeForce GTX 1060 with Max-Q Design (ID=0x1c20)
     Vendor:   
-    VRAM:     4018 MB
+    VRAM:     6052 MB
     Driver:   27.21.14.6079
 Initialize mono
-Mono path[0] = 'D:/Unity Projects/2020.2.0f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity Projects/2020.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Unity Projects/2020.2.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity Projects/2020.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001132 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001798 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 28.68 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 33.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.030 seconds
+- Completed reload, in  1.177 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000661 seconds.
+Registered in 0.000701 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001D98D353040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D9872E1870 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98C2C3640 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98BAF5230 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98C1A0020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98BAF5230 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98BA23030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98BAF5230 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98C1CD830 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98C2C3640 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98C2C3640 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98C3A9020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.820 seconds
+- Completed reload, in  1.015 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1501 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 110.0 MB.
-System memory in use after: 110.0 MB.
+Unloading 1502 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.4 MB.
+System memory in use after: 111.5 MB.
 
-Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 1942.
-Total: 1.999800 ms (FindLiveObjects: 0.158200 ms CreateObjectMapping: 0.058600 ms MarkObjects: 1.575200 ms  DeleteObjects: 0.206700 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Prefab/Gate.prefab
-  artifactKey: Guid(cb304973aa396b94db94f54137173f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Gate.prefab using Guid(cb304973aa396b94db94f54137173f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e30febad4e38036dbf62b07ab73d183') in 0.177575 seconds
-  Import took 0.180217 seconds .
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 1943.
+Total: 2.345700 ms (FindLiveObjects: 0.182200 ms CreateObjectMapping: 0.067200 ms MarkObjects: 1.831600 ms  DeleteObjects: 0.263700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Prefab/Character.prefab
-  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2be57af1ca924b0455e6320d7f9966') in 0.028980 seconds
-  Import took 0.031299 seconds .
+  path: Assets/colorful_studio_1k.hdr
+  artifactKey: Guid(742c1f9c79bc57842b01d3f5c52f4e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/colorful_studio_1k.hdr using Guid(742c1f9c79bc57842b01d3f5c52f4e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf31271fede89708de99d578d09baf19') in 0.193217 seconds
+  Import took 0.200011 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(80699064995c35d4c960322122c142c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(80699064995c35d4c960322122c142c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be5d076b29d0a7667fd1e9e5b455ff31') in 0.004737 seconds
-  Import took 0.006858 seconds .
+  Time since last request: 43.535326 seconds.
+  path: Assets/Materials/flowers.mat
+  artifactKey: Guid(0400e85eaef1f7a43b5b794d035c97bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/flowers.mat using Guid(0400e85eaef1f7a43b5b794d035c97bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d847aa8a6e2262abca5bd6396c384d') in 0.199856 seconds
+  Import took 0.204187 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Prefab/Pressure Plate.prefab
-  artifactKey: Guid(7d7f61416b00f434b818bc4b03e17155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pressure Plate.prefab using Guid(7d7f61416b00f434b818bc4b03e17155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8b2aa4b90f15d4a15fa41b38ff5ac9') in 0.012287 seconds
-  Import took 0.014380 seconds .
+  Time since last request: 0.000317 seconds.
+  path: Assets/Materials/Ship.mat
+  artifactKey: Guid(fd694215f6d954547a93aa5fe8e03fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Ship.mat using Guid(fd694215f6d954547a93aa5fe8e03fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37394f2329e7288f70a10433a447e05f') in 0.021223 seconds
+  Import took 0.024671 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Prefab/CollectibleItem.prefab
-  artifactKey: Guid(2bd24c5fb543dc14caabc3518af37488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/CollectibleItem.prefab using Guid(2bd24c5fb543dc14caabc3518af37488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932827301f58dbbd1024d0e3c7dd4cb4') in 0.012476 seconds
-  Import took 0.014587 seconds .
+  Time since last request: 0.000314 seconds.
+  path: Assets/Materials/shroom2.mat
+  artifactKey: Guid(71b55816cced13846bb82696d14a378d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/shroom2.mat using Guid(71b55816cced13846bb82696d14a378d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c6bb1da563718743a5d131fb43918b') in 0.014691 seconds
+  Import took 0.018319 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 240.659952 seconds.
-  path: Assets/Scripts/WalkingSound.cs
-  artifactKey: Guid(2c7562b46369d4047b1d5d74a74b25ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/WalkingSound.cs using Guid(2c7562b46369d4047b1d5d74a74b25ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b466d7f501d6528fd2f268d37086b03d') in 0.023603 seconds
-  Import took 0.029659 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000847 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D98DA44E40 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D987A7F450 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98C877020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D987C15880 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D9879C6010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D987D150A0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98748C010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D987C15880 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D9872E1870 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98C4F5820 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98C4F5820 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D9872F57A0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.719 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1461 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 111.3 MB.
-System memory in use after: 111.3 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1954.
-Total: 1.838900 ms (FindLiveObjects: 0.128100 ms CreateObjectMapping: 0.037100 ms MarkObjects: 1.555300 ms  DeleteObjects: 0.117400 ms)
+  Time since last request: 12.846607 seconds.
+  path: Packages/com.unity.probuilder/Content/Material/Checker.mat
+  artifactKey: Guid(4717b199010ca4cb3a8a7a465ec457d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Material/Checker.mat using Guid(4717b199010ca4cb3a8a7a465ec457d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85348c3f9cfa384054f7122c64a708e') in 0.180213 seconds
+  Import took 0.183771 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 683.514957 seconds.
-  path: Assets/Prefab/Character.prefab
-  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145445e2d275ac9c27244f3284676525') in 0.048242 seconds
-  Import took 0.051127 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.831744 seconds.
-  path: Assets/Prefab/Character.prefab
-  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e25e3c5bc0ef4e0df3442772c3c8cf') in 0.008563 seconds
-  Import took 0.011040 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 96.050877 seconds.
-  path: Assets/Audio
-  artifactKey: Guid(bfec832eef7f7f249beb3963d059a3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio using Guid(bfec832eef7f7f249beb3963d059a3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b50758fb4284db38216d88fccb2173d') in 0.005861 seconds
-  Import took 0.008366 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.750919 seconds.
-  path: Assets/Audio/hardsurfacesteps
-  artifactKey: Guid(894e2434dffebd44e888c495eab9a24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/hardsurfacesteps using Guid(894e2434dffebd44e888c495eab9a24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b15d0e302c3e5e11978edd3fb1af65') in 0.005822 seconds
-  Import took 0.008076 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.928320 seconds.
-  path: Assets/Audio/swampsurfacesteps
-  artifactKey: Guid(bf60381807b0d2545bbbe5b43c899f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/swampsurfacesteps using Guid(bf60381807b0d2545bbbe5b43c899f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc86b1e309b0d500060cbe0969cee329') in 0.005410 seconds
-  Import took 0.007804 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.779758 seconds.
-  path: Assets/Audio/wetsurfacesteps
-  artifactKey: Guid(788105cc8154f754291d5e46ed4b89de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/wetsurfacesteps using Guid(788105cc8154f754291d5e46ed4b89de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a1585b45c6d3839a4a1aee2c1d6f58') in 0.011558 seconds
-  Import took 0.014108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.145396 seconds.
-  path: Assets/Audio/hardsurfacesteps/hardsurfacestep0.wav
-  artifactKey: Guid(be7f3187380dc47459121e43441e825f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/hardsurfacesteps/hardsurfacestep0.wav using Guid(be7f3187380dc47459121e43441e825f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd74ebac4e92d6c96ecf9cc71b1c5e5') in 0.111363 seconds
-  Import took 0.113836 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.216142 seconds.
-  path: Assets/Audio/hardsurfacesteps/hardsurfacestep1.wav
-  artifactKey: Guid(5623b4cc61f8f28409520d891025bbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/hardsurfacesteps/hardsurfacestep1.wav using Guid(5623b4cc61f8f28409520d891025bbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1b33e808b1c3f0f033dc1d25a22915') in 0.014667 seconds
-  Import took 0.018046 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Audio/hardsurfacesteps/hardsurfacestep2.wav
-  artifactKey: Guid(97f4d90c59c932c4181b5fd1b10f49f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/hardsurfacesteps/hardsurfacestep2.wav using Guid(97f4d90c59c932c4181b5fd1b10f49f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d1193b1e5d1fd743f6478d8b82f6dd') in 0.014649 seconds
-  Import took 0.016984 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000536 seconds.
-  path: Assets/Audio/hardsurfacesteps/hardsurfacestep3.wav
-  artifactKey: Guid(0350e36ca04bbc24788aff97e06e495c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/hardsurfacesteps/hardsurfacestep3.wav using Guid(0350e36ca04bbc24788aff97e06e495c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd1fcd102dd856fff5e45839f3e09cb') in 0.012132 seconds
-  Import took 0.014581 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Audio/hardsurfacesteps/hardsurfacestep2.wav
-  artifactKey: Guid(97f4d90c59c932c4181b5fd1b10f49f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/hardsurfacesteps/hardsurfacestep2.wav using Guid(97f4d90c59c932c4181b5fd1b10f49f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d1193b1e5d1fd743f6478d8b82f6dd') in 0.009469 seconds
-  Import took 0.011600 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Audio/hardsurfacesteps/hardsurfacestep4.wav
-  artifactKey: Guid(1758f3ac963781343a281da72b26397d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/hardsurfacesteps/hardsurfacestep4.wav using Guid(1758f3ac963781343a281da72b26397d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8f754859a8ea47ee8078c0651df11c') in 0.012010 seconds
-  Import took 0.014021 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.378708 seconds.
-  path: Assets/Audio/swampsurfacesteps/swampstep0.wav
-  artifactKey: Guid(09800f557a445194bb5fcd199d09e866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/swampsurfacesteps/swampstep0.wav using Guid(09800f557a445194bb5fcd199d09e866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7484b55b862a7948b80ffc8a2b1d951f') in 0.016904 seconds
-  Import took 0.019148 seconds .
+  Time since last request: 0.000394 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/VertexPickerHDRP.mat
+  artifactKey: Guid(7d5c9fc287a2aa945a98203d41282923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/VertexPickerHDRP.mat using Guid(7d5c9fc287a2aa945a98203d41282923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc1970be5fb795f946d99b3814c6d829') in 0.028386 seconds
+  Import took 0.032257 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000239 seconds.
-  path: Assets/Audio/swampsurfacesteps/swampstep3.wav
-  artifactKey: Guid(434115eb83d11f1488fefe36730522e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/swampsurfacesteps/swampstep3.wav using Guid(434115eb83d11f1488fefe36730522e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888d955cd5b6958dbbff5c655f461332') in 0.018009 seconds
-  Import took 0.020094 seconds .
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/FacePicker.mat
+  artifactKey: Guid(5695904020f064fdab5ad265b274a616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/FacePicker.mat using Guid(5695904020f064fdab5ad265b274a616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1faf9f45e04943918578fd99781e112b') in 0.018924 seconds
+  Import took 0.022266 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Audio/swampsurfacesteps/swampstep2.wav
-  artifactKey: Guid(5d7a2a8d07abeb34caf99004a5be5d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/swampsurfacesteps/swampstep2.wav using Guid(5d7a2a8d07abeb34caf99004a5be5d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8cbac85059bb0ff4e08574e30c4a10') in 0.014778 seconds
-  Import took 0.016954 seconds .
+  Time since last request: 0.000327 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/Trigger.mat
+  artifactKey: Guid(a1e97cbf2538241b691aae8243b5fb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/Trigger.mat using Guid(a1e97cbf2538241b691aae8243b5fb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ecbf30b1358f883f977a4925f8dfd0') in 0.094021 seconds
+  Import took 0.097538 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Audio/swampsurfacesteps/swampstep1.wav
-  artifactKey: Guid(2a9189060a5806c4191cb4d99c596b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/swampsurfacesteps/swampstep1.wav using Guid(2a9189060a5806c4191cb4d99c596b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a7dd95cd0abe95a5e1b5356d052ed3') in 0.015994 seconds
-  Import took 0.018269 seconds .
+  Time since last request: 0.000238 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/VertexPicker.mat
+  artifactKey: Guid(30a8575e1d4cc4e01a88ffbf4f973d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/VertexPicker.mat using Guid(30a8575e1d4cc4e01a88ffbf4f973d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ed3ef118f166dde08fae1cbad368de') in 0.015005 seconds
+  Import took 0.018406 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.239808 seconds.
-  path: Assets/Audio/wetsurfacesteps/wetsurfacestep0.wav
-  artifactKey: Guid(ee59c5015001e3a4897dbb3cc2558fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/wetsurfacesteps/wetsurfacestep0.wav using Guid(ee59c5015001e3a4897dbb3cc2558fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0b70ef219b6e9bbd416fab7ccfab68') in 0.015244 seconds
-  Import took 0.017513 seconds .
+  Time since last request: 0.000319 seconds.
+  path: Packages/com.unity.progrids/Font/Asap-Medium-ProGrids.otf
+  artifactKey: Guid(8c2220bd5fd560c4297e93c4c66a2ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.progrids/Font/Asap-Medium-ProGrids.otf using Guid(8c2220bd5fd560c4297e93c4c66a2ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df032d6f38386ca5bd772f28411e579') in 0.054360 seconds
+  Import took 0.057322 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Audio/wetsurfacesteps/wetsurfacestep2.wav
-  artifactKey: Guid(67e799b0a86090d409126a343324fb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/wetsurfacesteps/wetsurfacestep2.wav using Guid(67e799b0a86090d409126a343324fb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2f46e17379f6146d475fdd4117a63c') in 0.012164 seconds
-  Import took 0.014247 seconds .
+  Time since last request: 0.000288 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/ProBuilderDefault.mat
+  artifactKey: Guid(c22777d6e868e4f2fb421913386b154e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/ProBuilderDefault.mat using Guid(c22777d6e868e4f2fb421913386b154e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea0da7e3d30d177c65ac51a3d008ecf') in 0.019770 seconds
+  Import took 0.022898 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Audio/wetsurfacesteps/wetsurfacestep3.wav
-  artifactKey: Guid(956e478418bf1254499305b5d611631b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/wetsurfacesteps/wetsurfacestep3.wav using Guid(956e478418bf1254499305b5d611631b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c916dc8318335b1788dfa262ef086434') in 0.012367 seconds
-  Import took 0.014501 seconds .
+  Time since last request: 0.000222 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/EdgePickerHDRP.mat
+  artifactKey: Guid(980c24c5a501a9a429356d191ad356a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/EdgePickerHDRP.mat using Guid(980c24c5a501a9a429356d191ad356a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0e01ea5c89dc4a9525ec7ebfb3fb84') in 0.022513 seconds
+  Import took 0.026096 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Audio/wetsurfacesteps/wetsurfacestep4.wav
-  artifactKey: Guid(eeccd33c4775c9446addbe2a8a29a6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/wetsurfacesteps/wetsurfacestep4.wav using Guid(eeccd33c4775c9446addbe2a8a29a6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7563ca9dddc53c0553e1a79c03f0112') in 0.014346 seconds
-  Import took 0.016428 seconds .
+  Time since last request: 0.000338 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/EdgePicker.mat
+  artifactKey: Guid(4ff996e3a0a5743a3987ab6231160665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/EdgePicker.mat using Guid(4ff996e3a0a5743a3987ab6231160665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75aae9a87f4388ce4ddb15e2e0ed5c5') in 0.014468 seconds
+  Import took 0.018121 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Audio/wetsurfacesteps/wetsurfacestep1.wav
-  artifactKey: Guid(085fcee661bce3a43a331c4446372f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/wetsurfacesteps/wetsurfacestep1.wav using Guid(085fcee661bce3a43a331c4446372f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e35f06e760222b5cc4ff3b47f36a1c') in 0.012404 seconds
-  Import took 0.014574 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.033360 seconds.
-  path: Assets/Audio/ambience_loop.wav
-  artifactKey: Guid(0316c5cea3341bf44acc74d106c9e0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/ambience_loop.wav using Guid(0316c5cea3341bf44acc74d106c9e0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70176beefe396cd384ec037d43b3c238') in 0.017705 seconds
-  Import took 0.020081 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Audio/UIsound.wav
-  artifactKey: Guid(3d79d35c964d315448ec44d5740a3f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/UIsound.wav using Guid(3d79d35c964d315448ec44d5740a3f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26209bee6f714b489dd91ffa930a9ef') in 0.013976 seconds
-  Import took 0.016268 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Audio/music0.mp3
-  artifactKey: Guid(86b83fb64fd05db4db8d9f223b572890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/music0.mp3 using Guid(86b83fb64fd05db4db8d9f223b572890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '380faa732007d69b42db01c60b923fc3') in 0.014292 seconds
-  Import took 0.016384 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Audio/impact.wav
-  artifactKey: Guid(ce0768c86556f9a48a612c7eb53ac22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/impact.wav using Guid(ce0768c86556f9a48a612c7eb53ac22c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f15a7f49e1db044b5427a087182f481') in 0.012712 seconds
-  Import took 0.014872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Audio/music1.mp3
-  artifactKey: Guid(0d0459ca9882d7a419c9e83c02bdc3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/music1.mp3 using Guid(0d0459ca9882d7a419c9e83c02bdc3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa1e21d47aa0610cc9570292647aa91') in 0.017812 seconds
-  Import took 0.019871 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000722 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D98F7C9A40 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E77B020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98FADB410 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98C875010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98C515020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E78E9E0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98BD45040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E4FCAD0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D987722470 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98F661930 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E50F8A0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E861020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.738 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1461 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.3 MB.
-System memory in use after: 112.4 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1959.
-Total: 1.875800 ms (FindLiveObjects: 0.135700 ms CreateObjectMapping: 0.041700 ms MarkObjects: 1.593100 ms  DeleteObjects: 0.104300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 399.623400 seconds.
-  path: Assets/Materials/bush1.mat
-  artifactKey: Guid(cdaf9210a2c2bf24fb7e59a37df03d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/bush1.mat using Guid(cdaf9210a2c2bf24fb7e59a37df03d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dbaa5fc714fdacb80e56e511027f09f') in 0.065164 seconds
-  Import took 0.067645 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Materials/bush2.mat
-  artifactKey: Guid(d9d7921d4ba7aba4a9eff5d417383217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/bush2.mat using Guid(d9d7921d4ba7aba4a9eff5d417383217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45df9643410338d1eac36a380bc6f8f') in 0.015117 seconds
-  Import took 0.017229 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Materials/grass2.mat
-  artifactKey: Guid(e7e27682fc977fb42a8c7f0199fe3900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/grass2.mat using Guid(e7e27682fc977fb42a8c7f0199fe3900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd347a47afedc83a5a1c08a5748b381d2') in 0.016456 seconds
-  Import took 0.019145 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Materials/shroom2.mat
-  artifactKey: Guid(71b55816cced13846bb82696d14a378d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/shroom2.mat using Guid(71b55816cced13846bb82696d14a378d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6584d3f9bcef90d76cf967b4b671b1fe') in 0.021061 seconds
-  Import took 0.023928 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Materials/grass4.mat
-  artifactKey: Guid(7a7ab098cdd2c4245bcf39f49b6b0cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/grass4.mat using Guid(7a7ab098cdd2c4245bcf39f49b6b0cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76bf31addbd392168366238b6d4233b4') in 0.015794 seconds
-  Import took 0.018196 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Materials/shroom3.mat
-  artifactKey: Guid(69b9fbc08ad81e44790cf29d9305716b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/shroom3.mat using Guid(69b9fbc08ad81e44790cf29d9305716b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e578bd7047eac573f7b6ed8b0dc8a63f') in 0.016664 seconds
-  Import took 0.019689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Materials/Crystal2.mat
-  artifactKey: Guid(57c078ef7ed02874290c14cb87d7350e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Crystal2.mat using Guid(57c078ef7ed02874290c14cb87d7350e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9ba49dcbf8919c873f4a1a7780f31e') in 0.017344 seconds
-  Import took 0.019647 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Materials/Crystal1.mat
-  artifactKey: Guid(e424e6e055e5adf4c84532f64e11379e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Crystal1.mat using Guid(e424e6e055e5adf4c84532f64e11379e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a98755d1ab02766d3036e84a325d98') in 0.015716 seconds
-  Import took 0.018192 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Materials/stones.mat
-  artifactKey: Guid(cd543c4fcaa0a0445bca039161780982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/stones.mat using Guid(cd543c4fcaa0a0445bca039161780982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e71a6d3ed9b286a5d2c15ebb0f08915f') in 0.022343 seconds
-  Import took 0.024688 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Materials/greeny_diff.mat
-  artifactKey: Guid(0337efd7544bf5e4b9105b5fa06860f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/greeny_diff.mat using Guid(0337efd7544bf5e4b9105b5fa06860f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944007ffc145524868c74fe86a1d4db5') in 0.015240 seconds
-  Import took 0.017834 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Materials/tree_leaves.mat
-  artifactKey: Guid(a9891d3a1f98f1a4a82459950129f073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/tree_leaves.mat using Guid(a9891d3a1f98f1a4a82459950129f073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a5a0f235a8cc45e75923db2164a56a') in 0.016359 seconds
-  Import took 0.018901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Materials/lotus.mat
-  artifactKey: Guid(09eab1450517bce41b31edec79701d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/lotus.mat using Guid(09eab1450517bce41b31edec79701d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9dccb00e65c8eefd7d15c6447aa180e') in 0.015318 seconds
-  Import took 0.017680 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Materials/bush3.mat
-  artifactKey: Guid(9e5f6f8d592f6a04787dbc7714a430f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/bush3.mat using Guid(9e5f6f8d592f6a04787dbc7714a430f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe21d20d279fbac04cbefb01bef803c8') in 0.025511 seconds
-  Import took 0.027880 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Materials/stump.mat
-  artifactKey: Guid(4783756eacbe3ad46a521bd6931cc6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/stump.mat using Guid(4783756eacbe3ad46a521bd6931cc6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb894e951ffb2c9b2cdefdfe528951f1') in 0.016714 seconds
-  Import took 0.019202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Materials/flowers.mat
-  artifactKey: Guid(0400e85eaef1f7a43b5b794d035c97bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/flowers.mat using Guid(0400e85eaef1f7a43b5b794d035c97bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c218e6e5c39fd25b07b606e09c62d9') in 0.020718 seconds
-  Import took 0.023093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Materials/stump_leaves.mat
-  artifactKey: Guid(57a4777a7e3a6254ab2ca05f9b8ee129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/stump_leaves.mat using Guid(57a4777a7e3a6254ab2ca05f9b8ee129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299784b766d9088cbf0d44efe4d5bea2') in 0.018854 seconds
-  Import took 0.021142 seconds .
+  Time since last request: 0.000306 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/Collider.mat
+  artifactKey: Guid(bbb235fff4f48426b863b36058ab66d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/Collider.mat using Guid(bbb235fff4f48426b863b36058ab66d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00a7dcd484684bef9988ec2ef4ea4ce') in 0.051409 seconds
+  Import took 0.054266 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000253 seconds.
-  path: Assets/Materials/corals.mat
-  artifactKey: Guid(089644cf4b109d746aa62cc42e5d5928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/corals.mat using Guid(089644cf4b109d746aa62cc42e5d5928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a8f8c32f2501fd5b23fd7db9472ff7') in 0.016683 seconds
-  Import took 0.019137 seconds .
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/NoDraw.mat
+  artifactKey: Guid(8cb4d6fee77fd4ee6895f08b240d625f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/NoDraw.mat using Guid(8cb4d6fee77fd4ee6895f08b240d625f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce96dcb1b3da7ba30c71370e41d39487') in 0.080758 seconds
+  Import took 0.084094 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Materials/tree_branch.mat
-  artifactKey: Guid(f6616fdc997f71b49ad71fe8e7e3d5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/tree_branch.mat using Guid(f6616fdc997f71b49ad71fe8e7e3d5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a058f6fa7f89273b39cc2738e72e61') in 0.016522 seconds
-  Import took 0.019026 seconds .
+  Time since last request: 0.000276 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/StandardVertexColorLWRP.mat
+  artifactKey: Guid(077a003b1de1e4c35923be7a21b5d948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/StandardVertexColorLWRP.mat using Guid(077a003b1de1e4c35923be7a21b5d948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f19ec1e05eb62e5734dfe4bc676f136') in 0.026917 seconds
+  Import took 0.030393 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Materials/Ship.mat
-  artifactKey: Guid(fd694215f6d954547a93aa5fe8e03fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Ship.mat using Guid(fd694215f6d954547a93aa5fe8e03fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381aa5a78f5f61f192c337c002e7a225') in 0.090870 seconds
-  Import took 0.093106 seconds .
+  Time since last request: 0.000266 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/InvisibleFace.mat
+  artifactKey: Guid(978bbcf5050244f1b95128c04103f628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/InvisibleFace.mat using Guid(978bbcf5050244f1b95128c04103f628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8300885936111f2b88f9a6af3334e52b') in 0.018698 seconds
+  Import took 0.022166 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Materials/Shroom1.mat
-  artifactKey: Guid(28381d966cd87e144b2ae77138cf6737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Shroom1.mat using Guid(28381d966cd87e144b2ae77138cf6737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f3da868efe614e682979433b544c00') in 0.014554 seconds
-  Import took 0.016794 seconds .
+  Time since last request: 0.000288 seconds.
+  path: Packages/com.unity.progrids/Font/Asap-Regular-ProGrids.otf
+  artifactKey: Guid(79008363f1983ec4088c4588c6f0a7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.progrids/Font/Asap-Regular-ProGrids.otf using Guid(79008363f1983ec4088c4588c6f0a7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d0f8e1b6159fc2bbd490b0f88d1a01') in 0.034738 seconds
+  Import took 0.037889 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Materials/grass1.mat
-  artifactKey: Guid(719afb64bc1f78840a09feba174b77a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/grass1.mat using Guid(719afb64bc1f78840a09feba174b77a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0cdc015139007d40846acd3c397495b') in 0.017762 seconds
-  Import took 0.020471 seconds .
+  Time since last request: 0.000257 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/FacePickerHDRP.mat
+  artifactKey: Guid(a53ef0dd76f2fe74eb5f43267d7c0195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/FacePickerHDRP.mat using Guid(a53ef0dd76f2fe74eb5f43267d7c0195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57df91391598cb0c6928e066178e9e97') in 0.024348 seconds
+  Import took 0.027505 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Materials/grass3.mat
-  artifactKey: Guid(701a53d9d7a42cb43b22f28eca3f67f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/grass3.mat using Guid(701a53d9d7a42cb43b22f28eca3f67f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b364e039f3e0d9ecab0a88c0abec36') in 0.016140 seconds
-  Import took 0.018534 seconds .
+  Time since last request: 0.000252 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/UnlitVertexColor.mat
+  artifactKey: Guid(29966c3c0907b49b58c4e59342d020cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/UnlitVertexColor.mat using Guid(29966c3c0907b49b58c4e59342d020cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a41d8c0e5ea2cc780af50e7e7ac0a91') in 0.015505 seconds
+  Import took 0.019735 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 759.255933 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d4fb855a6c22ae772cead32fcc04a0') in 0.010139 seconds
-  Import took 0.012784 seconds .
+  Time since last request: 0.000398 seconds.
+  path: Packages/com.unity.probuilder/Content/Resources/Materials/StandardVertexColorHDRP.mat
+  artifactKey: Guid(c35693c079f3840f7938a4a323096e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.probuilder/Content/Resources/Materials/StandardVertexColorHDRP.mat using Guid(c35693c079f3840f7938a4a323096e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bfcca1c463254fa6cee52685d227bc9') in 0.020283 seconds
+  Import took 0.023436 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.005691 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d4fb855a6c22ae772cead32fcc04a0') in 0.005812 seconds
-  Import took 0.008090 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000663 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D9873CDD80 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E98D010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D990A38FD0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D987CEA030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D9879C6010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E98D010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98748C010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D990A81020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D990D430A0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D991C57010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D9919C1460 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E47B2A0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.683 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1461 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.7 MB.
-System memory in use after: 112.8 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1995.
-Total: 1.940500 ms (FindLiveObjects: 0.163900 ms CreateObjectMapping: 0.050300 ms MarkObjects: 1.625000 ms  DeleteObjects: 0.100100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000696 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D991BB45C0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E6C3400 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98D397010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98DA3B010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98F032010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E6C3400 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98BA23030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E78E9E0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D987441300 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98DF10080 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98D397010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98D090020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.685 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1461 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.7 MB.
-System memory in use after: 112.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1997.
-Total: 1.973900 ms (FindLiveObjects: 0.165600 ms CreateObjectMapping: 0.065700 ms MarkObjects: 1.639300 ms  DeleteObjects: 0.102300 ms)
+  Time since last request: 108.856537 seconds.
+  path: Assets/Materials/SkyBox.mat
+  artifactKey: Guid(78c3d1e678d67d34abef9ef623435b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/SkyBox.mat using Guid(78c3d1e678d67d34abef9ef623435b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3478e6fd9e83cc20cda444c7fc693875') in 0.016459 seconds
+  Import took 0.020117 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 438.799925 seconds.
-  path: Assets/Scripts/CameraController.cs
-  artifactKey: Guid(b8a4bafc8bf49e240a0b3bf5686efa32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CameraController.cs using Guid(b8a4bafc8bf49e240a0b3bf5686efa32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248bbe102d0ec38e7aae0ec2abe801de') in 0.008562 seconds
-  Import took 0.013128 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.022829 seconds.
-  path: Assets/Scripts/CameraController.cs
-  artifactKey: Guid(b8a4bafc8bf49e240a0b3bf5686efa32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CameraController.cs using Guid(b8a4bafc8bf49e240a0b3bf5686efa32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248bbe102d0ec38e7aae0ec2abe801de') in 0.002618 seconds
-  Import took 0.005183 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.206010 seconds.
-  path: Assets/Scripts/CharacterController.cs
-  artifactKey: Guid(ae244f54fec346c4abe6ec7242f48908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CharacterController.cs using Guid(ae244f54fec346c4abe6ec7242f48908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c697631ec80caf5e3fcf5cf774686d') in 0.006720 seconds
-  Import took 0.009262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.271815 seconds.
-  path: Assets/Scripts/GameController.cs
-  artifactKey: Guid(39c89b5c90519734eafa9d490576fb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameController.cs using Guid(39c89b5c90519734eafa9d490576fb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b41d2b79f4a3b11992933451cafe030') in 0.011010 seconds
-  Import took 0.013698 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.287149 seconds.
-  path: Assets/Scripts/pressurePlate.cs
-  artifactKey: Guid(84aa871fba8d1c44886bff1681b420f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/pressurePlate.cs using Guid(84aa871fba8d1c44886bff1681b420f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a49dc885e72a71264a2b358f263eaa') in 0.008082 seconds
-  Import took 0.010401 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.493522 seconds.
-  path: Assets/Scripts/WalkingSound.cs
-  artifactKey: Guid(2c7562b46369d4047b1d5d74a74b25ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/WalkingSound.cs using Guid(2c7562b46369d4047b1d5d74a74b25ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82a68c1d16cb8b8e9ce810bf2a3dcbd1') in 0.002531 seconds
-  Import took 0.008006 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.336154 seconds.
-  path: Assets/Scripts/BodyScript.cs
-  artifactKey: Guid(c52a3477e9cf4e646817c6a8e23b5dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/BodyScript.cs using Guid(c52a3477e9cf4e646817c6a8e23b5dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcbc416b7e6f4069d550bbcee9a83365') in 0.010948 seconds
-  Import took 0.013443 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000719 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D9873CDD80 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98BEBB030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D9916622F0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98F6B0670 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98FF43130 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E98F020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98748C010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E78E9E0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E7E2FD0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D991C57010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D9919C1460 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98EDEE830 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.690 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1461 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.7 MB.
-System memory in use after: 112.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1999.
-Total: 1.881900 ms (FindLiveObjects: 0.177600 ms CreateObjectMapping: 0.059400 ms MarkObjects: 1.543000 ms  DeleteObjects: 0.101100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000665 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D9908A7300 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98BEBB030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D9916622F0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98C0D3030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98793A020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D990D34020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98BA23030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E638C90 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D987441300 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D991C57010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D9919C1460 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98EE97010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.686 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1461 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.7 MB.
-System memory in use after: 112.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2001.
-Total: 2.178600 ms (FindLiveObjects: 0.162300 ms CreateObjectMapping: 0.048800 ms MarkObjects: 1.857300 ms  DeleteObjects: 0.109000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000653 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D9873CDD80 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98D4C2010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D990A38FD0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98F6B0670 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98F968FD0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98F7EC8F0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98748C010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98C3DB450 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E44CEC0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D991C57010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D9919C1460 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E6E9B30 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.698 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1461 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.7 MB.
-System memory in use after: 112.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2003.
-Total: 1.980400 ms (FindLiveObjects: 0.145500 ms CreateObjectMapping: 0.043200 ms MarkObjects: 1.539800 ms  DeleteObjects: 0.250900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000673 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D991584030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98D4C2010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E50F8A0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98DA3B010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98F968FD0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E78E9E0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98748C010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98C3DB450 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D987441300 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D991C57010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E50F8A0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D990F57010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.680 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1461 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.7 MB.
-System memory in use after: 112.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2005.
-Total: 2.546600 ms (FindLiveObjects: 0.245100 ms CreateObjectMapping: 0.121300 ms MarkObjects: 2.034200 ms  DeleteObjects: 0.145100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000656 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D98BA06C90 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98BEBB030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E515340 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98C54D040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D991D6AA00 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98BEBB030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98C205440 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E7FA6B0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D987A7F450 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D991278040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98D3DB030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D991A40020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.689 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1461 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.7 MB.
-System memory in use after: 112.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2007.
-Total: 1.868200 ms (FindLiveObjects: 0.148500 ms CreateObjectMapping: 0.043600 ms MarkObjects: 1.567400 ms  DeleteObjects: 0.108000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000661 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D98E871040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98BEBB030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98D5C9050 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98D982030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98D555020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98BEBB030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98F7EC8F0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E78E9E0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D987441300 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D991278040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98D5C9050 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D9958F80C0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.688 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1461 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.7 MB.
-System memory in use after: 112.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2009.
-Total: 1.994200 ms (FindLiveObjects: 0.162000 ms CreateObjectMapping: 0.049800 ms MarkObjects: 1.671000 ms  DeleteObjects: 0.110500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000648 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D98BA06C90 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98BEBB030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98F4B2E20 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98F6B0670 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D9873D07D0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E78E9E0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D993887040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E62D010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E7E2FD0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D990F67030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D9919C1460 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D992109030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.693 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1461 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.7 MB.
-System memory in use after: 112.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2011.
-Total: 1.872700 ms (FindLiveObjects: 0.139900 ms CreateObjectMapping: 0.040700 ms MarkObjects: 1.585500 ms  DeleteObjects: 0.105700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001428 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D98BA06C90 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98BEBB030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98F4B2E20 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98DA3B010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D9873D07D0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98FF77020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D993887040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E62D010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D987441300 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D990F67030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D9919C1460 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98C1A0020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.865 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1461 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.7 MB.
-System memory in use after: 112.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2013.
-Total: 1.848000 ms (FindLiveObjects: 0.160300 ms CreateObjectMapping: 0.046300 ms MarkObjects: 1.532600 ms  DeleteObjects: 0.107900 ms)
+  Time since last request: 44.307904 seconds.
+  path: Assets/TEXTURE/hdri
+  artifactKey: Guid(71369f54bef894242ba1767ab7c1a99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TEXTURE/hdri using Guid(71369f54bef894242ba1767ab7c1a99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a42dd38529d7964a766e8b629ccfab9') in 0.010665 seconds
+  Import took 0.015264 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.000688 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001D993761DB0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E98D010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D990C71030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98F4DD6B0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D99382B020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E78E9E0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98748C010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D9877FE4A0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D987441300 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D991C57010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D9919C1460 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98D555020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.693 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1461 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.7 MB.
-System memory in use after: 112.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2015.
-Total: 1.809100 ms (FindLiveObjects: 0.158700 ms CreateObjectMapping: 0.049400 ms MarkObjects: 1.491900 ms  DeleteObjects: 0.108400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000784 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D993761DB0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E98D010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D9935CD020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98F4DD6B0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D99382B020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D987D150A0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98D8D3020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D9877FE4A0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D987441300 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D991C57010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D9919C1460 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D991D6AA00 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.803 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1461 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.7 MB.
-System memory in use after: 112.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2017.
-Total: 2.401400 ms (FindLiveObjects: 0.217400 ms CreateObjectMapping: 0.080400 ms MarkObjects: 1.967900 ms  DeleteObjects: 0.134200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000688 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D9873CDD80 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E98D010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D991ADA050 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98F6B0670 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D996230020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E78E9E0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98F668160 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E7FA6B0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E7E2FD0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D991C57010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E50F8A0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D991D9BF80 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
 
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.794 seconds
+- Completed reload, in  0.903 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1461 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.7 MB.
-System memory in use after: 112.8 MB.
+System memory in use before: 113.1 MB.
+System memory in use after: 113.2 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2019.
-Total: 1.851800 ms (FindLiveObjects: 0.147200 ms CreateObjectMapping: 0.044300 ms MarkObjects: 1.553900 ms  DeleteObjects: 0.105400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1357.384510 seconds.
-  path: Assets/Scripts/WalkingSound.cs
-  artifactKey: Guid(2c7562b46369d4047b1d5d74a74b25ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/WalkingSound.cs using Guid(2c7562b46369d4047b1d5d74a74b25ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a51dd52c4c20f06d91c0a50e185eac') in 0.004429 seconds
-  Import took 0.006739 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.022835 seconds.
-  path: Assets/Scripts/WalkingSound.cs
-  artifactKey: Guid(2c7562b46369d4047b1d5d74a74b25ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/WalkingSound.cs using Guid(2c7562b46369d4047b1d5d74a74b25ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a51dd52c4c20f06d91c0a50e185eac') in 0.002275 seconds
-  Import took 0.006944 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000656 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D99343CD50 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E98D010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D991ADA050 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98F6B0670 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D9937A4010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98FF77020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98D8D3020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E7FA6B0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D987441300 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D991C57010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E50F8A0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D991D9BF80 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.895 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1461 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.7 MB.
-System memory in use after: 112.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2021.
-Total: 2.121300 ms (FindLiveObjects: 0.154900 ms CreateObjectMapping: 0.048900 ms MarkObjects: 1.794300 ms  DeleteObjects: 0.121800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000694 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D9873CDD80 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E98D010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E50F8A0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98D982030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98D555020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E78E9E0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D9911CC020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D991278040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D9961AB020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D991C57010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E50F8A0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98C72B050 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.700 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1461 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.7 MB.
-System memory in use after: 112.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2023.
-Total: 1.914000 ms (FindLiveObjects: 0.238300 ms CreateObjectMapping: 0.048700 ms MarkObjects: 1.518900 ms  DeleteObjects: 0.107200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000769 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001D98FDBA040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98E98D010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98FBC03A0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98D982030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98D555020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D987D150A0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D996228010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D991278040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D995F04040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D991C57010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98FBC03A0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001D98C72B050 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.740 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1461 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 112.7 MB.
-System memory in use after: 112.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2025.
-Total: 2.400000 ms (FindLiveObjects: 0.160900 ms CreateObjectMapping: 0.049700 ms MarkObjects: 2.061800 ms  DeleteObjects: 0.126200 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1993.
+Total: 2.545100 ms (FindLiveObjects: 0.271600 ms CreateObjectMapping: 0.052900 ms MarkObjects: 2.061100 ms  DeleteObjects: 0.158200 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
