@@ -62,10 +62,10 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 2.95
+    value: 3.32
   threshold:
     overrideState: 0
-    value: 2.5
+    value: 1.01
   softKnee:
     overrideState: 0
     value: 0.5
@@ -73,14 +73,14 @@ MonoBehaviour:
     overrideState: 0
     value: 65472.12
   diffusion:
-    overrideState: 1
+    overrideState: 0
     value: 6.61
   anamorphicRatio:
     overrideState: 0
     value: 0
   color:
     overrideState: 1
-    value: {r: 0.505993, g: 0.3339622, b: 1, a: 1}
+    value: {r: 0.14528298, g: 0.26130903, b: 1, a: 1}
   fastMode:
     overrideState: 0
     value: 0
@@ -125,8 +125,8 @@ MonoBehaviour:
     overrideState: 1
     value: 1
   gradingMode:
-    overrideState: 0
-    value: 1
+    overrideState: 1
+    value: 0
   externalLut:
     overrideState: 0
     value: {fileID: 0}
@@ -161,10 +161,10 @@ MonoBehaviour:
     value: 1
   temperature:
     overrideState: 1
-    value: 13.7
+    value: 18
   tint:
     overrideState: 1
-    value: -16.3
+    value: -7
   colorFilter:
     overrideState: 0
     value: {r: 0.5104289, g: 0.40943396, b: 1, a: 1}
@@ -173,25 +173,25 @@ MonoBehaviour:
     value: 7
   saturation:
     overrideState: 1
-    value: 1.7
+    value: -3
   brightness:
     overrideState: 0
-    value: 0
+    value: 1
   postExposure:
     overrideState: 0
     value: 0.12
   contrast:
     overrideState: 1
-    value: 2.7
+    value: 4
   mixerRedOutRedIn:
     overrideState: 1
-    value: 93
+    value: 79
   mixerRedOutGreenIn:
     overrideState: 1
-    value: 41
+    value: 48
   mixerRedOutBlueIn:
     overrideState: 1
-    value: 7
+    value: 12
   mixerGreenOutRedIn:
     overrideState: 0
     value: 0
@@ -1440,10 +1440,10 @@ MonoBehaviour:
     value: 0
   intensity:
     overrideState: 1
-    value: 1.57
+    value: 0.44
   color:
     overrideState: 1
-    value: {r: 0.17817883, g: 0, b: 0.33962262, a: 1}
+    value: {r: 0.022817133, g: 0.0055535776, b: 0.05660379, a: 1}
   ambientOnly:
     overrideState: 1
     value: 0
@@ -1464,7 +1464,7 @@ MonoBehaviour:
     value: 0
   radius:
     overrideState: 1
-    value: 3.37
+    value: 0.12
   quality:
     overrideState: 1
     value: 1
