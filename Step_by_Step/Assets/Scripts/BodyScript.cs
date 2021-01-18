@@ -7,11 +7,17 @@ public class BodyScript : MonoBehaviour
     public GameController gameController;
     public CharacterController characterController;
 
+    private AudioSource audioSource;
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Ground")
+        if (collision.gameObject.tag == "Ground" )
         {
             gameController.GameOver();
+            audioSource.Play();
         }
     }
 
