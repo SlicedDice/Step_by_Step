@@ -69,15 +69,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Amount: 0.29
-    - _Brightness: 1.389
+    - _Brightness: 1.125
     - _BumpScale: 1
     - _Cutoff: 0.5
-    - _DepthOffset: -3.9
+    - _DepthOffset: -2
     - _DetailNormalMapScale: 1
-    - _Distort: 0.042
+    - _Distort: 0.622
     - _DstBlend: 0
-    - _EdgeWidth: 0.54
-    - _Foam: 12
+    - _EdgeWidth: 1.57
+    - _Foam: 20.7
     - _FresnelBias: 0.54
     - _FresnelPower: 1.34
     - _FresnelScale: 0
@@ -85,26 +85,26 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Height: 0.008
-    - _HorSpeed: 0.27
+    - _HorSpeed: 0.75
     - _Metallic: 0.254
     - _Mode: 0
     - _NoiseScale: 0.229
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Reflectivity: 0.572
+    - _Reflectivity: 0
     - _RimPower: 1
     - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
-    - _Softness: 0.297
+    - _Softness: 0.274
     - _SpecularHighlights: 1
     - _SpeedV: 0.1
     - _SrcBlend: 1
-    - _Stretch: 2.07
-    - _TopScale: 0.149
-    - _TopSpread: 0.99
+    - _Stretch: 1.25
+    - _TopScale: 0.111
+    - _TopSpread: 4.49
     - _UVSec: 0
     - _VERTEX: 0
-    - _VertSpeed: 4.7
+    - _VertSpeed: 14.2
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
