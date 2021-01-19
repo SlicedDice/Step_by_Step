@@ -627,6 +627,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainBody: {fileID: 6840605447505951676}
   balanceThrust: 1
+  rotation: 0
   rightFoot: {fileID: 6840605447652912922}
   leftFoot: {fileID: 6840605446513353521}
   feetMassBase: 25
@@ -648,7 +649,6 @@ GameObject:
   - component: {fileID: 6840605447505951675}
   - component: {fileID: 6840605447505951673}
   - component: {fileID: 6840605447505951674}
-  - component: {fileID: 6840605447505951669}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -762,20 +762,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameController: {fileID: 0}
   characterController: {fileID: 6840605446753970882}
---- !u!136 &6840605447505951669
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6840605447505951676}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.6169202
-  m_Height: 1.4930267
-  m_Direction: 1
-  m_Center: {x: -0.028285861, y: -0.1702671, z: -4.3600967e-11}
 --- !u!1 &6840605447652912922
 GameObject:
   m_ObjectHideFlags: 0

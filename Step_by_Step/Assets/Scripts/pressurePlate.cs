@@ -5,14 +5,18 @@ using UnityEngine;
 public class pressurePlate : MonoBehaviour
 {
     public Animator connectedDoor;
+    public AudioSource conDoorAud;
     private Vector3 pos = new Vector3();
 
     void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Ground")
         {
+            GetComponent<AudioSource>().Play();
             connectedDoor.SetTrigger("Open Doors");
+            
             GetComponent<Collider>().enabled = false;
+            conDoorAud.Play();
         }
     }
     void Start()

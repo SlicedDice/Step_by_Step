@@ -30,6 +30,11 @@ public class WalkingSound : MonoBehaviour
                 audioSource.clip = randomClip(wetSurface);
                 audioSource.Play();
             }
+            else if (collision.gameObject.tag == "Pressure Plate")
+            {
+                audioSource.clip = randomClip(hardSurface);
+                audioSource.Play();
+            }
         }
     }            
 

@@ -14,7 +14,7 @@ public class BodyScript : MonoBehaviour
     }
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Ground" )
+        if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Wet Ground" || collision.gameObject.tag == "Swamp Ground")
         {
             gameController.GameOver();
             audioSource.Play();
@@ -27,6 +27,10 @@ public class BodyScript : MonoBehaviour
         {
             Destroy(col.gameObject);
             characterController.foundCollectible = true;
+        }
+        else if(col.gameObject.tag == "Wet Ground")
+        {
+            gameController.GameOver();
         }
     }
 }
