@@ -6,6 +6,7 @@ public class GameController : MonoBehaviour
 {
     public GameObject gameOverScreen;
 
+
     void PauseGame() 
     {
         Time.timeScale = 0;

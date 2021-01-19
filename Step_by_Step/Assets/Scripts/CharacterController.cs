@@ -103,7 +103,7 @@ public class CharacterController : MonoBehaviour
         }
     }
 
-    void rotateCharacter()
+    void rotateCharacterRightStilt()
     {
         float rot = rotation * Time.deltaTime;
 
@@ -118,6 +118,23 @@ public class CharacterController : MonoBehaviour
             mainBody.transform.Rotate(0f, rot, 0f, Space.World);
             stiltRight.transform.Rotate(0f, rot, 0f, Space.World);
             rightFoot.transform.Rotate(0f, rot, 0f, Space.World);
+        }
+    }
+    void rotateCharacterLeftStilt()
+    {
+        float rot = rotation * Time.deltaTime;
+
+        if (Input.GetKey("a"))
+        {
+            mainBody.transform.Rotate(0f, -rot, 0f, Space.World);
+            stiltLeft.transform.Rotate(0f, -rot, 0f, Space.World);
+            leftFoot.transform.Rotate(0f, -rot, 0f, Space.World);
+        }
+        else if (Input.GetKey("d"))
+        {
+            mainBody.transform.Rotate(0f, rot, 0f, Space.World);
+            stiltLeft.transform.Rotate(0f, rot, 0f, Space.World);
+            leftFoot.transform.Rotate(0f, rot, 0f, Space.World);
         }
     }
 
@@ -137,6 +154,7 @@ public class CharacterController : MonoBehaviour
 
         if (Input.GetMouseButton(0))
         {
+
             Vector2 deltaMouseMov = mouseMov();
             if(!invertedControls) deltaMouseMov *= -1f;
 
@@ -144,6 +162,7 @@ public class CharacterController : MonoBehaviour
 
             charJointLeft.connectedAnchor = new Vector3(tmpL.x, -0.1f, tmpL.z);
 
+            rotateCharacterRightStilt();
             leftFootRB.mass = footWeightWhileMoving;
             leftFootRB.AddForce(tmp1 * deltaMouseMov.y * 2);
             leftFootRB.AddForce(tmp2 * -deltaMouseMov.x * 2);
@@ -156,7 +175,7 @@ public class CharacterController : MonoBehaviour
             Rigidbody rightFootRB = rightFoot.GetComponent<Rigidbody>();
 
             charJointRight.connectedAnchor = new Vector3(tmpR.x, -0.1f, tmpR.z);
-
+            rotateCharacterLeftStilt();
             rightFootRB.mass = footWeightWhileMoving;
             rightFootRB.AddForce(tmp1 * deltaMouseMov.y * 2);
             rightFootRB.AddForce(tmp2 * -deltaMouseMov.x * 2);
@@ -192,8 +211,8 @@ public class CharacterController : MonoBehaviour
 
             Rigidbody leftFootRB = leftFoot.GetComponent<Rigidbody>();
 
-            charJointLeft.connectedAnchor = new Vector3(tmpL.x, -0.5f, tmpL.z);
-
+            charJointLeft.connectedAnchor = new Vector3(tmpL.x, -0.1f, tmpL.z);
+            rotateCharacterRightStilt();
             leftFootRB.mass = footWeightWhileMoving;
             leftFootRB.AddForce(mainBody.transform.forward * -deltaMouseMov.y * 2);
             leftFootRB.AddForce(mainBody.transform.right * -deltaMouseMov.x * 2);
@@ -206,8 +225,8 @@ public class CharacterController : MonoBehaviour
 
             Rigidbody rightFootRB = rightFoot.GetComponent<Rigidbody>();
 
-            charJointRight.connectedAnchor = new Vector3(tmpR.x, -0.5f, tmpR.z);
-
+            charJointRight.connectedAnchor = new Vector3(tmpR.x, -0.1f, tmpR.z);
+            rotateCharacterLeftStilt();
             rightFootRB.mass = footWeightWhileMoving;
             rightFootRB.AddForce(mainBody.transform.forward * -deltaMouseMov.y * 2);
             rightFootRB.AddForce(mainBody.transform.right * -deltaMouseMov.x * 2);
