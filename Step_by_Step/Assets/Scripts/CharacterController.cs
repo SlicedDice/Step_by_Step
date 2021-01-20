@@ -131,13 +131,13 @@ public class CharacterController : MonoBehaviour
 
         if (Input.GetKey("a"))
         {
-            mainBody.transform.Rotate(0f, -rot, 0f, Space.World);
+            //mainBody.transform.Rotate(0f, -rot, 0f, Space.World);
             stiltRight.transform.Rotate(0f, -rot, 0f, Space.World);
             rightFoot.transform.Rotate(0f, -rot, 0f, Space.World);
         }
         else if (Input.GetKey("d"))
         {
-            mainBody.transform.Rotate(0f, rot, 0f, Space.World);
+            //mainBody.transform.Rotate(0f, rot, 0f, Space.World);
             stiltRight.transform.Rotate(0f, rot, 0f, Space.World);
             rightFoot.transform.Rotate(0f, rot, 0f, Space.World);
         }
@@ -148,13 +148,13 @@ public class CharacterController : MonoBehaviour
 
         if (Input.GetKey("a"))
         {
-            mainBody.transform.Rotate(0f, -rot, 0f, Space.World);
+            //mainBody.transform.Rotate(0f, -rot, 0f, Space.World);
             stiltLeft.transform.Rotate(0f, -rot, 0f, Space.World);
             leftFoot.transform.Rotate(0f, -rot, 0f, Space.World);
         }
         else if (Input.GetKey("d"))
         {
-            mainBody.transform.Rotate(0f, rot, 0f, Space.World);
+            //mainBody.transform.Rotate(0f, rot, 0f, Space.World);
             stiltLeft.transform.Rotate(0f, rot, 0f, Space.World);
             leftFoot.transform.Rotate(0f, rot, 0f, Space.World);
         }
