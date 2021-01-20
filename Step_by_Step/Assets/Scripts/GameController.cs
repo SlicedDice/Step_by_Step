@@ -5,7 +5,10 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     public GameObject gameOverScreen;
+    public CharacterController characterController;
+    public Animator audioFadeOut;
 
+    private bool dead = false;
 
     void PauseGame() 
     {
@@ -19,7 +22,15 @@ public class GameController : MonoBehaviour
 
     public void GameOver()
     {
-        gameOverScreen.SetActive(true);
-        PauseGame();
+        if (!dead)
+        {
+            gameOverScreen.SetActive(true);
+            audioFadeOut.SetTrigger("Death");
+
+
+            dead = true;
+            characterController.death(dead);
+        }
+        
     }
 }

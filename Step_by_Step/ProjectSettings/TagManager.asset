@@ -9,6 +9,7 @@ TagManager:
   - Collectible
   - Wet Ground
   - Swamp Ground
+  - River
   layers:
   - Default
   - TransparentFX

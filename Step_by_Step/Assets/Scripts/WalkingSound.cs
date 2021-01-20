@@ -15,7 +15,7 @@ public class WalkingSound : MonoBehaviour
     {
         if (!Input.GetMouseButton(0) && !Input.GetMouseButton(1))
         {
-            if (collision.gameObject.tag == "Ground")
+            if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Pressure Plate")
             {
                 audioSource.clip = randomClip(hardSurface);
                 audioSource.Play();
@@ -28,11 +28,6 @@ public class WalkingSound : MonoBehaviour
             else if (collision.gameObject.tag == "Wet Ground")
             {
                 audioSource.clip = randomClip(wetSurface);
-                audioSource.Play();
-            }
-            else if (collision.gameObject.tag == "Pressure Plate")
-            {
-                audioSource.clip = randomClip(hardSurface);
                 audioSource.Play();
             }
         }

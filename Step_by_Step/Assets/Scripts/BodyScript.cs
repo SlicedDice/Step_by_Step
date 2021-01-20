@@ -7,6 +7,10 @@ public class BodyScript : MonoBehaviour
     public GameController gameController;
     public CharacterController characterController;
 
+    public AudioClip waterSound;
+    public AudioClip impactSound;
+    public AudioClip pickUpSound;
+
     private AudioSource audioSource;
     void Start()
     {
@@ -14,9 +18,10 @@ public class BodyScript : MonoBehaviour
     }
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Wet Ground" || collision.gameObject.tag == "Swamp Ground")
+        if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Wet Ground" || collision.gameObject.tag == "Swamp Ground"|| collision.gameObject.tag == "River")
         {
             gameController.GameOver();
+            audioSource.clip = impactSound;
             audioSource.Play();
         }
     }
@@ -26,10 +31,15 @@ public class BodyScript : MonoBehaviour
         if (col.gameObject.tag == "Collectible")
         {
             Destroy(col.gameObject);
+
+            audioSource.clip = pickUpSound;
+            audioSource.Play();
             characterController.foundCollectible = true;
         }
-        else if(col.gameObject.tag == "Wet Ground")
+        else if(col.gameObject.tag == "River")
         {
+            audioSource.clip = waterSound;
+            audioSource.Play();
             gameController.GameOver();
         }
     }

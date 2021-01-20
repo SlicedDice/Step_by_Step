@@ -29,6 +29,8 @@ public class CharacterController : MonoBehaviour
     private bool invertedControls = true;
 
     private Vector3 respawnLocation; //Location when respawning with (R)
+
+    private bool dead = false;
     
     // Start is called before the first frame update
     void Start()
@@ -45,15 +47,24 @@ public class CharacterController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        balanceControls();
-        //rotateCharacter();
+        if (!dead)
+        {
+            balanceControls();
 
-        if (movementByCamera) walkingControlsByCamera();
-        else walkingControlsByCharacter();
+            if (movementByCamera) walkingControlsByCamera();
+            else walkingControlsByCharacter();
 
-        generalControls();
+            generalControls();
 
-        lastMousePos = Input.mousePosition;
+            lastMousePos = Input.mousePosition;
+        }
+
+
+    }
+
+    public void death(bool pDead)
+    {
+        dead = pDead;
     }
 
     void generalControls()
@@ -95,11 +106,11 @@ public class CharacterController : MonoBehaviour
     {
         if (Input.GetKey("w"))
         {
-            mainRB.AddForce(-transform.forward * balanceThrust);
+            mainRB.AddForce(-mainRB.transform.forward * balanceThrust);
         }
         else if (Input.GetKey("s"))
         {
-            mainRB.AddForce(transform.forward * balanceThrust);
+            mainRB.AddForce(mainRB.transform.forward * balanceThrust);
         }
     }
 
