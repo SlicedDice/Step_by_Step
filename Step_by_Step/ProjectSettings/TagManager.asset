@@ -10,6 +10,7 @@ TagManager:
   - Wet Ground
   - Swamp Ground
   - River
+  - ResetZone
   layers:
   - Default
   - TransparentFX

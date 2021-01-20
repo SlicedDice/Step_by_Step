@@ -31,6 +31,8 @@ public class CharacterController : MonoBehaviour
     private Vector3 respawnLocation; //Location when respawning with (R)
 
     private bool dead = false;
+
+    public GameController gameController;
     
     // Start is called before the first frame update
     void Start()
@@ -40,7 +42,6 @@ public class CharacterController : MonoBehaviour
         leftFoot.GetComponent<Rigidbody>().mass = feetMassBase;
         rightFoot.GetComponent<Rigidbody>().mass = feetMassBase;
 
-        respawnLocation = new Vector3(-38.7099991f, 0.370000005f, -117.290001f);
 
     }
 
@@ -54,10 +55,11 @@ public class CharacterController : MonoBehaviour
             if (movementByCamera) walkingControlsByCamera();
             else walkingControlsByCharacter();
 
-            generalControls();
 
             lastMousePos = Input.mousePosition;
         }
+        
+        generalControls();
 
 
     }
@@ -76,6 +78,10 @@ public class CharacterController : MonoBehaviour
             resetCharacterPos();
             transform.localPosition = respawnLocation;
             Time.timeScale = 1;
+
+            gameController.dead = false;
+            gameController.reset();
+            death(false);
         }
     }
     void resetCharacterPos()
@@ -100,6 +106,11 @@ public class CharacterController : MonoBehaviour
         rightFoot.transform.localPosition = new Vector3(-0.310000002f, -2.30100012f, 0f);
         rightFoot.transform.localRotation = new Quaternion(0f, 0f, 0f, 1f);
     }
+    public void setResetLocation(Vector3 resetLocation)
+    {
+        respawnLocation = resetLocation;
+    }
+
 
     //Function for balancing the character
     void balanceControls()

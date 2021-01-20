@@ -8,7 +8,13 @@ public class GameController : MonoBehaviour
     public CharacterController characterController;
     public Animator audioFadeOut;
 
-    private bool dead = false;
+    public AudioSource audioSource;
+    public AudioClip music0;
+    public AudioClip music1;
+
+    public bool dead = false;
+
+    private bool boMusic0 = true;
 
     void PauseGame() 
     {
@@ -26,11 +32,24 @@ public class GameController : MonoBehaviour
         {
             gameOverScreen.SetActive(true);
             audioFadeOut.SetTrigger("Death");
-
+            
 
             dead = true;
             characterController.death(dead);
         }
         
+    }
+
+    public void reset()
+    {
+        gameOverScreen.SetActive(false);
+
+        if (boMusic0) audioSource.clip = music1;
+        else audioSource.clip = music0;
+
+        audioSource.Play();
+        boMusic0 = !boMusic0;
+
+        audioFadeOut.SetTrigger("Reset");
     }
 }

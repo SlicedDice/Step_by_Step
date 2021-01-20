@@ -10,7 +10,7 @@ public class pressurePlate : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Ground")
+        if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Wet Ground" || collision.gameObject.tag == "Swamp Ground")
         {
             GetComponent<AudioSource>().Play();
             connectedDoor.SetTrigger("Open Doors");

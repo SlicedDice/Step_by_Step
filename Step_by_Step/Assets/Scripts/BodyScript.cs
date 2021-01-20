@@ -42,5 +42,9 @@ public class BodyScript : MonoBehaviour
             audioSource.Play();
             gameController.GameOver();
         }
+        else if(col.gameObject.tag == "ResetZone")
+        {
+            characterController.setResetLocation(gameObject.transform.position);
+        }
     }
 }
