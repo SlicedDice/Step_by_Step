@@ -20,6 +20,8 @@ public class CharacterController : MonoBehaviour
     public GameObject stiltLeft;
     public GameObject stiltRight; //Two Variables referencing the stilts
 
+    public GameObject rotationObj;
+
     private Vector2 lastMousePos = new Vector2(); //The last position of the mouse; to calculate the mouse movement
 
 
@@ -117,11 +119,19 @@ public class CharacterController : MonoBehaviour
     {
         if (Input.GetKey("w"))
         {
-            mainRB.AddForce(-mainRB.transform.forward * balanceThrust);
+            mainRB.AddForce(mainRB.transform.forward * balanceThrust);
         }
         else if (Input.GetKey("s"))
         {
-            mainRB.AddForce(mainRB.transform.forward * balanceThrust);
+            mainRB.AddForce(-mainRB.transform.forward * balanceThrust);
+        }
+        else if (Input.GetKey("a"))
+        {
+            mainRB.AddForce(-mainRB.transform.right * balanceThrust);
+        }
+        else if (Input.GetKey("d"))
+        {
+            mainRB.AddForce(mainRB.transform.right * balanceThrust);
         }
     }
 
@@ -129,30 +139,31 @@ public class CharacterController : MonoBehaviour
     {
         float rot = rotation * Time.deltaTime;
 
-        if (Input.GetKey("a"))
+        if (Input.GetKey("q"))
         {
-            //mainBody.transform.Rotate(0f, -rot, 0f, Space.World);
+            /*mainBody.transform.Rotate(0f, -rot, 0f, Space.World);*/
             stiltRight.transform.Rotate(0f, -rot, 0f, Space.World);
             rightFoot.transform.Rotate(0f, -rot, 0f, Space.World);
         }
-        else if (Input.GetKey("d"))
+        else if (Input.GetKey("e"))
         {
-            //mainBody.transform.Rotate(0f, rot, 0f, Space.World);
+            /*mainBody.transform.Rotate(0f, rot, 0f, Space.World);*/
             stiltRight.transform.Rotate(0f, rot, 0f, Space.World);
-            rightFoot.transform.Rotate(0f, rot, 0f, Space.World);
+            rightFoot.transform.Rotate(0f, rot, 0f, Space.World); 
+
         }
     }
     void rotateCharacterLeftStilt()
     {
         float rot = rotation * Time.deltaTime;
 
-        if (Input.GetKey("a"))
+        if (Input.GetKey("q"))
         {
             //mainBody.transform.Rotate(0f, -rot, 0f, Space.World);
             stiltLeft.transform.Rotate(0f, -rot, 0f, Space.World);
             leftFoot.transform.Rotate(0f, -rot, 0f, Space.World);
         }
-        else if (Input.GetKey("d"))
+        else if (Input.GetKey("e"))
         {
             //mainBody.transform.Rotate(0f, rot, 0f, Space.World);
             stiltLeft.transform.Rotate(0f, rot, 0f, Space.World);
@@ -199,8 +210,8 @@ public class CharacterController : MonoBehaviour
             charJointRight.connectedAnchor = new Vector3(tmpR.x, -0.1f, tmpR.z);
             rotateCharacterLeftStilt();
             rightFootRB.mass = footWeightWhileMoving;
-            rightFootRB.AddForce(tmp1 * deltaMouseMov.y * 2);
-            rightFootRB.AddForce(tmp2 * -deltaMouseMov.x * 2);
+            rightFootRB.AddForce(tmp1 * deltaMouseMov.y *2);
+            rightFootRB.AddForce(tmp2 * -deltaMouseMov.x *2);
         }
         else
         {
