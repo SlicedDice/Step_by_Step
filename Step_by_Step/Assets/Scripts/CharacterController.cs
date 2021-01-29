@@ -174,11 +174,11 @@ public class CharacterController : MonoBehaviour
     //Function for controlling the individual stilts
     void walkingControlsByCamera()
     {
-        CharacterJoint charJointLeft = stiltLeft.GetComponent<CharacterJoint>();
+        /*CharacterJoint charJointLeft = stiltLeft.GetComponent<CharacterJoint>();
         Vector3 tmpL = charJointLeft.connectedAnchor;
 
         CharacterJoint charJointRight = stiltRight.GetComponent<CharacterJoint>();
-        Vector3 tmpR = charJointRight.connectedAnchor;
+        Vector3 tmpR = charJointRight.connectedAnchor;*/
 
         Vector3 tmp1 = new Vector3(0.875f, 0.0f, 1.125f);
         Vector3 tmp2 = new Vector3(-1.125f, 0.0f, 0.875f);
@@ -193,10 +193,11 @@ public class CharacterController : MonoBehaviour
 
             Rigidbody leftFootRB = leftFoot.GetComponent<Rigidbody>();
 
-            charJointLeft.connectedAnchor = new Vector3(tmpL.x, -0.1f, tmpL.z);
+            //charJointLeft.connectedAnchor = new Vector3(tmpL.x, -0.1f, tmpL.z);
 
             rotateCharacterRightStilt();
             leftFootRB.mass = footWeightWhileMoving;
+           
             leftFootRB.AddForce(tmp1 * deltaMouseMov.y * 2);
             leftFootRB.AddForce(tmp2 * -deltaMouseMov.x * 2);
         }
@@ -207,9 +208,10 @@ public class CharacterController : MonoBehaviour
 
             Rigidbody rightFootRB = rightFoot.GetComponent<Rigidbody>();
 
-            charJointRight.connectedAnchor = new Vector3(tmpR.x, -0.1f, tmpR.z);
+            //charJointRight.connectedAnchor = new Vector3(tmpR.x, -0.1f, tmpR.z);
             rotateCharacterLeftStilt();
             rightFootRB.mass = footWeightWhileMoving;
+
             rightFootRB.AddForce(tmp1 * deltaMouseMov.y *2);
             rightFootRB.AddForce(tmp2 * -deltaMouseMov.x *2);
         }
@@ -217,9 +219,10 @@ public class CharacterController : MonoBehaviour
         {
             leftFoot.GetComponent<Rigidbody>().mass = feetMassBase;
             rightFoot.GetComponent<Rigidbody>().mass = feetMassBase;
-
-            charJointLeft.connectedAnchor = new Vector3(tmpL.x, -0.25f, tmpL.z);
-            charJointRight.connectedAnchor = new Vector3(tmpR.x, -0.25f, tmpR.z);
+            //rightFoot.GetComponent<Rigidbody>().velocity = new Vector3(0f, 0f, 0f);
+            //leftFoot.GetComponent<Rigidbody>().velocity = new Vector3(0f, 0f, 0f);
+            //charJointLeft.connectedAnchor = new Vector3(tmpL.x, -0.25f, tmpL.z);
+            //charJointRight.connectedAnchor = new Vector3(tmpR.x, -0.25f, tmpR.z);
 
 
 
@@ -229,11 +232,11 @@ public class CharacterController : MonoBehaviour
 
     void walkingControlsByCharacter()
     {
-        CharacterJoint charJointLeft = stiltLeft.GetComponent<CharacterJoint>();
+        /*CharacterJoint charJointLeft = stiltLeft.GetComponent<CharacterJoint>();
         Vector3 tmpL = charJointLeft.connectedAnchor;
 
         CharacterJoint charJointRight = stiltRight.GetComponent<CharacterJoint>();
-        Vector3 tmpR = charJointRight.connectedAnchor;
+        Vector3 tmpR = charJointRight.connectedAnchor;*/
 
         
 
@@ -244,7 +247,7 @@ public class CharacterController : MonoBehaviour
 
             Rigidbody leftFootRB = leftFoot.GetComponent<Rigidbody>();
 
-            charJointLeft.connectedAnchor = new Vector3(tmpL.x, -0.1f, tmpL.z);
+            //charJointLeft.connectedAnchor = new Vector3(tmpL.x, -0.1f, tmpL.z);
             rotateCharacterRightStilt();
             leftFootRB.mass = footWeightWhileMoving;
             leftFootRB.AddForce(mainBody.transform.forward * -deltaMouseMov.y * 2);
@@ -258,7 +261,7 @@ public class CharacterController : MonoBehaviour
 
             Rigidbody rightFootRB = rightFoot.GetComponent<Rigidbody>();
 
-            charJointRight.connectedAnchor = new Vector3(tmpR.x, -0.1f, tmpR.z);
+            //charJointRight.connectedAnchor = new Vector3(tmpR.x, -0.1f, tmpR.z);
             rotateCharacterLeftStilt();
             rightFootRB.mass = footWeightWhileMoving;
             rightFootRB.AddForce(mainBody.transform.forward * -deltaMouseMov.y * 2);
@@ -269,9 +272,10 @@ public class CharacterController : MonoBehaviour
         {
             leftFoot.GetComponent<Rigidbody>().mass = feetMassBase;
             rightFoot.GetComponent<Rigidbody>().mass = feetMassBase;
-
-            charJointLeft.connectedAnchor = new Vector3(tmpL.x, -0.25f, tmpL.z);
-            charJointRight.connectedAnchor = new Vector3(tmpR.x, -0.25f, tmpR.z);
+            //rightFoot.GetComponent<Rigidbody>().velocity = new Vector3(0f, 0f, 0f);
+            //leftFoot.GetComponent<Rigidbody>().velocity = new Vector3(0f, 0f, 0f);
+            //charJointLeft.connectedAnchor = new Vector3(tmpL.x, -0.25f, tmpL.z);
+            //charJointRight.connectedAnchor = new Vector3(tmpR.x, -0.25f, tmpR.z);
         }
 
     }
