@@ -34,7 +34,8 @@ public class CharacterController : MonoBehaviour
 
     private bool dead = false;
 
-    public GameController gameController;
+    private GameController gameController;
+    private CameraController mainCam;
     
     // Start is called before the first frame update
     void Start()
@@ -44,11 +45,15 @@ public class CharacterController : MonoBehaviour
         leftFoot.GetComponent<Rigidbody>().mass = feetMassBase;
         rightFoot.GetComponent<Rigidbody>().mass = feetMassBase;
 
+        gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
+        gameController.characterController = gameObject.GetComponent<CharacterController>();
 
+        mainCam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraController>();
+        mainCam.playerCharacter = mainBody;
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (!dead)
         {
@@ -77,7 +82,6 @@ public class CharacterController : MonoBehaviour
         {
             Time.timeScale = 0;
 
-            resetCharacterPos();
             transform.localPosition = respawnLocation;
             Time.timeScale = 1;
 
@@ -86,31 +90,10 @@ public class CharacterController : MonoBehaviour
             death(false);
         }
     }
-    void resetCharacterPos()
-    {
-        mainBody.GetComponent<Rigidbody>().velocity = new Vector3(0f, 0f, 0f);
-        mainBody.transform.localPosition = new Vector3(0f, 0f, 0f);
-        mainBody.transform.localRotation = new Quaternion(0f, 0f, 0f, 1f);
 
-        stiltLeft.GetComponent<Rigidbody>().velocity = new Vector3(0f, 0f, 0f);
-        stiltLeft.transform.localPosition = new Vector3(0.310000002f, -0.800000012f, 0f);
-        stiltLeft.transform.localRotation = new Quaternion(0f, 0f, 0f, 1f);
-
-        stiltRight.GetComponent<Rigidbody>().velocity = new Vector3(0f, 0f, 0f);
-        stiltRight.transform.localPosition = new Vector3(-0.310000002f, -0.800000012f, 0f);
-        stiltRight.transform.localRotation = new Quaternion(0f, 0f, 0f, 1f);
-
-        leftFoot.GetComponent<Rigidbody>().velocity = new Vector3(0f, 0f, 0f); 
-        leftFoot.transform.localPosition = new Vector3(0.310000002f, -2.30100012f, 0f);
-        leftFoot.transform.localRotation = new Quaternion(0f, 0f, 0f, 1f);
-
-        rightFoot.GetComponent<Rigidbody>().velocity = new Vector3(0f, 0f, 0f);
-        rightFoot.transform.localPosition = new Vector3(-0.310000002f, -2.30100012f, 0f);
-        rightFoot.transform.localRotation = new Quaternion(0f, 0f, 0f, 1f);
-    }
     public void setResetLocation(Vector3 resetLocation)
     {
-        respawnLocation = resetLocation;
+        gameController.respawnLocation = resetLocation;
     }
 
 
@@ -141,15 +124,15 @@ public class CharacterController : MonoBehaviour
 
         if (Input.GetKey("q"))
         {
-            /*mainBody.transform.Rotate(0f, -rot, 0f, Space.World);*/
-            stiltRight.transform.Rotate(0f, -rot, 0f, Space.World);
-            rightFoot.transform.Rotate(0f, -rot, 0f, Space.World);
+            mainBody.transform.Rotate(0f, -rot, 0f, Space.World);
+            //stiltRight.transform.Rotate(0f, -rot, 0f, Space.World);
+            //rightFoot.transform.Rotate(0f, -rot, 0f, Space.World);
         }
         else if (Input.GetKey("e"))
         {
-            /*mainBody.transform.Rotate(0f, rot, 0f, Space.World);*/
-            stiltRight.transform.Rotate(0f, rot, 0f, Space.World);
-            rightFoot.transform.Rotate(0f, rot, 0f, Space.World); 
+            mainBody.transform.Rotate(0f, rot, 0f, Space.World);
+            //stiltRight.transform.Rotate(0f, rot, 0f, Space.World);
+            //rightFoot.transform.Rotate(0f, rot, 0f, Space.World); 
 
         }
     }
@@ -159,15 +142,15 @@ public class CharacterController : MonoBehaviour
 
         if (Input.GetKey("q"))
         {
-            //mainBody.transform.Rotate(0f, -rot, 0f, Space.World);
-            stiltLeft.transform.Rotate(0f, -rot, 0f, Space.World);
-            leftFoot.transform.Rotate(0f, -rot, 0f, Space.World);
+            mainBody.transform.Rotate(0f, -rot, 0f, Space.World);
+            //stiltLeft.transform.Rotate(0f, -rot, 0f, Space.World);
+            //leftFoot.transform.Rotate(0f, -rot, 0f, Space.World);
         }
         else if (Input.GetKey("e"))
         {
-            //mainBody.transform.Rotate(0f, rot, 0f, Space.World);
-            stiltLeft.transform.Rotate(0f, rot, 0f, Space.World);
-            leftFoot.transform.Rotate(0f, rot, 0f, Space.World);
+            mainBody.transform.Rotate(0f, rot, 0f, Space.World);
+            //stiltLeft.transform.Rotate(0f, rot, 0f, Space.World);
+            //leftFoot.transform.Rotate(0f, rot, 0f, Space.World);
         }
     }
 
@@ -194,7 +177,6 @@ public class CharacterController : MonoBehaviour
             Rigidbody leftFootRB = leftFoot.GetComponent<Rigidbody>();
 
             charJointLeft.connectedAnchor = new Vector3(tmpL.x, -0.1f, tmpL.z);
-
             rotateCharacterRightStilt();
             leftFootRB.mass = footWeightWhileMoving;
             leftFootRB.AddForce(tmp1 * deltaMouseMov.y * 2);
@@ -211,7 +193,7 @@ public class CharacterController : MonoBehaviour
             rotateCharacterLeftStilt();
             rightFootRB.mass = footWeightWhileMoving;
             rightFootRB.AddForce(tmp1 * deltaMouseMov.y *2);
-            rightFootRB.AddForce(tmp2 * -deltaMouseMov.x *2);
+            rightFootRB.AddForce(tmp2 * -deltaMouseMov.x *2 );
         }
         else
         {

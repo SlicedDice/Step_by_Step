@@ -12,6 +12,9 @@ public class GameController : MonoBehaviour
     public AudioClip music0;
     public AudioClip music1;
 
+    public GameObject Character;
+    public Vector3 respawnLocation;
+
     public bool dead = false;
 
     private bool boMusic0 = true;
@@ -51,5 +54,8 @@ public class GameController : MonoBehaviour
         boMusic0 = !boMusic0;
 
         audioFadeOut.SetTrigger("Reset");
+
+        Destroy(characterController.gameObject);
+        Instantiate(Character, respawnLocation, Quaternion.identity);
     }
 }
