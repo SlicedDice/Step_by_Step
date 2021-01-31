@@ -15,11 +15,11 @@ C:/Users/patri/OneDrive/Dokumente/GitHub/Step_by_Step/Step_by_Step
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57504
+57805
 Successfully changed project path to: C:/Users/patri/OneDrive/Dokumente/GitHub/Step_by_Step/Step_by_Step
 C:/Users/patri/OneDrive/Dokumente/GitHub/Step_by_Step/Step_by_Step
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 68.03 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 228.08 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.0f1 (3721df5a8b28)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity Installs/2020.2.0f1/Editor/Data/Resources/UnitySubsystems
@@ -35,126 +35,1013 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity Installs/2020.2.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity Installs/2020.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity Installs/2020.2.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity Installs/2020.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002176 seconds.
+Registered in 0.004497 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 65.95 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 60.73 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.525 seconds
+- Completed reload, in  4.030 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002566 seconds.
+Registered in 0.004733 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000025CFFA7C450 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000002627E0BC540 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Assembly-CSharp.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025CFF0B6010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000002627E115F70 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025D222943F0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000002627E748030 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025D22AB4A90 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file data-000002627E20C030 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025D2225BDA0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000002627E1111E0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025D2225BDA0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000002627E768650 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025D22CF1010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000002627E07C5A0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025CFF1BD010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file data-000002627E4C3BB0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025D2174AE30 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000002627E20C030 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Burst.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025CFF278F20 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file data-00000262A172DA90 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025D226C0080 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file data-000002627E1B6460 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025D226C0080 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file data-00000262A0897020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025D2143D440 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-00000262A0897020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025D22E81060 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file data-000002627E043040 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025CFF1BD010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000002627E0A14B0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025D222943F0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file data-000002627E380E20 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025CFF76B200 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000002627E380E20 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025D22A37030 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file data-00000262A08AFC30 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025CFF5061B0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file data-00000262A1D50220 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025D22B21020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-00000262A1735AA0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025D222CD0D0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file data-000002627E41E010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025CFEE4D810 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file data-000002627E91EAC0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025CFF304C30 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file data-00000262A034B4A0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025CFF304C30 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file data-00000262A08C7C40 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Burst.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025D2175CA40 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file data-00000262A1735AA0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025CFF97F0B0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file data-000002627E0FF010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025D22167020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file data-000002627E2B35A0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025CFF4A10C0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-000002627E563970 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025D22167020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000002627E0FF010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025D21DE6620 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-00000262A07EF020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025CFF37DC50 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-00000262A08C7C40 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025CFEE7BAD0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file data-00000262A1F07040 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000025D21DE6620 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file data-000002627DE793C0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A08C7C40 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 149.32 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 54.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  6.527 seconds
+- Completed reload, in  2.606 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2200 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 238.6 MB.
 System memory in use after: 238.6 MB.
 
 Unloading 102 unused Assets to reduce memory usage. Loaded Objects now: 2671.
-Total: 5.629100 ms (FindLiveObjects: 0.422700 ms CreateObjectMapping: 0.170400 ms MarkObjects: 4.296800 ms  DeleteObjects: 0.735800 ms)
+Total: 5.486100 ms (FindLiveObjects: 0.388800 ms CreateObjectMapping: 0.161300 ms MarkObjects: 4.175700 ms  DeleteObjects: 0.758500 ms)
 
 ========================================================================
 Received Import Request.
   path: Assets/Prefab/Character_fixed.prefab
   artifactKey: Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Character_fixed.prefab using Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ffa766d39d8013e53aa2f97c3dcc1c1') in 0.275992 seconds
-  Import took 0.288013 seconds .
+Start importing Assets/Prefab/Character_fixed.prefab using Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf4cf3545d9cc2f6b6b0f362b113665') in 0.293698 seconds
+  Import took 0.306875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.546942 seconds.
+  path: Assets/Prefab/Character_fixed.prefab
+  artifactKey: Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character_fixed.prefab using Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c908c7c8d029b1db56ba5da3d02bcfb') in 0.045839 seconds
+  Import took 0.062132 seconds .
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 1.61 ms, found 0 plugins.
+Registering precompiled user dll's ...
+Registered in 0.008649 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000262A2CDF010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E1B7F70 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A1E43020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A366E030 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E10F1F0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A30E0010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A1E43020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0A3B020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A366E030 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E621F50 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A09C1440 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E43E020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E062B90 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262ABA2BA20 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262ABA96030 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A366E030 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A366E030 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0A3B020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A1A00090 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A30E0010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0FDA020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E12C370 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262AB16CFD0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E621F50 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A1162430 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E1B7F70 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E2103C0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E4C3BB0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A30E9420 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A07EF020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E2A5010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A346E010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0C480D0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E2A5010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 203.8 MB.
-System memory in use after: 203.7 MB.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2680.
-Total: 4.383500 ms (FindLiveObjects: 0.577600 ms CreateObjectMapping: 0.190800 ms MarkObjects: 3.235900 ms  DeleteObjects: 0.377000 ms)
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.071 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2089 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 245.1 MB.
+System memory in use after: 245.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2682.
+Total: 6.768500 ms (FindLiveObjects: 0.429200 ms CreateObjectMapping: 0.282800 ms MarkObjects: 5.409900 ms  DeleteObjects: 0.643200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 267.154072 seconds.
+  path: Assets/Prefab/Character_fixed.prefab
+  artifactKey: Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character_fixed.prefab using Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a22e38c469a2ed63c4e748fc3f0cab') in 0.226772 seconds
+  Import took 0.245188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.665008 seconds.
+  path: Assets/Prefab/Character_fixed.prefab
+  artifactKey: Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character_fixed.prefab using Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06b25da3a47093ed1e3d35b546bc0ff') in 0.081089 seconds
+  Import took 0.097988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.172154 seconds.
+  path: Assets/Prefab/Character_fixed.prefab
+  artifactKey: Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character_fixed.prefab using Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea75bc130ca36622cb7be2396b1bfb5') in 0.243349 seconds
+  Import took 0.260115 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004556 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000262A18E2B70 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F57CFCC0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0DB2010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262ABDE1010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A1A68960 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E2A5010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0DB2010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0747020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A36D1030 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A2A60090 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A2CC0440 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0614020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0993020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A747B080 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A747B080 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A36D1030 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262ABDE1010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A223A010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262AB7B0B70 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E2A5010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0FDA020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A1E50630 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A75718C0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0D36030 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E2A5010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000260F57CFCC0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A7376090 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0614020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262ABA2E150 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A254C030 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262AB85E010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A7FF8AD0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A8668340 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262AB85E010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.431 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2089 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 245.2 MB.
+System memory in use after: 245.1 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2685.
+Total: 5.246700 ms (FindLiveObjects: 0.335100 ms CreateObjectMapping: 0.151000 ms MarkObjects: 4.005000 ms  DeleteObjects: 0.753000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.456246 seconds.
+  path: Assets/Prefab/Character_fixed.prefab
+  artifactKey: Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character_fixed.prefab using Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6fa32d8b0cc859a76480c14b891cdd') in 0.101465 seconds
+  Import took 0.118680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.583802 seconds.
+  path: Assets/Prefab/Character_fixed.prefab
+  artifactKey: Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character_fixed.prefab using Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611f261a3a12679e4c597bfa4f0bcee6') in 0.068483 seconds
+  Import took 0.079304 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002077 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000262A4A94290 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A6D3CF80 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0DB2010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E2FC010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A1A62990 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0DB2010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0DB2010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0747020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E2FC010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A2243E40 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A3671A60 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E634430 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262AA7C0060 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A30E0010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A30E0010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E2FC010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E2FC010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262ABC50120 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A3166040 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262AB85E010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0FDA020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A6D3CF80 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262AB1E73E0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A2243E40 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262AB85E010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A6D3CF80 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A09C74D0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E634430 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A4D399C0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E3B9ED0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262AB85E010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A4CBC2A0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A7BEB5C0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262AB85E010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.886 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2089 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 245.2 MB.
+System memory in use after: 245.1 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2688.
+Total: 5.125900 ms (FindLiveObjects: 0.266600 ms CreateObjectMapping: 0.110000 ms MarkObjects: 4.340100 ms  DeleteObjects: 0.407200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.169689 seconds.
+  path: Assets/Prefab/Character_fixed.prefab
+  artifactKey: Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character_fixed.prefab using Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497f517cc04884d3b02870019100b3bd') in 0.073122 seconds
+  Import took 0.082876 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008176 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000262A7517C80 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A81AB380 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0DB2010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E043040 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A1A68DF0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262AB85E010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262ABBD0050 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0747020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E043040 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A4A364A0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A81AB380 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E062B90 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A7C99350 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A687C080 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A687C080 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E043040 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E043040 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A230E040 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E043040 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262AB85E010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0FDA020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A81AB380 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A731F340 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A4A364A0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262ABBD0050 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A81AB380 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A6849800 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262AA7C0060 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A6D3C900 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262AA96A020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262AB85E010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E047850 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A86695C0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262AB85E010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.035 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2089 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 245.2 MB.
+System memory in use after: 245.2 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2691.
+Total: 4.484900 ms (FindLiveObjects: 0.369700 ms CreateObjectMapping: 0.162200 ms MarkObjects: 3.496800 ms  DeleteObjects: 0.454100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.565423 seconds.
+  path: Assets/Prefab/Character_fixed.prefab
+  artifactKey: Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character_fixed.prefab using Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e005ded2d92d8c0056200c29d445d8') in 0.118112 seconds
+  Import took 0.133074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.882777 seconds.
+  path: Assets/Prefab/Character_fixed.prefab
+  artifactKey: Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character_fixed.prefab using Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da671792c336690923c6a8878dd08fc4') in 0.039441 seconds
+  Import took 0.051894 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003034 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000262A747EAB0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A6D3C7C0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0DB2010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A4A26480 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A1A652A0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0DB2010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0DB2010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0747020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A4A26480 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A2A60090 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E828090 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E062B90 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262AB51A020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A30E0010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A30E0010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A4A26480 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A4A26480 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E3B9ED0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A4A26480 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A224A420 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0FDA020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E828090 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A8351740 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0F54020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A09F0E50 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A6D3C7C0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262AB0966B0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E4C3BB0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627EA07060 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0FDA020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A09F0E50 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A7C651A0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0F07EF0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A224A420 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.457 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2089 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 245.2 MB.
+System memory in use after: 245.2 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2694.
+Total: 8.259700 ms (FindLiveObjects: 0.571800 ms CreateObjectMapping: 0.262200 ms MarkObjects: 6.446600 ms  DeleteObjects: 0.974700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003289 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000262A0B23820 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026279469420 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0DB2010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A7CAB010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A1A64980 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0DB2010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0DB2010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0747020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A7CAB010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E3C3D00 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262AC3CB010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E062B90 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E131EE0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A30E0010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A30E0010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A7CAB010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A7CAB010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A695F510 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A7CAB010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262AC0EA010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0FDA020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262AC3CB010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A731E5C0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E3C3D00 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262AC0EA010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026279469420 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A07F45C0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E4C3BB0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026279469420 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A7FCCFA0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262AC0EA010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A7BF5950 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0F07A50 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A224A420 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.690 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2089 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 245.5 MB.
+System memory in use after: 245.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2696.
+Total: 4.703900 ms (FindLiveObjects: 0.344000 ms CreateObjectMapping: 0.227700 ms MarkObjects: 3.794700 ms  DeleteObjects: 0.334900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.534632 seconds.
+  path: Assets/Prefab/Character_fixed.prefab
+  artifactKey: Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character_fixed.prefab using Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4be6017abcf1c665906ebc6113340f0') in 0.112532 seconds
+  Import took 0.124573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.223374 seconds.
+  path: Assets/Prefab/Character_fixed.prefab
+  artifactKey: Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character_fixed.prefab using Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c1a66625319fd0e15f90f23b14d105') in 0.257168 seconds
+  Import took 0.278777 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003021 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000262A2C3AC00 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A4B34010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0DB2010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A4A3E4B0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A1A60E30 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A7344F00 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262AC0E9F20 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0747020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A4A3E4B0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A2A60090 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A223DA40 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E062B90 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A7256010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A30E0010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A30E0010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A4A3E4B0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A4A3E4B0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A230E040 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A4A3E4B0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A7344F00 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A2AA2020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262AADE7A80 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A753F330 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0F54020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A7344F00 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A4B34010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A841F490 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E4C3BB0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000026279469420 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A85DA850 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A7344F00 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A4A42CC0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0D4BC80 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A224A420 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.234 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2089 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 245.6 MB.
+System memory in use after: 245.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2699.
+Total: 118.163800 ms (FindLiveObjects: 2.557200 ms CreateObjectMapping: 1.593900 ms MarkObjects: 105.100600 ms  DeleteObjects: 8.908800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.675350 seconds.
+  path: Assets/Prefab/Character_fixed.prefab
+  artifactKey: Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character_fixed.prefab using Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91eae3bcc4f0243bcef11d5f0456b090') in 0.277409 seconds
+  Import took 0.323917 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002328 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000262A7AA6DB0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A4B34010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0DB2010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A223A010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A1A6ADE0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A2600020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0DB2010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0747020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A223A010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A2A60090 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262ABBD3A80 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E062B90 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A8135F70 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A30BF020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A7344F00 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A223A010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A223A010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A230E040 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A223A010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A1E43020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A2376010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A24A8D20 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262AB28E8C0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A0F54020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A2600020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A4B34010 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A6FBA8E0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E4C3BB0 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A8007E40 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A7C24B70 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A2600020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002627E046490 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A8667A00 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000262A1E43020 doesn't match image C:\Users\patri\OneDrive\Dokumente\GitHub\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 7.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.098 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2089 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 245.6 MB.
+System memory in use after: 245.6 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2702.
+Total: 6.143900 ms (FindLiveObjects: 0.270800 ms CreateObjectMapping: 0.132900 ms MarkObjects: 4.931400 ms  DeleteObjects: 0.806700 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
