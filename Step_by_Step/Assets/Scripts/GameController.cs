@@ -8,9 +8,9 @@ public class GameController : MonoBehaviour
     public CharacterController characterController;
     public Animator audioFadeOut;
 
-    public AudioSource audioSource;
-    public AudioClip music0;
-    public AudioClip music1;
+     public AudioSource audioSource;
+     public AudioClip music0;
+     public AudioClip music1;
 
     public GameObject Character;
     public Vector3 respawnLocation;
