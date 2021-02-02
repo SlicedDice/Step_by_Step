@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6abf8eb403f1a3f4e99d13296e6242f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  degreeValue: 0
+  degreeValue: 10
 --- !u!1 &7890422569929480962
 GameObject:
   m_ObjectHideFlags: 0

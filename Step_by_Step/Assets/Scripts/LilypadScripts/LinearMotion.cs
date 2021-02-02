@@ -5,9 +5,7 @@ using UnityEngine;
 public class LinearMotion : MonoBehaviour
 {
     public float moveDistance;
-    public float northLimit;
-    public float southLimit;
-    public static bool reachedEdge = false;
+    public bool reachedEdge;
 
     // Update is called once per frame
     void Update()
@@ -18,6 +16,11 @@ public class LinearMotion : MonoBehaviour
             reachedEdge = false;
         }
         transform.localPosition = transform.localPosition + new Vector3(moveDistance * Time.deltaTime, 0, 0);
+    }
+
+    public void setEdgeTrue()
+    {
+        moveDistance = moveDistance * -1;
     }
 }
 
