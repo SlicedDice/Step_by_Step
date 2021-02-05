@@ -25,10 +25,10 @@ CharacterJoint:
   m_GameObject: {fileID: 45698286113703185}
   m_ConnectedBody: {fileID: 3825029458553241982}
   m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: -0.005, z: -0.0125}
+  m_Anchor: {x: 0.002, y: -0.0015, z: -0.015}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.004999836, y: 0.30666685, z: 1.2416667}
+  m_ConnectedAnchor: {x: 0.19500035, y: 0.056666896, z: 0.891667}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 1, z: 0}
   m_TwistLimitSpring:
@@ -87,10 +87,10 @@ CharacterJoint:
   m_GameObject: {fileID: 5482947322054686779}
   m_ConnectedBody: {fileID: 3825029458553241982}
   m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: -0.005, z: -0.0125}
+  m_Anchor: {x: -0.002, y: -0.0015, z: -0.015}
   m_Axis: {x: 1, y: 0, z: 0}
-  m_AutoConfigureConnectedAnchor: 0
-  m_ConnectedAnchor: {x: -0.008333126, y: 0.28166687, z: 1.2066668}
+  m_AutoConfigureConnectedAnchor: 1
+  m_ConnectedAnchor: {x: -0.20833291, y: 0.03166692, z: 0.8566668}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 1, z: 0}
   m_TwistLimitSpring:
@@ -895,15 +895,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae244f54fec346c4abe6ec7242f48908, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainBody: {fileID: 6840605447505951676}
+  mainBody: {fileID: 6026618606037848375}
   balanceThrust: 5
   rotation: 100
   rightFoot: {fileID: 6840605447652912922}
   leftFoot: {fileID: 6840605446513353521}
   feetMassBase: 20
   footWeightWhileMoving: 1
-  stiltLeft: {fileID: 6840605446303313980}
-  stiltRight: {fileID: 6840605446523141143}
+  stiltLeft: {fileID: 5482947322054686779}
+  stiltRight: {fileID: 45698286113703185}
   rotationObj: {fileID: 6840605447505951676}
   foundCollectible: 0
 --- !u!1 &6840605447505951676
