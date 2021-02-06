@@ -12,9 +12,13 @@ public class BodyScript : MonoBehaviour
     public AudioClip pickUpSound;
 
     private AudioSource audioSource;
+
+
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
+
     }
     void OnCollisionEnter(Collision collision)
     {
@@ -34,7 +38,26 @@ public class BodyScript : MonoBehaviour
 
             audioSource.clip = pickUpSound;
             audioSource.Play();
-            characterController.foundCollectible = true;
+            
+
+            switch (col.gameObject.name)
+            {
+                case "BeanstalkCollectible":
+                    characterController.foundBeanstalkCollectible = true;
+                    gameController.rotateCamera(1);
+                    break;
+                case "ShipCollectible":
+                    characterController.foundShipCollectible = true;
+                    gameController.rotateCamera(2);
+                    break;
+                case "RuinCollectible":
+                    characterController.foundRuinCollectible = true;
+                    gameController.rotateCamera(3);
+                    break;
+                default:
+                    gameController.rotateCamera(0);
+                    break;
+            }
         }
         else if(col.gameObject.tag == "River")
         {
@@ -44,7 +67,9 @@ public class BodyScript : MonoBehaviour
         }
         else if(col.gameObject.tag == "ResetZone")
         {
-            characterController.setResetLocation(gameObject.transform.position);
+            Vector3 resLoc = col.gameObject.transform.position;
+            Quaternion resRot = col.gameObject.transform.rotation;
+            characterController.setResetLocation(resLoc, resRot);
         }
     }
 }
