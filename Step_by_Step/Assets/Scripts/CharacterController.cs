@@ -30,8 +30,8 @@ public class CharacterController : MonoBehaviour
     public bool foundRuinCollectible = false;
 
 
-    private bool movementByCamera = false;
-    private bool invertedControls = false;
+    private bool movementByCamera = true;
+    private bool invertedControls = true;
 
     private Vector3 respawnLocation; //Location when respawning with (R)
     private Quaternion respawnRotation;
@@ -42,17 +42,21 @@ public class CharacterController : MonoBehaviour
     private CameraController mainCam;
 
     private float resetCooldown = 1f;
+
+    public float legRaise;
     
     // Start is called before the first frame update
     void Start()
     {
+        gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
+        gameController.characterController = gameObject.GetComponent<CharacterController>();
+        
         mainRB = mainBody.GetComponent<Rigidbody>();
         lastMousePos = Input.mousePosition;
         leftFoot.GetComponent<Rigidbody>().mass = feetMassBase;
         rightFoot.GetComponent<Rigidbody>().mass = feetMassBase;
 
-        gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
-        gameController.characterController = gameObject.GetComponent<CharacterController>();
+        
 
         mainCam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraController>();
         mainCam.playerCharacter = mainBody;
@@ -176,7 +180,7 @@ public class CharacterController : MonoBehaviour
 
         Quaternion quat = mainCam.gameObject.transform.rotation;
 
-        Vector3 t = quat.ToEulerAngles();
+        Vector3 t = quat.eulerAngles;
         Vector3 tmp1 = new Vector3(t.x, 0.0f, t.z);
         Vector3 tmp2 = new Vector3(-t.z, 0.0f, t.x);
         
@@ -189,7 +193,7 @@ public class CharacterController : MonoBehaviour
 
             Rigidbody leftFootRB = leftFoot.GetComponent<Rigidbody>();
 
-            charJointLeft.connectedAnchor = new Vector3(tmpL.x, 0.2f, tmpL.z);
+            charJointLeft.connectedAnchor = new Vector3(tmpL.x, legRaise, tmpL.z);
             rotateCharacterRightStilt();
             leftFootRB.mass = footWeightWhileMoving;
             leftFootRB.AddForce(tmp1 * deltaMouseMov.y * 2);
@@ -202,7 +206,7 @@ public class CharacterController : MonoBehaviour
 
             Rigidbody rightFootRB = rightFoot.GetComponent<Rigidbody>();
 
-            charJointRight.connectedAnchor = new Vector3(tmpR.x, 0.2f, tmpR.z);
+            charJointRight.connectedAnchor = new Vector3(tmpR.x, legRaise, tmpR.z);
             rotateCharacterLeftStilt();
             rightFootRB.mass = footWeightWhileMoving;
             rightFootRB.AddForce(tmp1 * deltaMouseMov.y *2);
@@ -239,7 +243,7 @@ public class CharacterController : MonoBehaviour
 
             Rigidbody leftFootRB = leftFoot.GetComponent<Rigidbody>();
 
-            charJointLeft.connectedAnchor = new Vector3(tmpL.x, 0.2f, tmpL.z);
+            charJointLeft.connectedAnchor = new Vector3(tmpL.x, legRaise, tmpL.z);
             rotateCharacterRightStilt();
             leftFootRB.mass = footWeightWhileMoving;
             leftFootRB.AddForce(mainBody.transform.forward * -deltaMouseMov.y * 2);
@@ -253,7 +257,7 @@ public class CharacterController : MonoBehaviour
 
             Rigidbody rightFootRB = rightFoot.GetComponent<Rigidbody>();
 
-            charJointRight.connectedAnchor = new Vector3(tmpR.x, 0.2f, tmpR.z);
+            charJointRight.connectedAnchor = new Vector3(tmpR.x, legRaise, tmpR.z);
             rotateCharacterLeftStilt();
             rightFootRB.mass = footWeightWhileMoving;
             rightFootRB.AddForce(mainBody.transform.forward * -deltaMouseMov.y * 2);

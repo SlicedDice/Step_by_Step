@@ -12,9 +12,11 @@ public class BodyScript : MonoBehaviour
     public AudioClip pickUpSound;
 
     private AudioSource audioSource;
+
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
     }
     void OnCollisionEnter(Collision collision)
     {
@@ -28,6 +30,8 @@ public class BodyScript : MonoBehaviour
 
     void OnTriggerEnter(Collider col)
     {
+        gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
+
         if (col.gameObject.tag == "Collectible")
         {
             Destroy(col.gameObject);
@@ -64,7 +68,8 @@ public class BodyScript : MonoBehaviour
         {
             Vector3 resLoc = col.gameObject.transform.position;
             Quaternion resRot = col.gameObject.transform.rotation;
-            characterController.setResetLocation(resLoc, resRot);
+            gameController.respawnLocation = resLoc;
+            gameController.respawnRotation = resRot;
         }
     }
 }
