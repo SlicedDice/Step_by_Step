@@ -5,13 +5,13 @@ using UnityEngine;
 public class MusicController : MonoBehaviour
 {
 
-    // list of sources playing tracks 1 to 3
+    // array of sources playing tracks 1 to 3
     public AudioSource [] audioSources; // careful. ends with an S (audiosource"S")
 
-    // list containing 3 currently played tracks
+    // array containing 3 currently played tracks
     private AudioClip [] currentsong;
 
-    // lists containing 3 tracks of the given song
+    // array containing 3 tracks of the given song
     public AudioClip [] region1song1;
     public AudioClip [] region1song2;
     public AudioClip [] region2song1;
@@ -19,6 +19,7 @@ public class MusicController : MonoBehaviour
     public AudioClip [] region3song1;
     public AudioClip [] region3song2;
 
+    private DataTracking tracker;
 
     private bool fading = false; // true during fade out of music after death
     public bool dead = false; // true if dead
@@ -33,6 +34,8 @@ public class MusicController : MonoBehaviour
         audioSources[0].clip = currentsong[0];
         audioSources[1].clip = currentsong[1];
         audioSources[2].clip = currentsong[2];
+
+        tracker = GameObject.FindGameObjectWithTag("Foot").GetComponent<DataTracking>();
 
         MusicRestart1();
     }
@@ -109,8 +112,33 @@ public class MusicController : MonoBehaviour
         yield break;
     }
 
+    private void Song1or2()
+    {
+        float stepdistance = tracker.AverageStepDistance();
+        float steptime = tracker.AverageStepTime();
+        float standtime = tracker.AverageTimeBetweenSteps();
+
+        int points = 0; // wonky points
+
+        if (stepdistance <= 1.2f) points++;
+        if (steptime <= 1f) points++;
+        if (standtime <= 0.8f) points++;
+
+        if (points<=2)
+        {
+            song1 = true;
+        } else
+        {
+            song1 = false;
+        }
+
+        tracker.ResetData();
+    }
+
     public void UpdateCurrentSong() // updates current song, used after updating region and song1 when restarting music
     {
+        Song1or2();
+
         if (region == 1 && song1) currentsong = region1song1;
         else if (region == 1 && !song1) currentsong = region1song2;
         else if (region == 2 && song1) currentsong = region2song1;

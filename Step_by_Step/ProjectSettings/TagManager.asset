@@ -11,6 +11,7 @@ TagManager:
   - Swamp Ground
   - River
   - ResetZone
+  - Foot
   layers:
   - Default
   - TransparentFX
