@@ -29,10 +29,10 @@ public class DataTracking : MonoBehaviour
         timeBetweenStepList.Add(0.8f);
 
         stepDistance = 0f;
-        stepDistanceList.Add(1.2f);
+        stepDistanceList.Add(1.4f);
 
         timeForStep = 0f;
-        timeForStepList.Add(1f);
+        timeForStepList.Add(1.4f);
 
     }
 
@@ -50,8 +50,10 @@ public class DataTracking : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse0) || Input.GetKeyDown(KeyCode.Mouse1))
         {
             if (timeBetweenStep != 0f) timeBetweenStepList.Add(timeBetweenStep);
+             
             // float z = timeBetweenStepList.Average();
-            // Debug.Log(timeBetweenStep.ToString() + " Average: " + z.ToString());
+            // Debug.Log("StandTime " + timeBetweenStep.ToString() + " Average: " + z.ToString() +  "ListCount " + stepDistanceList.Count.ToString());
+            
             timeBetweenStep = 0f;
         }
     }
@@ -64,12 +66,15 @@ public class DataTracking : MonoBehaviour
             {
                 stepDistance = (rightFoot.transform.position - leftFoot.transform.position).magnitude;
                 if (stepDistance != 0f) stepDistanceList.Add(stepDistance);
-                // float y = stepDistanceList.Average();
-                // Debug.Log(stepDistance.ToString() + " Average: " + y.ToString());
+             
+             //   float y = stepDistanceList.Average();
+             //   Debug.Log("Distance " + stepDistance.ToString() + " Average: " + y.ToString() + "ListCount " + stepDistanceList.Count.ToString());
 
                 if (timeForStep != 0f) timeForStepList.Add(timeForStep);
-                // float x = timeForStepList.Average();
-                // Debug.Log(timeForStep.ToString()+ " Average: " + x.ToString());
+             
+             //    float x = timeForStepList.Average();
+             //    Debug.Log("StepTime " + timeForStep.ToString()+ " Average: " + x.ToString());
+             
                 timeForStep = 0f;
                 
 
@@ -80,12 +85,15 @@ public class DataTracking : MonoBehaviour
     public void ResetData()
     {
         timeBetweenStep = 0f;
+        timeBetweenStepList.Clear();
         timeBetweenStepList.Add(0.8f);
 
         stepDistance = 0f;
+        stepDistanceList.Clear();
         stepDistanceList.Add(1.2f);
 
         timeForStep = 0f;
+        timeForStepList.Clear();
         timeForStepList.Add(1f);
     }
 

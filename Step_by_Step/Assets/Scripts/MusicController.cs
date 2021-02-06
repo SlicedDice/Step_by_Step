@@ -19,7 +19,7 @@ public class MusicController : MonoBehaviour
     public AudioClip [] region3song1;
     public AudioClip [] region3song2;
 
-    private DataTracking tracker;
+    public DataTracking tracker;
 
     private bool fading = false; // true during fade out of music after death
     public bool dead = false; // true if dead
@@ -112,28 +112,7 @@ public class MusicController : MonoBehaviour
         yield break;
     }
 
-    private void Song1or2()
-    {
-        float stepdistance = tracker.AverageStepDistance();
-        float steptime = tracker.AverageStepTime();
-        float standtime = tracker.AverageTimeBetweenSteps();
 
-        int points = 0; // wonky points
-
-        if (stepdistance <= 1.2f) points++;
-        if (steptime <= 1f) points++;
-        if (standtime <= 0.8f) points++;
-
-        if (points<=2)
-        {
-            song1 = true;
-        } else
-        {
-            song1 = false;
-        }
-
-        tracker.ResetData();
-    }
 
     public void UpdateCurrentSong() // updates current song, used after updating region and song1 when restarting music
     {
@@ -147,6 +126,42 @@ public class MusicController : MonoBehaviour
         else if (region == 3 && !song1) currentsong = region3song2;
     }
 
+    public void Song1or2()
+    {
+        float stepdistance = tracker.AverageStepDistance();
+        float steptime = tracker.AverageStepTime();
+        float standtime = tracker.AverageTimeBetweenSteps();
+
+        int points = 0; // wonky points
+
+        if (stepdistance <= 1.3f)
+        {
+            points++;
+        }
+        if (steptime <= 2.5f)
+        {
+            points++;
+        }
+        if (standtime <= 0.8f)
+        {
+            points++;
+        }
+
+
+        if (points > 1)
+        {
+            song1 = false;
+        }
+        else
+        {
+            song1 = true;
+        }
+
+    //    Debug.Log("             " + points + "       " + song1);
+
+        tracker.ResetData();
+    }
+
     public void MusicStop() // fades music out with pitch shift, used when character dies
     {
         UpdateCurrentSong();
@@ -158,8 +173,11 @@ public class MusicController : MonoBehaviour
         dead = true;
     }
     
-    public void MusicRestart() // fades music back in after 3 seconds if fading out, or instantly if not fading out, use when starting game and restarting from checkpoint
+    public void MusicRestart() // fades music back in after 3 seconds if fading out, or instantly if not fading out, use when starting game and restarting from checkpoint; press r does this
     {
+        tracker = GameObject.FindGameObjectWithTag("Foot").GetComponent<DataTracking>();
+        // UpdateCurrentSong();
+
         if (fading == true)
         {
             Invoke("MusicRestart1", 3f);
