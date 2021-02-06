@@ -25,23 +25,18 @@ public class CharacterController : MonoBehaviour
     private Vector2 lastMousePos = new Vector2(); //The last position of the mouse; to calculate the mouse movement
 
 
-    public bool foundBeanstalkCollectible = false; //Collectible Items
-    public bool foundShipCollectible = false;
-    public bool foundRuinCollectible = false;
-
+    public bool foundCollectible = false; //Test Collectible Item, until all actual collectible items are decided on
 
     private bool movementByCamera = false;
     private bool invertedControls = false;
 
     private Vector3 respawnLocation; //Location when respawning with (R)
-    private Quaternion respawnRotation; //Rotation when respawning with (R)
 
     private bool dead = false;
 
     private GameController gameController;
     private CameraController mainCam;
     
-    private float resetCooldown = 1f;
     // Start is called before the first frame update
     void Start()
     {
@@ -55,11 +50,6 @@ public class CharacterController : MonoBehaviour
 
         mainCam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraController>();
         mainCam.playerCharacter = mainBody;
-
-        respawnLocation = transform.position;
-        respawnRotation = transform.rotation;
-
-        setResetLocation(respawnLocation, respawnRotation);
     }
 
     // Update is called once per frame
@@ -72,12 +62,13 @@ public class CharacterController : MonoBehaviour
             if (movementByCamera) walkingControlsByCamera();
             else walkingControlsByCharacter();
 
+
             lastMousePos = Input.mousePosition;
         }
         
         generalControls();
 
-        resetCooldown -= Time.deltaTime;
+
     }
 
     public void death(bool pDead)
@@ -87,9 +78,12 @@ public class CharacterController : MonoBehaviour
 
     void generalControls()
     {
-        if (Input.GetKey("r") && resetCooldown <= 0f)
+        if (Input.GetKey("r"))
         {
-            resetCooldown = 1f;
+            Time.timeScale = 0;
+
+            transform.localPosition = respawnLocation;
+            Time.timeScale = 1;
 
             gameController.dead = false;
             gameController.reset();
@@ -97,10 +91,9 @@ public class CharacterController : MonoBehaviour
         }
     }
 
-    public void setResetLocation(Vector3 resetLocation, Quaternion resetRotation)
+    public void setResetLocation(Vector3 resetLocation)
     {
         gameController.respawnLocation = resetLocation;
-        gameController.respawnRotation = resetRotation;
     }
 
 
