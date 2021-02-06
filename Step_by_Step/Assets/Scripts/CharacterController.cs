@@ -48,8 +48,6 @@ public class CharacterController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
-        gameController.characterController = gameObject.GetComponent<CharacterController>();
         
         mainRB = mainBody.GetComponent<Rigidbody>();
         lastMousePos = Input.mousePosition;
@@ -60,6 +58,9 @@ public class CharacterController : MonoBehaviour
 
         mainCam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraController>();
         mainCam.playerCharacter = mainBody;
+
+        gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
+        gameController.characterController = gameObject.GetComponent<CharacterController>();
 
         respawnLocation = transform.position;
         respawnRotation = transform.rotation;
@@ -181,13 +182,12 @@ public class CharacterController : MonoBehaviour
         Quaternion quat = mainCam.gameObject.transform.rotation;
 
         Vector3 t = quat.eulerAngles;
-        Vector3 tmp1 = new Vector3(t.x, 0.0f, t.z);
-        Vector3 tmp2 = new Vector3(-t.z, 0.0f, t.x);
+        Vector3 tmp1 = new Vector3(t.x / 180f, 0.0f, t.z / 180f);
+        Vector3 tmp2 = new Vector3(-t.z / 180f, 0.0f, t.x / 180f);
         
 
         if (Input.GetMouseButton(0))
         {
-
             Vector2 deltaMouseMov = mouseMov();
             if(!invertedControls) deltaMouseMov *= -1f;
 
