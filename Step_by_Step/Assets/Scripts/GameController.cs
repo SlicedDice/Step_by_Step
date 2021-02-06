@@ -9,6 +9,7 @@ public class GameController : MonoBehaviour
     public Animator audioFadeOut;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     private MusicController musicController; // george code
 
@@ -29,6 +30,11 @@ public class GameController : MonoBehaviour
      public AudioClip music0;
      public AudioClip music1;
 >>>>>>> parent of 0cd521de... audio triggers
+=======
+     public AudioSource audioSource;
+     public AudioClip music0;
+     public AudioClip music1;
+>>>>>>> parent of 0cd521de... audio triggers
 
     public GameObject Character;
 
@@ -39,11 +45,14 @@ public class GameController : MonoBehaviour
 
     private bool boMusic0 = true;
 
+<<<<<<< HEAD
     void Start()
     {
         mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
         mainCam = mainCamera.GetComponent<CameraController>();
     }
+=======
+>>>>>>> parent of 0cd521de... audio triggers
     void PauseGame() 
     {
         Time.timeScale = 0;
@@ -84,6 +93,7 @@ public class GameController : MonoBehaviour
 <<<<<<< Updated upstream
         Instantiate(Character, respawnLocation, Quaternion.identity);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         musicController.MusicRestart(); // george code
 
@@ -112,6 +122,8 @@ public class GameController : MonoBehaviour
                 break;
         }
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of 0cd521de... audio triggers
 =======
 >>>>>>> parent of 0cd521de... audio triggers
     }

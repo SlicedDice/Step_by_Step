@@ -29,7 +29,10 @@ public class CharacterController : MonoBehaviour
     public bool foundShipCollectible = false;
     public bool foundRuinCollectible = false;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 0cd521de... audio triggers
     private bool movementByCamera = true;
     private bool invertedControls = true;
 
