@@ -27,8 +27,8 @@ public class CharacterController : MonoBehaviour
 
     public bool foundCollectible = false; //Test Collectible Item, until all actual collectible items are decided on
 
-    private bool movementByCamera = false;
-    private bool invertedControls = false;
+    private bool movementByCamera = true;
+    private bool invertedControls = true;
 
     private Vector3 respawnLocation; //Location when respawning with (R)
 
@@ -224,7 +224,7 @@ public class CharacterController : MonoBehaviour
         if (Input.GetMouseButton(0))
         {
             Vector2 deltaMouseMov = mouseMov();
-            if (invertedControls) deltaMouseMov *= -1f;
+            if (!invertedControls) deltaMouseMov *= -1f;
 
             Rigidbody leftFootRB = leftFoot.GetComponent<Rigidbody>();
 
@@ -238,7 +238,7 @@ public class CharacterController : MonoBehaviour
         else if (Input.GetMouseButton(1))
         {
             Vector2 deltaMouseMov = mouseMov();
-            if (invertedControls) deltaMouseMov *= -1f;
+            if (!invertedControls) deltaMouseMov *= -1f;
 
             Rigidbody rightFootRB = rightFoot.GetComponent<Rigidbody>();
 
