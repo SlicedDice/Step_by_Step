@@ -10,6 +10,7 @@ public class WalkingSound : MonoBehaviour
     public List<AudioClip> swampSurface = new List<AudioClip>();
     public List<AudioClip> wetSurface = new List<AudioClip>();
 
+    public GameObject character;
 
     void OnCollisionEnter(Collision collision)
     {
@@ -31,8 +32,15 @@ public class WalkingSound : MonoBehaviour
                 audioSource.Play();
             }
         }
-    }            
-
+    }
+    void OnCollisionStay(Collision collision)
+    {
+        if (collision.gameObject.tag == "Lilypads")
+        {
+            Vector3 pos = collision.transform.position;
+            character.transform.localPosition = new Vector3(pos.x, character.transform.localPosition.y, pos.z);
+        }
+    }
 
     AudioClip randomClip(List<AudioClip> clipList)
     {

@@ -700,6 +700,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 67e799b0a86090d409126a343324fb49, type: 3}
   - {fileID: 8300000, guid: 956e478418bf1254499305b5d611631b, type: 3}
   - {fileID: 8300000, guid: eeccd33c4775c9446addbe2a8a29a6d1, type: 3}
+  character: {fileID: 6840605446966507423}
 --- !u!114 &7816170164950277678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -923,6 +924,8 @@ MonoBehaviour:
   foundBeanstalkCollectible: 0
   foundShipCollectible: 0
   foundRuinCollectible: 0
+  movementByCamera: 1
+  invertedControls: 1
   legRaise: 0.12
 --- !u!1 &6840605447505951676
 GameObject:
@@ -1439,6 +1442,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 67e799b0a86090d409126a343324fb49, type: 3}
   - {fileID: 8300000, guid: 956e478418bf1254499305b5d611631b, type: 3}
   - {fileID: 8300000, guid: eeccd33c4775c9446addbe2a8a29a6d1, type: 3}
+  character: {fileID: 6840605446966507423}
 --- !u!114 &8002375380312929359
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -13,6 +13,7 @@ TagManager:
   - ResetZone
   - Foot
   - PauseMenu
+  - Lilypads
   layers:
   - Default
   - TransparentFX
