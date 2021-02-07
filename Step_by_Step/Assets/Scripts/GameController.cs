@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
@@ -26,7 +27,8 @@ public class GameController : MonoBehaviour
     private GameObject mainCamera;
     private CameraController mainCam;
 
-
+    public GameObject pauseMenu;
+    private bool activePauseMenu = false;
 
     private void Start()
     {
@@ -34,16 +36,65 @@ public class GameController : MonoBehaviour
 
         mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
         mainCam = mainCamera.GetComponent<CameraController>();
+
+        characterController = GameObject.FindGameObjectWithTag("Player").GetComponent<CharacterController>();
+
+        ResumeGame();
     }
 
-    void PauseGame()
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (activePauseMenu)
+            {
+                pauseMenu.SetActive(false);
+                activePauseMenu = false;
+                ResumeGame();
+            }
+            else if (!activePauseMenu)
+            {
+                pauseMenu.SetActive(true);
+                activePauseMenu = true;
+                PauseGame();
+            }
+        }
+    }
+    public void SavePlayer()
+    {
+        SaveSystem.SavePlayer(characterController);
+    }
+    public void LoadPlayer()
+    {
+        PlayerData data = SaveSystem.LoadPlayer();
+
+        respawnLocation = new Vector3(data.respawnLocation[0], data.respawnLocation[1], data.respawnLocation[2]);
+        respawnRotation = new Quaternion(data.respawnRotation[0], data.respawnRotation[1], data.respawnRotation[2], data.respawnRotation[3]);
+
+        characterController.loadPlayer(data);
+
+        characterController.invertedControls = data.invertedControls;
+        characterController.movementByCamera = data.movementByCamera;
+    }
+    public void ExitGame()
+    {
+        SceneManager.LoadScene(sceneName: "Main Menu");
+    }
+    public void PauseGame()
     {
         Time.timeScale = 0;
     }
-
-    void ResumeGame()
+    public void ResumeGame()
     {
         Time.timeScale = 1;
+    }
+    public void toggleInverted()
+    {
+        characterController.invertedControls = !characterController.invertedControls;
+    }
+    public void toggleControls()
+    {
+        characterController.movementByCamera = !characterController.movementByCamera;
     }
 
     public void GameOver()

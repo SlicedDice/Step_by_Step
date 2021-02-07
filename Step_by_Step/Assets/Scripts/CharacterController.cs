@@ -30,8 +30,8 @@ public class CharacterController : MonoBehaviour
     public bool foundRuinCollectible = false;
 
 
-    private bool movementByCamera = true;
-    private bool invertedControls = true;
+    public bool movementByCamera = true;
+    public bool invertedControls = true;
 
     private Vector3 respawnLocation; //Location when respawning with (R)
     private Quaternion respawnRotation;
@@ -60,7 +60,6 @@ public class CharacterController : MonoBehaviour
         mainCam.playerCharacter = mainBody;
 
         gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
-        gameController.characterController = gameObject.GetComponent<CharacterController>();
 
         respawnLocation = transform.position;
         respawnRotation = transform.rotation;
@@ -89,6 +88,17 @@ public class CharacterController : MonoBehaviour
         resetCooldown -= Time.deltaTime;
     }
 
+    public void loadPlayer(PlayerData data)
+    {
+
+        respawnLocation = new Vector3(data.respawnLocation[0], data.respawnLocation[1], data.respawnLocation[2]);
+        respawnRotation = new Quaternion(data.respawnRotation[0], data.respawnRotation[1], data.respawnRotation[2], data.respawnRotation[3]);
+
+        foundBeanstalkCollectible = data.beanstalkCollectible;
+        foundShipCollectible = data.shipwreckCollectible;
+        foundRuinCollectible = data.ruinCollectible;
+    }
+
     public void death(bool pDead)
     {
         dead = pDead;
@@ -110,6 +120,9 @@ public class CharacterController : MonoBehaviour
     {
         gameController.respawnLocation = resetLocation;
         gameController.respawnRotation = resetRotation;
+
+        respawnLocation = resetLocation;
+        respawnRotation = resetRotation;
     }
 
 
@@ -289,5 +302,14 @@ public class CharacterController : MonoBehaviour
     {
         movementByCamera = controlByCamera;
 
+    }
+    
+    public Quaternion returnRotation()
+    {
+        return respawnRotation;
+    }
+    public Vector3 returnLocation()
+    {
+        return respawnLocation;
     }
 }

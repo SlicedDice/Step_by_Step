@@ -12,6 +12,7 @@ TagManager:
   - River
   - ResetZone
   - Foot
+  - PauseMenu
   layers:
   - Default
   - TransparentFX
