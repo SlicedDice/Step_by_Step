@@ -928,12 +928,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainBody: {fileID: 6026618606037848375}
-  balanceThrust: 6
+  balanceThrust: 8
   rotation: 100
   rightFoot: {fileID: 6840605447652912922}
   leftFoot: {fileID: 6840605446513353521}
   feetMassBase: 20
-  footWeightWhileMoving: 0.5
+  footWeightWhileMoving: 0.15
   stiltLeft: {fileID: 5482947322054686779}
   stiltRight: {fileID: 45698286113703185}
   rotationObj: {fileID: 6840605447505951676}
