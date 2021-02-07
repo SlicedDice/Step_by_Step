@@ -15,11 +15,11 @@ C:/Users/kaija/Step_by_Step/Step_by_Step
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62004
+56005
 Successfully changed project path to: C:/Users/kaija/Step_by_Step/Step_by_Step
 C:/Users/kaija/Step_by_Step/Step_by_Step
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 46.52 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 42.65 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.0f1 (3721df5a8b28)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/Resources/UnitySubsystems
@@ -35,379 +35,111 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002352 seconds.
+Registered in 0.002269 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 43.54 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 45.50 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.383 seconds
+- Completed reload, in  1.170 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002271 seconds.
+Registered in 0.001479 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000023D721FD050 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000298228FE010 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D97946020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000002966251B010 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D72510230 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-00000298212DEE10 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D71D0D190 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file data-0000029821B27030 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D97664A40 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-00000296626C1E70 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D9643B410 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000002966252B620 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D9643B410 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000029821544020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D9639EA40 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000029662FACA20 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D71EA3010 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file data-0000029822834030 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D96459820 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file data-0000029821562430 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D96B82030 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file data-0000029821CF8010 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D72510230 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-00000296626AA010 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D71F84D30 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file data-00000296626AA010 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D72510230 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-00000298212DEE10 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D72510230 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file data-000002982282DE30 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D96BAA050 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000029821D10C20 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D975F0A30 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file data-000002982267F080 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D71B19450 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file data-0000029822D21030 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D71927D80 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file data-000002966254A300 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D97664A40 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file data-000002966252B620 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D963B0650 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file data-0000029821BDA820 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D97B05A50 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file data-0000029822889030 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D96557030 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file data-000002982171A020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D96EBD1D0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-000002982213E010 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D964E3020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-00000298217A2010 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D9646E230 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000029821459230 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D718A3AA0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file data-00000296621F6190 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 53.96 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 42.08 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.135 seconds
+- Completed reload, in  1.824 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2214 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 239.5 MB.
 System memory in use after: 239.5 MB.
 
 Unloading 102 unused Assets to reduce memory usage. Loaded Objects now: 2688.
-Total: 3.855400 ms (FindLiveObjects: 0.467200 ms CreateObjectMapping: 0.190800 ms MarkObjects: 2.852100 ms  DeleteObjects: 0.343700 ms)
+Total: 3.691000 ms (FindLiveObjects: 0.438900 ms CreateObjectMapping: 0.189000 ms MarkObjects: 2.761200 ms  DeleteObjects: 0.301200 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefab/Character_fixed.prefab
-  artifactKey: Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Character_fixed.prefab using Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a5c770e9f2764f3a4adeb4021b88b8') in 0.129937 seconds
-  Import took 0.134132 seconds .
+  path: Assets/Scripts/CameraController.cs
+  artifactKey: Guid(b8a4bafc8bf49e240a0b3bf5686efa32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CameraController.cs using Guid(b8a4bafc8bf49e240a0b3bf5686efa32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af4bceb993ec0c08654b51827bada14') in 0.023924 seconds
+  Import took 0.028452 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Prefab/OldTestCharacter.prefab
-  artifactKey: Guid(ed3282f8b10a2b845ba496c794e203df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/OldTestCharacter.prefab using Guid(ed3282f8b10a2b845ba496c794e203df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b0f45111a773aefeba46ec588b8b2b') in 0.025529 seconds
-  Import took 0.030106 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Prefab/Environment/River.prefab
-  artifactKey: Guid(760cc44dc17957a43b32eeb4be2d309a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/River.prefab using Guid(760cc44dc17957a43b32eeb4be2d309a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc6edcc2ac31935f6c61c38cbb713be') in 0.013111 seconds
-  Import took 0.018287 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Prefab/Environment
-  artifactKey: Guid(e4324e355ecb0b94c8bb73fcbde0c747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment using Guid(e4324e355ecb0b94c8bb73fcbde0c747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1e9f772f831f176fbca3e805960591') in 0.003400 seconds
-  Import took 0.007697 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/Prefab/Linear Movement.prefab
-  artifactKey: Guid(7f466edd7b8f24e469a1b7b678302d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Linear Movement.prefab using Guid(7f466edd7b8f24e469a1b7b678302d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a01eee1917cd0fb6c83b79c4e1d7a8') in 0.013747 seconds
-  Import took 0.018583 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Prefab/Gate.prefab
-  artifactKey: Guid(cb304973aa396b94db94f54137173f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Gate.prefab using Guid(cb304973aa396b94db94f54137173f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df25dbdeb7c958e5e44241260e6d4708') in 0.020276 seconds
-  Import took 0.024720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Prefab/Clockwise Rotation.prefab
-  artifactKey: Guid(8597fc475d2e2504da4c04a744a0e3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Clockwise Rotation.prefab using Guid(8597fc475d2e2504da4c04a744a0e3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08c33a88b2d0b448bf1daeb4bf8d361') in 0.012095 seconds
-  Import took 0.016419 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/Prefab/Counterclockwise Rotation.prefab
-  artifactKey: Guid(2e2fa38b047e00541ad0cf6d9310d633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Counterclockwise Rotation.prefab using Guid(2e2fa38b047e00541ad0cf6d9310d633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120a3e77fbaf877d4a2fb57c8cba9f2a') in 0.012621 seconds
-  Import took 0.016755 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Prefab/Character.prefab
-  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81907d59a62ceacab466e30d5c2e6546') in 0.027639 seconds
-  Import took 0.032367 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Prefab/Sphere.prefab
-  artifactKey: Guid(502b9714d115ed940ac19ab47ef06d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Sphere.prefab using Guid(502b9714d115ed940ac19ab47ef06d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e33f83c94818472537c5c2c50c234f') in 0.012142 seconds
-  Import took 0.016191 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Prefab/Pressure Plate.prefab
-  artifactKey: Guid(7d7f61416b00f434b818bc4b03e17155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pressure Plate.prefab using Guid(7d7f61416b00f434b818bc4b03e17155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66665b29bab6d103b50da9aabecf439') in 0.020897 seconds
-  Import took 0.025115 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Prefab/CollectibleItem.prefab
-  artifactKey: Guid(2bd24c5fb543dc14caabc3518af37488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/CollectibleItem.prefab using Guid(2bd24c5fb543dc14caabc3518af37488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e885971274e0b958321f447c5da8a603') in 0.015916 seconds
-  Import took 0.019679 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Prefab/Reset Zone.prefab
-  artifactKey: Guid(8dda4870712c685409aedb41ab12a132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Reset Zone.prefab using Guid(8dda4870712c685409aedb41ab12a132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d107f840e4042b0077a3bd7dad2be9') in 0.004628 seconds
-  Import took 0.009137 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.814686 seconds.
-  path: Assets/Prefab/Environment/fances
-  artifactKey: Guid(7022cb5bb9305354e8b8fa30e2854756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/fances using Guid(7022cb5bb9305354e8b8fa30e2854756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6cf382471a2e51c258ee963d82ee57') in 0.002766 seconds
-  Import took 0.006768 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001936 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000023D6C9A4F90 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D96D1E020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023DA36579A0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023DA2FBA2A0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D96D1E020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D96D1E020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D963C5020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D98790080 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D72111450 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D96315020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D963C5020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D9668F020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D9668F020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D967C5DB0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023DA36579A0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D96315020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D975EFC30 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023DA382A280 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023DA35B3180 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D723FBCA0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023DA1CAD690 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023BC90F6EC0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D96315020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023BC91013C0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D966E3020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D9A25D010 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023DA35E7BB0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.608 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2103 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 246.2 MB.
-System memory in use after: 246.1 MB.
-
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2702.
-Total: 3.520100 ms (FindLiveObjects: 0.244700 ms CreateObjectMapping: 0.126500 ms MarkObjects: 2.910100 ms  DeleteObjects: 0.236800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001173 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000023D721FD050 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D96D1E020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D98B72020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023DEC3F2D10 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023DA37449B0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D96D1E020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D96305010 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D98790080 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D97013A60 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D721A1020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D96305010 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D977ED020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D977ED020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D98B72020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D98B72020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D975D7020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D98B72020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D721FD050 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023DEC4A9F50 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D987C2020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023DA1CB80E0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D977F7040 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D721A1020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D97F9FC40 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D964E3020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023D987C2020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000023DEC13C300 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.056 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2103 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 246.2 MB.
-System memory in use after: 246.2 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2704.
-Total: 2.886700 ms (FindLiveObjects: 0.290800 ms CreateObjectMapping: 0.081900 ms MarkObjects: 2.288300 ms  DeleteObjects: 0.224700 ms)
+  Time since last request: 0.000371 seconds.
+  path: Assets/Scripts/SaveSystemScripts
+  artifactKey: Guid(fabc85bf3e3beb5429b2135f901ead52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SaveSystemScripts using Guid(fabc85bf3e3beb5429b2135f901ead52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e562258f55f3b869a2372b3ca1eae6') in 0.002879 seconds
+  Import took 0.006336 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

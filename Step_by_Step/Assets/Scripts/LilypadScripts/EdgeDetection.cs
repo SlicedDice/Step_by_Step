@@ -10,7 +10,7 @@ public class EdgeDetection : MonoBehaviour
     //If enemies reach the edge of the screen, inform the alien army manager
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Wet Ground")
+        if (other.gameObject.tag == "Lilypads")
         {
             lilypad.GetComponent<LinearMotion>().setEdgeTrue();
 
