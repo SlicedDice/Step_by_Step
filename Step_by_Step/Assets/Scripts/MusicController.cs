@@ -134,7 +134,7 @@ public class MusicController : MonoBehaviour
 
         int points = 0; // wonky points
 
-        if (stepdistance <= 1.3f)
+        if (stepdistance <= 1.2f)
         {
             points++;
         }
@@ -142,7 +142,7 @@ public class MusicController : MonoBehaviour
         {
             points++;
         }
-        if (standtime <= 0.8f)
+        if (standtime <= 0.6f)
         {
             points++;
         }
@@ -157,14 +157,14 @@ public class MusicController : MonoBehaviour
             song1 = true;
         }
 
-    //    Debug.Log("             " + points + "       " + song1);
+        //    Debug.Log("             " + points + "       " + song1);
 
         tracker.ResetData();
     }
 
     public void MusicStop() // fades music out with pitch shift, used when character dies
     {
-        UpdateCurrentSong();
+        // UpdateCurrentSong();
 
         StartCoroutine(StartFadePitch(audioSources[0], 3f, 0f, 0.5f, true));
         StartCoroutine(StartFadePitch(audioSources[1], 3f, 0f, 0.5f, true));
@@ -172,16 +172,17 @@ public class MusicController : MonoBehaviour
 
         dead = true;
     }
-    
+
     public void MusicRestart() // fades music back in after 3 seconds if fading out, or instantly if not fading out, use when starting game and restarting from checkpoint; press r does this
     {
         tracker = GameObject.FindGameObjectWithTag("Foot").GetComponent<DataTracking>();
-        // UpdateCurrentSong();
+        UpdateCurrentSong();
 
         if (fading == true)
         {
             Invoke("MusicRestart1", 3f);
-        } else
+        }
+        else
         {
             MusicRestart1();
         }

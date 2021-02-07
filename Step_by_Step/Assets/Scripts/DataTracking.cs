@@ -26,13 +26,13 @@ public class DataTracking : MonoBehaviour
     void Start()
     {
         timeBetweenStep = 0f;
-        timeBetweenStepList.Add(0.8f);
+        timeBetweenStepList.Add(0.6f);
 
         stepDistance = 0f;
-        stepDistanceList.Add(1.4f);
+        stepDistanceList.Add(1.2f);
 
         timeForStep = 0f;
-        timeForStepList.Add(1.4f);
+        timeForStepList.Add(2.5f);
 
     }
 

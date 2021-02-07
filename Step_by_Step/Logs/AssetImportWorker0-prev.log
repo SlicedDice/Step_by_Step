@@ -15,11 +15,11 @@ C:/Users/kaija/Step_by_Step/Step_by_Step
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64914
+59563
 Successfully changed project path to: C:/Users/kaija/Step_by_Step/Step_by_Step
 C:/Users/kaija/Step_by_Step/Step_by_Step
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 44.65 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 37.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.0f1 (3721df5a8b28)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/Resources/UnitySubsystems
@@ -35,579 +35,203 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001967 seconds.
+Registered in 0.002103 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 43.50 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 35.89 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.257 seconds
+- Completed reload, in  1.016 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001856 seconds.
+Registered in 0.001250 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000022413D8C040 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000020E982C7020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022414091020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000020E72207020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000223EE4C0F90 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000020E7235F030 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000223EEA3C6F0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file data-0000020E72402010 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022413BBA670 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000020E72881A20 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000223EE397E40 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000020E72881A20 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000223EE13E020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000020E96901010 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000223EE2377F0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000020E96AF3E20 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000223EEC01CC0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file data-0000020E72950470 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000223EE687440 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file data-0000020E97E13020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000223EE687440 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file data-0000020E97E13020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000224141D9030 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000020E72556420 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000224141D9030 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file data-0000020E72556420 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000223EE1A4010 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000020E9688DE90 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000223EE4C0F90 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file data-0000020E72889A30 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000224135DB040 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000020E97E3B040 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022413D8C040 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file data-0000020E97CB9030 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022413E0C040 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file data-0000020E722F80E0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000223EE311700 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file data-0000020E72372A80 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000223EE397E40 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file data-0000020E7243AD40 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002241348C840 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file data-0000020E96B05A30 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022413118DA0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file data-0000020E96E5EFC0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002241325B030 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file data-0000020E96D96030 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000223EE4B4FD0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-0000020E72443750 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022412C79020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000020E96FA1020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000223EE6B1C60 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000020E9755F640 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000223EDEA85D0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file data-0000020E71EF9D60 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 42.90 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 37.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.740 seconds
+- Completed reload, in  1.521 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2211 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 239.0 MB.
-System memory in use after: 239.1 MB.
+System memory in use before: 239.2 MB.
+System memory in use after: 239.3 MB.
 
 Unloading 102 unused Assets to reduce memory usage. Loaded Objects now: 2685.
-Total: 3.550600 ms (FindLiveObjects: 0.263900 ms CreateObjectMapping: 0.133800 ms MarkObjects: 2.860100 ms  DeleteObjects: 0.291400 ms)
+Total: 2.647100 ms (FindLiveObjects: 0.248200 ms CreateObjectMapping: 0.134700 ms MarkObjects: 1.976600 ms  DeleteObjects: 0.286500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Stone_Moss.terrainlayer
-  artifactKey: Guid(fd5fd2c2cad640b42a03ee7d97abc514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stone_Moss.terrainlayer using Guid(fd5fd2c2cad640b42a03ee7d97abc514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ee117ab14e7ac9ef05ae5ea93644db') in 0.073211 seconds
-  Import took 0.077756 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/New Terrain Material 1.mat
-  artifactKey: Guid(ad5bc3819cb1cdf47990b3de80e840d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain Material 1.mat using Guid(ad5bc3819cb1cdf47990b3de80e840d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b3bb9043790048a6cd757c774f413c') in 0.049831 seconds
-  Import took 0.053997 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/stones.terrainlayer
-  artifactKey: Guid(f4dd5b3339d42e94d8913e1c1331976d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/stones.terrainlayer using Guid(f4dd5b3339d42e94d8913e1c1331976d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762f5dc39f38a5c5d07cd9e56f345dd7') in 0.009794 seconds
-  Import took 0.013568 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Grass 1.terrainlayer
-  artifactKey: Guid(e9df3297cc954ff46b77b7dcc2ebb432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Grass 1.terrainlayer using Guid(e9df3297cc954ff46b77b7dcc2ebb432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e0171097a3081a64fb7613965a59d52') in 0.026428 seconds
-  Import took 0.030486 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Grass.terrainlayer
-  artifactKey: Guid(d1feac3a8a897cc44b5328006e6d6fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Grass.terrainlayer using Guid(d1feac3a8a897cc44b5328006e6d6fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09a16c78a49d811378ab1b939769e2b') in 0.012556 seconds
-  Import took 0.016618 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/pebble.terrainlayer
-  artifactKey: Guid(31f222462f290b646b7d51aa595acb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/pebble.terrainlayer using Guid(31f222462f290b646b7d51aa595acb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b651d4198f516c721c15b640aae6578d') in 0.010026 seconds
-  Import took 0.014233 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Moss.terrainlayer
-  artifactKey: Guid(d3a32784dd7f1984f825ae68a4b5c5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Moss.terrainlayer using Guid(d3a32784dd7f1984f825ae68a4b5c5e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fdacbe5ca9224007dc3937897e43084') in 0.009715 seconds
-  Import took 0.013491 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.887703 seconds.
-  path: Assets/Prefab/Clockwise Rotation.prefab
-  artifactKey: Guid(8597fc475d2e2504da4c04a744a0e3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Clockwise Rotation.prefab using Guid(8597fc475d2e2504da4c04a744a0e3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545f7aeb6cfc9eda86f22bf4237b594b') in 0.017325 seconds
-  Import took 0.020859 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Prefab/OldTestCharacter.prefab
-  artifactKey: Guid(ed3282f8b10a2b845ba496c794e203df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/OldTestCharacter.prefab using Guid(ed3282f8b10a2b845ba496c794e203df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5454c04df37f62cfe7fca1ceea0ee0a6') in 0.018425 seconds
-  Import took 0.022328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Prefab/gates.fbx
-  artifactKey: Guid(fe34430f10c94c041be9b8ae721e6318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/gates.fbx using Guid(fe34430f10c94c041be9b8ae721e6318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f668bb304f02d106a2dc11be4650f5df') in 0.034056 seconds
-  Import took 0.037108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Prefab/Linear Movement.prefab
-  artifactKey: Guid(7f466edd7b8f24e469a1b7b678302d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Linear Movement.prefab using Guid(7f466edd7b8f24e469a1b7b678302d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d7b0ba7f45316cba1c1dbc605dd3d5') in 0.008914 seconds
-  Import took 0.012421 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Prefab/Gate.prefab
-  artifactKey: Guid(cb304973aa396b94db94f54137173f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Gate.prefab using Guid(cb304973aa396b94db94f54137173f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9743b1cd9cba7ab2757ec825eeec208') in 0.013057 seconds
-  Import took 0.016286 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Prefab/Counterclockwise Rotation.prefab
-  artifactKey: Guid(2e2fa38b047e00541ad0cf6d9310d633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Counterclockwise Rotation.prefab using Guid(2e2fa38b047e00541ad0cf6d9310d633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513bd2e6198899142857f788b3f975bf') in 0.009209 seconds
-  Import took 0.013202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.467053 seconds.
-  path: Assets/Prefab/Environment/bush1.fbx
-  artifactKey: Guid(d7141e337d579e9469571315f4cd2e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/bush1.fbx using Guid(d7141e337d579e9469571315f4cd2e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de4dff28a49d224948584d306fbe4bd') in 0.013210 seconds
-  Import took 0.016570 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Prefab/Environment/grass1.fbx
-  artifactKey: Guid(6a627a7cb5d339140b4de2a8f5ddb35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/grass1.fbx using Guid(6a627a7cb5d339140b4de2a8f5ddb35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84defd83f0ccff46bdd5e896242ffdec') in 0.012025 seconds
-  Import took 0.015371 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/Prefab/Environment/lotus.fbx
-  artifactKey: Guid(fa4120bb262af5346950fecbda47aafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/lotus.fbx using Guid(fa4120bb262af5346950fecbda47aafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef83c43b1ac0bb041c404933efd1d0e4') in 0.012323 seconds
-  Import took 0.016207 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Prefab/Environment/grass2.fbx
-  artifactKey: Guid(096121b18b793af4a8865345d725e3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/grass2.fbx using Guid(096121b18b793af4a8865345d725e3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a52f60ffa1379c047bbe5d2a9b83171') in 0.013012 seconds
-  Import took 0.017341 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Prefab/Environment/stonesship.fbx
-  artifactKey: Guid(67bc380442375614183e56ceef73f92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/stonesship.fbx using Guid(67bc380442375614183e56ceef73f92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb1b6d3bdfea48f0e83edc037d66394') in 0.012639 seconds
-  Import took 0.016246 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Prefab/Environment/crystal1.fbx
-  artifactKey: Guid(7114ad9db0fce6442aeddcb27ae79036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/crystal1.fbx using Guid(7114ad9db0fce6442aeddcb27ae79036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f5b80b1c91a0514444f2830f5229d1') in 0.012604 seconds
-  Import took 0.016038 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Prefab/Environment/River.prefab
-  artifactKey: Guid(760cc44dc17957a43b32eeb4be2d309a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/River.prefab using Guid(760cc44dc17957a43b32eeb4be2d309a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11ac0096ab623746e7815f3ce2059e9') in 0.009836 seconds
-  Import took 0.013136 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Prefab/Environment/crystal2.fbx
-  artifactKey: Guid(3973ef8614ea8c841b3a25593923df06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/crystal2.fbx using Guid(3973ef8614ea8c841b3a25593923df06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56535d189b9460b9cacda2c8ebd5a4a3') in 0.011484 seconds
-  Import took 0.014826 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Prefab/Environment/shroom3 1.fbx
-  artifactKey: Guid(916608d82956e614a98dec05e278efb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/shroom3 1.fbx using Guid(916608d82956e614a98dec05e278efb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8786d0f3c543383f86129993f09adf54') in 0.012058 seconds
-  Import took 0.015330 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Prefab/Environment/crystal.fbx
-  artifactKey: Guid(55e4f9f7c3109514ca1689ad2b1fdc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/crystal.fbx using Guid(55e4f9f7c3109514ca1689ad2b1fdc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73196e6a8caf5439cfebc6bef3398062') in 0.014216 seconds
-  Import took 0.017768 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Prefab/Environment/shroom2 1.fbx
-  artifactKey: Guid(fa1f80482a1d41a4196e6fd494fd8bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/shroom2 1.fbx using Guid(fa1f80482a1d41a4196e6fd494fd8bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545ef8a3200f7ed0117df52144e8cf76') in 0.011364 seconds
-  Import took 0.014828 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Prefab/Environment/tree4.fbx
-  artifactKey: Guid(45b971d259b095c4ab77415c46187a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/tree4.fbx using Guid(45b971d259b095c4ab77415c46187a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452135d2ec7f4c7dad0dd277a3e339fd') in 0.014469 seconds
-  Import took 0.017593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Prefab/Environment/grass3 1.fbx
-  artifactKey: Guid(da323a17628cedd4980b8b7c316a2c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/grass3 1.fbx using Guid(da323a17628cedd4980b8b7c316a2c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32620252e891cf52882a3d3ae8822446') in 0.018372 seconds
-  Import took 0.021796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Prefab/Environment/stump_with_leaves.fbx
-  artifactKey: Guid(6aae0cfe2ff2b214f9c31e899e6a1943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/stump_with_leaves.fbx using Guid(6aae0cfe2ff2b214f9c31e899e6a1943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c61fcb05497623813bfad914887be35') in 0.013213 seconds
-  Import took 0.016555 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Prefab/Environment/tree3.fbx
-  artifactKey: Guid(4b3bb0be74f0e49439e619c886c43eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/tree3.fbx using Guid(4b3bb0be74f0e49439e619c886c43eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b9be4e5e43d949b40d4d6a74dc600f') in 0.013019 seconds
-  Import took 0.016393 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Prefab/Environment/bush3 1.fbx
-  artifactKey: Guid(e31edb6307f225640acbc9ff379c644c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/bush3 1.fbx using Guid(e31edb6307f225640acbc9ff379c644c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9592d594f5b510327398b322c7216b4d') in 0.009980 seconds
-  Import took 0.013250 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Prefab/Environment/grass4.fbx
-  artifactKey: Guid(6462489dfa0748e48b0a6994469f382b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/grass4.fbx using Guid(6462489dfa0748e48b0a6994469f382b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6559e669480468c3365fdfc4a14d741e') in 0.012666 seconds
-  Import took 0.016197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Prefab/Environment/shroom1.fbx
-  artifactKey: Guid(d03fe4aedefed29459eb1e45ac8a2e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/shroom1.fbx using Guid(d03fe4aedefed29459eb1e45ac8a2e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd5934db670ead279ce197c898d6b69') in 0.015660 seconds
-  Import took 0.019620 seconds .
+  path: Assets/Prefab/Environment/fances/fence5.fbx
+  artifactKey: Guid(7a19c5ac0e466234eaf12052cbbfb704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Environment/fances/fence5.fbx using Guid(7a19c5ac0e466234eaf12052cbbfb704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '478913b31cd5d848e4debf44cd32f935') in 0.112097 seconds
+  Import took 0.115433 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000192 seconds.
-  path: Assets/Prefab/Environment/tree1 1.fbx
-  artifactKey: Guid(194231c476de0284f99fdc595e245b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/tree1 1.fbx using Guid(194231c476de0284f99fdc595e245b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2232e543dccd37ed3b6551cb8f589a4e') in 0.013752 seconds
-  Import took 0.017623 seconds .
+  path: Assets/Prefab/Environment/fances/fence4.fbx
+  artifactKey: Guid(7d8a00fd4e4765241bb3fe58938eae71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Environment/fances/fence4.fbx using Guid(7d8a00fd4e4765241bb3fe58938eae71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89fc42b462fce52ce38d233416ce896a') in 0.014917 seconds
+  Import took 0.018416 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Prefab/Environment/ship_full 1.fbx
-  artifactKey: Guid(82f2f45c6339a7f4da768605d36efb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/ship_full 1.fbx using Guid(82f2f45c6339a7f4da768605d36efb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05839c57ed03fcce7d5e70451bad5271') in 0.016374 seconds
-  Import took 0.020183 seconds .
+  Time since last request: 0.000209 seconds.
+  path: Assets/Prefab/Environment/fances/pole1.fbx
+  artifactKey: Guid(bd3c4a8838520e141bc1d26ffe08e9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Environment/fances/pole1.fbx using Guid(bd3c4a8838520e141bc1d26ffe08e9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d12d258966f6ca6220608111593183') in 0.014771 seconds
+  Import took 0.018027 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Prefab/Environment/flowers1.fbx
-  artifactKey: Guid(651f6c3a9eda96e4b8fab1867ea07cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/flowers1.fbx using Guid(651f6c3a9eda96e4b8fab1867ea07cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5618fdcc76bd244e15e9bd6e4c540622') in 0.009879 seconds
-  Import took 0.013345 seconds .
+  Time since last request: 0.000191 seconds.
+  path: Assets/Prefab/Environment/fances/fence3.fbx
+  artifactKey: Guid(2a7fc67feaa51b345ba29ec062e2def7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Environment/fances/fence3.fbx using Guid(2a7fc67feaa51b345ba29ec062e2def7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7044e6e3827e2d1123b0714a74e2bb') in 0.014493 seconds
+  Import took 0.018202 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Prefab/Environment/bush2.fbx
-  artifactKey: Guid(f36b0796d49dae64a9bb8a1fae2f1e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/bush2.fbx using Guid(f36b0796d49dae64a9bb8a1fae2f1e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13685c9708800e3477c476397e788ae') in 0.014510 seconds
-  Import took 0.018097 seconds .
+  Time since last request: 0.000192 seconds.
+  path: Assets/Prefab/Environment/fances/fence1.fbx
+  artifactKey: Guid(61443490e190dc44b889e7ff2b5188bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Environment/fances/fence1.fbx using Guid(61443490e190dc44b889e7ff2b5188bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7006a24397cbd74dab15907d345268e') in 0.013709 seconds
+  Import took 0.017032 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Prefab/Environment/tree2.fbx
-  artifactKey: Guid(acacfa0bb7b8f4045ac18771e83d85a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/tree2.fbx using Guid(acacfa0bb7b8f4045ac18771e83d85a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa43b533fa84c74af0659b7348e187f0') in 0.012435 seconds
-  Import took 0.016050 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.746209 seconds.
-  path: Assets/Prefab/Environment/River.prefab
-  artifactKey: Guid(760cc44dc17957a43b32eeb4be2d309a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/River.prefab using Guid(760cc44dc17957a43b32eeb4be2d309a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44790f8be575d06e0eab51cc1f99d82b') in 0.007854 seconds
-  Import took 0.011763 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014509 seconds.
-  path: Assets/Prefab/Environment/River.prefab
-  artifactKey: Guid(760cc44dc17957a43b32eeb4be2d309a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/River.prefab using Guid(760cc44dc17957a43b32eeb4be2d309a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44790f8be575d06e0eab51cc1f99d82b') in 0.008257 seconds
-  Import took 0.011893 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.287842 seconds.
-  path: Assets/Prefab/Environment/River.prefab
-  artifactKey: Guid(760cc44dc17957a43b32eeb4be2d309a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/River.prefab using Guid(760cc44dc17957a43b32eeb4be2d309a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ad459e058290800bd1708dd04ca093') in 0.011236 seconds
-  Import took 0.015090 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003722 seconds.
-  path: Assets/Prefab/Environment/River.prefab
-  artifactKey: Guid(760cc44dc17957a43b32eeb4be2d309a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/River.prefab using Guid(760cc44dc17957a43b32eeb4be2d309a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67ad459e058290800bd1708dd04ca093') in 0.011745 seconds
-  Import took 0.017328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.377528 seconds.
-  path: Assets/Prefab/Environment/River.prefab
-  artifactKey: Guid(760cc44dc17957a43b32eeb4be2d309a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/River.prefab using Guid(760cc44dc17957a43b32eeb4be2d309a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b1883106d602e79ffda95e5247d902') in 0.011723 seconds
-  Import took 0.015688 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001757 seconds.
-  path: Assets/Prefab/Environment/River.prefab
-  artifactKey: Guid(760cc44dc17957a43b32eeb4be2d309a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/River.prefab using Guid(760cc44dc17957a43b32eeb4be2d309a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b1883106d602e79ffda95e5247d902') in 0.010149 seconds
-  Import took 0.013814 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 51.921259 seconds.
-  path: Assets/TEXTURE/particles/Trail29.mat
-  artifactKey: Guid(a510635c2c075784a9142d532b033807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TEXTURE/particles/Trail29.mat using Guid(a510635c2c075784a9142d532b033807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b32ca90088e0469361f8cea664debef') in 0.010547 seconds
-  Import took 0.013882 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Materials/tree_leaves.mat
-  artifactKey: Guid(a9891d3a1f98f1a4a82459950129f073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/tree_leaves.mat using Guid(a9891d3a1f98f1a4a82459950129f073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb23cb95d60833818b1198654205026') in 0.007194 seconds
-  Import took 0.010034 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Materials/tree_branch.mat
-  artifactKey: Guid(f6616fdc997f71b49ad71fe8e7e3d5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/tree_branch.mat using Guid(f6616fdc997f71b49ad71fe8e7e3d5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0633ef15cfe54771aca76a4051783b27') in 0.006914 seconds
-  Import took 0.009861 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.028993 seconds.
-  path: Assets/Prefab/Environment/Rocks/tinyrock2.fbx
-  artifactKey: Guid(8cde49f3b8801d043b9dd89d9b73f1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/Rocks/tinyrock2.fbx using Guid(8cde49f3b8801d043b9dd89d9b73f1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06281c1cbea2b381c42a13bf95bc24a1') in 0.015463 seconds
-  Import took 0.018666 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Prefab/Environment/Rocks/tinyrock3.fbx
-  artifactKey: Guid(c0f892518ee28c847a4b8a744eafd88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/Rocks/tinyrock3.fbx using Guid(c0f892518ee28c847a4b8a744eafd88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a67f963dc1f52d7fc6553913512761dc') in 0.015228 seconds
-  Import took 0.018311 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Prefab/Environment/Rocks/tinyrock5.fbx
-  artifactKey: Guid(2dcaaa3a05210064ba3295b573bb064a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/Rocks/tinyrock5.fbx using Guid(2dcaaa3a05210064ba3295b573bb064a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193c8adae24893a65f39bf2a0ca08bb7') in 0.016965 seconds
-  Import took 0.019960 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/TEXTURE/particles/Trail21.mat
-  artifactKey: Guid(de375c868b1577446a42af9d1dd6ee21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TEXTURE/particles/Trail21.mat using Guid(de375c868b1577446a42af9d1dd6ee21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a41b53bbc937409bf92fcf165ec4fe') in 0.007594 seconds
-  Import took 0.010590 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Prefab/Environment/Rocks/tinyrock4.fbx
-  artifactKey: Guid(800fdac482202e14d8e99af4003792e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/Rocks/tinyrock4.fbx using Guid(800fdac482202e14d8e99af4003792e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2695a7a16fffa6aa358890244aa5cd8') in 0.013662 seconds
-  Import took 0.016760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Prefab/Environment/Rocks/tinyrock1.fbx
-  artifactKey: Guid(69f074c5d56d47347aea8780db67faf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/Rocks/tinyrock1.fbx using Guid(69f074c5d56d47347aea8780db67faf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90cfd9c28255fab9cdc8115b4c06786') in 0.014993 seconds
-  Import took 0.017903 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.536570 seconds.
-  path: Assets/Animations
-  artifactKey: Guid(414430ab84c93184d80b8e18c643b2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations using Guid(414430ab84c93184d80b8e18c643b2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e2aed18317c790fc9269ee12958deb') in 0.002122 seconds
-  Import took 0.005508 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.485630 seconds.
-  path: Assets/Prefab/Pressure Plate.prefab
-  artifactKey: Guid(7d7f61416b00f434b818bc4b03e17155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pressure Plate.prefab using Guid(7d7f61416b00f434b818bc4b03e17155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3108bcec6aba90f9c04d415015a668') in 0.012893 seconds
-  Import took 0.016236 seconds .
+  Time since last request: 0.000192 seconds.
+  path: Assets/Prefab/Environment/fances/fence2.fbx
+  artifactKey: Guid(76116b3aca648644e9f7f23caeb36fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Environment/fances/fence2.fbx using Guid(76116b3aca648644e9f7f23caeb36fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951a061f5fb5dfb854f5acb4cfef9eca') in 0.013054 seconds
+  Import took 0.016542 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001235 seconds.
+Registered in 0.001232 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-00000223EE472020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000020E723AE510 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022413291010 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000020E97CCD170 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002241FB96590 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000020E72889A30 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002241F6D3200 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file data-0000020EA38A9100 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000223EE255880 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000020E72366800 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022413291010 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000020E97CCD170 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022412D21020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000020E96B6E020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000223EE7C9D20 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000020E98BA2030 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002241565AAC0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file data-0000020E977E8030 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022412C3F030 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file data-0000020E725B19C0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000223EE687440 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file data-0000020E96AC6410 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000222256CE850 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000020CC76E5040 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000222256BF330 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file data-0000020EC3E8D020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000223EE1A4010 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000020EA2D0DE90 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000223EE4C0F90 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file data-0000020E72C74A80 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000223EE2377F0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000020E991E1010 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002241FB96590 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file data-0000020E96F83440 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002241FB2A840 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file data-0000020E977E8030 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002241F57D990 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file data-0000020EA3AC4950 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022413291010 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file data-0000020E72366800 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002241FB3E5A0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file data-0000020EA23F2280 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022202EBC9B0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file data-0000020E49E26C20 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022412C3F030 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file data-0000020E725B19C0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022413F88FC0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-0000020CC76FBB20 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022412CCD020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000020E97E13020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000022413409E20 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000020E72366800 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002241D37C6F0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file data-0000020EA151BE60 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
@@ -625,14 +249,101 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.025 seconds
+- Completed reload, in  1.102 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 235.0 MB.
+System memory in use after: 235.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2697.
+Total: 3.004800 ms (FindLiveObjects: 0.409300 ms CreateObjectMapping: 0.123300 ms MarkObjects: 2.264000 ms  DeleteObjects: 0.207200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001328 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000020EEC83E3C0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020E96A1A020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EC3E8D020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EEC780DA0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020E72366800 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020E96A1A020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020E96B6E020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020E7255DB00 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020E7205F460 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020E725B19C0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020E97E13020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020CC76F3A90 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020E9B2F9F50 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EC3E8D020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EC3E8D020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020E9AAC9020 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EC3FEBE30 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020E97CDA780 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EEC6760F0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020E72366800 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EA23FCCD0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020E7294A6F0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020E725B19C0 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EC3FEBE30 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EC3F3AF40 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020E72366800 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020EEBC1BB80 doesn't match image C:\Users\kaija\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
+UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.057 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2100 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 235.3 MB.
-System memory in use after: 235.4 MB.
+System memory in use before: 235.0 MB.
+System memory in use after: 235.0 MB.
 
-Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2737.
-Total: 3.360500 ms (FindLiveObjects: 0.719600 ms CreateObjectMapping: 0.177300 ms MarkObjects: 2.228400 ms  DeleteObjects: 0.234400 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2699.
+Total: 3.415600 ms (FindLiveObjects: 0.205400 ms CreateObjectMapping: 0.075100 ms MarkObjects: 2.927700 ms  DeleteObjects: 0.206100 ms)
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
