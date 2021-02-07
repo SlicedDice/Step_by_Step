@@ -30,6 +30,13 @@ public class GameController : MonoBehaviour
     public GameObject pauseMenu;
     private bool activePauseMenu = false;
 
+    public bool foundBeanstalkCollectible = false; //Checks to see if the collectible items were picked up
+    public bool foundShipCollectible = false;
+    public bool foundRuinCollectible = false;
+
+    public bool invertedControls;
+    public bool movementByCamera;
+
     private void Start()
     {
         musicController = GameObject.FindGameObjectWithTag("GameController").GetComponent<MusicController>(); // george code
@@ -126,12 +133,20 @@ public class GameController : MonoBehaviour
 
         //   audioFadeOut.SetTrigger("Reset");
 
+        invertedControls = characterController.invertedControls;
+        movementByCamera = characterController.movementByCamera;
+
         Destroy(characterController.gameObject);
-        Instantiate(Character, respawnLocation, respawnRotation);
+        GameObject c = Instantiate(Character, respawnLocation, respawnRotation);
+        characterController = c.GetComponent<CharacterController>();
+
+        characterController.foundBeanstalkCollectible = foundBeanstalkCollectible;
+        characterController.foundShipCollectible = foundShipCollectible;
+        characterController.foundRuinCollectible = foundRuinCollectible;
+        characterController.invertedControls = invertedControls;
+        characterController.movementByCamera = movementByCamera;
 
         musicController.MusicRestart(); // george code
-
-
     }
 
     public void rotateCamera(int rot)
@@ -150,6 +165,7 @@ public class GameController : MonoBehaviour
                 break;
             case 3: //y = 135
                 mainCamera.transform.rotation = new Quaternion(0.105481833f, 0.888090074f, -0.254655689f, 0.367858946f);
+                
                 break;
             default:
                 break;

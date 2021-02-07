@@ -195,6 +195,7 @@ public class CharacterController : MonoBehaviour
         Quaternion quat = mainCam.gameObject.transform.rotation;
 
         Vector3 t = quat.eulerAngles;
+        if (t.y == 180f || t.y == -180f || t.y == -70f || t.y == 290f) t *= -1f;
         Vector3 tmp1 = new Vector3(t.x / 180f, 0.0f, t.z / 180f);
         Vector3 tmp2 = new Vector3(-t.z / 180f, 0.0f, t.x / 180f);
         
@@ -232,9 +233,6 @@ public class CharacterController : MonoBehaviour
 
             charJointLeft.connectedAnchor = new Vector3(tmpL.x, 0.03166672f, tmpL.z);
             charJointRight.connectedAnchor = new Vector3(tmpR.x, 0.05666729f, tmpR.z);
-
-
-
         }
 
     }
@@ -298,11 +296,7 @@ public class CharacterController : MonoBehaviour
         return deltaMousePos;
     }
 
-    public void changeControls(bool controlByCamera, bool invertedControls)
-    {
-        movementByCamera = controlByCamera;
 
-    }
     
     public Quaternion returnRotation()
     {

@@ -43,14 +43,17 @@ public class BodyScript : MonoBehaviour
             {
                 case "BeanstalkCollectible":
                     characterController.foundBeanstalkCollectible = true;
+                    gameController.foundBeanstalkCollectible = true;
                     gameController.rotateCamera(1);
                     break;
                 case "ShipCollectible":
                     characterController.foundShipCollectible = true;
+                    gameController.foundShipCollectible = true;
                     gameController.rotateCamera(2);
                     break;
                 case "RuinCollectible":
                     characterController.foundRuinCollectible = true;
+                    gameController.foundRuinCollectible = true;
                     gameController.rotateCamera(3);
                     break;
                 default:
