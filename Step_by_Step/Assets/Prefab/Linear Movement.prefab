@@ -353,7 +353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa2c2d7243f971f40bf28b6e39fcef7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveDistance: 1
+  moveDistance: 0.2
   reachedEdge: 0
 --- !u!1001 &7229581269708508809
 PrefabInstance:

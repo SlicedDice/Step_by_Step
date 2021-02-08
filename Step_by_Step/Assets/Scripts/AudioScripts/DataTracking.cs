@@ -62,7 +62,7 @@ public class DataTracking : MonoBehaviour
     {
         if (!Input.GetMouseButton(0) && !Input.GetMouseButton(1))
         {
-            if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Pressure Plate" || collision.gameObject.tag == "Swamp Ground" || collision.gameObject.tag == "Wet Ground")
+            if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Pressure Plate" || collision.gameObject.tag == "Swamp Ground" || collision.gameObject.tag == "Wet Ground" || collision.gameObject.tag == "Lilypads")
             {
                 stepDistance = (rightFoot.transform.position - leftFoot.transform.position).magnitude;
                 if (stepDistance != 0f) stepDistanceList.Add(stepDistance);

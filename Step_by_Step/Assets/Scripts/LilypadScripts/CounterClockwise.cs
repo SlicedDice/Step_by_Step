@@ -7,7 +7,7 @@ public class CounterClockwise : MonoBehaviour
     public float degreeValue;
 
     // Update is called once per frame
-    //rotates Object around z-axis in clockwise direction
+    //rotates Object around z-axis in counterclockwise direction
     void Update()
     {
         transform.Rotate(0f, -degreeValue*Time.deltaTime, 0f, Space.Self);
