@@ -195,10 +195,12 @@ public class CharacterController : MonoBehaviour
         Quaternion quat = mainCam.gameObject.transform.rotation;
         float tmp = 1f;
         Vector3 t = quat.eulerAngles;
-        if (t.y == -70f || t.y == 290f) t *= -1f;
-        else if (t.y == 180f) tmp = -1f;
-        Vector3 tmp1 = new Vector3(t.x / 180f, 0.0f, t.z / 180f);
-        Vector3 tmp2 = new Vector3(-t.z / 180f, 0.0f, t.x / 180f);
+        if (t.y == -70f) tmp = 0.5f;
+        else if (t.y == 175f) tmp = -0.8f;
+        else if (t.y == 135f) tmp = -1f;
+
+        Vector3 tmp1 = new Vector3(t.x / 360f * tmp, 0.0f, t.y / 360f * tmp);
+        Vector3 tmp2 = new Vector3(-t.y / 360f * tmp, 0.0f, t.x / 360f * tmp);
 
 
         if (Input.GetMouseButton(0))
