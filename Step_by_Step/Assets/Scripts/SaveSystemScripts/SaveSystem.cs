@@ -14,7 +14,7 @@ public static class SaveSystem
         BinaryFormatter formatter = new BinaryFormatter();
         FileStream stream = new FileStream(path, FileMode.Create);
 
-        PlayerData data = new PlayerData(player);
+        PlayerData data = new PlayerData(player, music);
 
         formatter.Serialize(stream, data);
         stream.Close();

@@ -38,15 +38,15 @@ public class MusicController : MonoBehaviour
         if(region == 1)
         {
             if (song1) currentsong = region1song1;
-            else currentsong = region1song2
+            else currentsong = region1song2;
         } else if(region == 2)
         {
             if (song1) currentsong = region2song1;
-            else currentsong = region2song2
+            else currentsong = region2song2;
         } else if(region == 3)
         {
             if (song1) currentsong = region3song1;
-            else currentsong = region3song2
+            else currentsong = region3song2;
         }
         //End of section written by Patrick
 
@@ -62,13 +62,10 @@ public class MusicController : MonoBehaviour
     //This next method was written by Patrick
     private void loadMusicSettings()
     {
-        if(SaveSystem.LoadPlayer != null)
-        {
-            PlayerData data = SaveSystem.LoadPlayer();
+        PlayerData data = SaveSystem.LoadPlayer();
 
-            region = data.musicRegion;
-            song1 = data.musicSong;
-        }
+        region = data.musicRegion;
+        song1 = data.musicSong;
         
     }
 

@@ -70,7 +70,7 @@ public class GameController : MonoBehaviour
     }
     public void SavePlayer()
     {
-        SaveSystem.SavePlayer(characterController);
+        SaveSystem.SavePlayer(characterController, musicController);
     }
     public void LoadPlayer()
     {
