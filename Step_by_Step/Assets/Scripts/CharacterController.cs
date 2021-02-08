@@ -257,8 +257,8 @@ public class CharacterController : MonoBehaviour
             charJointLeft.connectedAnchor = new Vector3(tmpL.x, legRaise, tmpL.z);
             rotateCharacterRightStilt();
             leftFootRB.mass = footWeightWhileMoving;
-            leftFootRB.AddForce(mainBody.transform.forward * -deltaMouseMov.y * 2);
-            leftFootRB.AddForce(mainBody.transform.right * -deltaMouseMov.x * 2);
+            leftFootRB.AddForce(mainBody.transform.forward * -deltaMouseMov.y * 0.25f);
+            leftFootRB.AddForce(mainBody.transform.right * -deltaMouseMov.x * 0.25f);
 
         }
         else if (Input.GetMouseButton(1))
@@ -271,8 +271,8 @@ public class CharacterController : MonoBehaviour
             charJointRight.connectedAnchor = new Vector3(tmpR.x, legRaise, tmpR.z);
             rotateCharacterLeftStilt();
             rightFootRB.mass = footWeightWhileMoving;
-            rightFootRB.AddForce(mainBody.transform.forward * -deltaMouseMov.y * 2);
-            rightFootRB.AddForce(mainBody.transform.right * -deltaMouseMov.x * 2);
+            rightFootRB.AddForce(mainBody.transform.forward * -deltaMouseMov.y * 0.25f);
+            rightFootRB.AddForce(mainBody.transform.right * -deltaMouseMov.x * 0.25f);
 
         }
         else
