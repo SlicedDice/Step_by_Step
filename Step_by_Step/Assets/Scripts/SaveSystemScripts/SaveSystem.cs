@@ -6,7 +6,7 @@ public static class SaveSystem
 {
    
 
-    public static void SavePlayer (CharacterController player)
+    public static void SavePlayer (CharacterController player, MusicController music)
     {
 
         string path = Application.persistentDataPath + "/player.cgl";

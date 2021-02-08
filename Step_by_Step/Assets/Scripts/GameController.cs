@@ -39,13 +39,14 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
-        musicController = GameObject.FindGameObjectWithTag("GameController").GetComponent<MusicController>(); // george code
+        musicController = GameObject.FindGameObjectWithTag("GameController").GetComponent<MusicController>(); // Part of George's code
 
         mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
         mainCam = mainCamera.GetComponent<CameraController>();
 
         characterController = GameObject.FindGameObjectWithTag("Player").GetComponent<CharacterController>();
 
+        LoadPlayer();
         ResumeGame();
     }
 
@@ -73,15 +74,21 @@ public class GameController : MonoBehaviour
     }
     public void LoadPlayer()
     {
-        PlayerData data = SaveSystem.LoadPlayer();
+        if(SaveSystem.LoadPlayer() != null)
+        {
+            PlayerData data = SaveSystem.LoadPlayer();
 
-        respawnLocation = new Vector3(data.respawnLocation[0], data.respawnLocation[1], data.respawnLocation[2]);
-        respawnRotation = new Quaternion(data.respawnRotation[0], data.respawnRotation[1], data.respawnRotation[2], data.respawnRotation[3]);
+            respawnLocation = new Vector3(data.respawnLocation[0], data.respawnLocation[1], data.respawnLocation[2]);
+            respawnRotation = new Quaternion(data.respawnRotation[0], data.respawnRotation[1], data.respawnRotation[2], data.respawnRotation[3]);
 
-        characterController.loadPlayer(data);
+            characterController.loadPlayer(data);
 
-        characterController.invertedControls = data.invertedControls;
-        characterController.movementByCamera = data.movementByCamera;
+            characterController.invertedControls = data.invertedControls;
+            characterController.movementByCamera = data.movementByCamera;
+
+            reset();
+
+        }
     }
     public void ExitGame()
     {

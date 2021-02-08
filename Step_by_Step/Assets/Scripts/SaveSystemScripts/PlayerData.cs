@@ -16,7 +16,11 @@ public class PlayerData
     public bool invertedControls;
     public bool movementByCamera;
 
-    public PlayerData(CharacterController player)
+
+    public int musicRegion;
+    public bool musicSong; //true if song1, false if song2
+
+    public PlayerData(CharacterController player, MusicController music)
     {
         respawnLocation = new float[3];
         respawnLocation[0] = player.returnLocation().x;
@@ -35,5 +39,9 @@ public class PlayerData
 
         invertedControls = player.invertedControls;
         movementByCamera = player.movementByCamera;
+
+
+        musicRegion = music.region;
+        musicSong = music.song1;
     }
 }

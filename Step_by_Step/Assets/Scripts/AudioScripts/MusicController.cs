@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class MusicController : MonoBehaviour
 {
+    /* This script was mostly written by George, as he is the Sound Designer of the group.
+     * To ensure that what he had in mind could be properly implemented, he chose to work on this script himself.
+     */
 
     // array of sources playing tracks 1 to 3
     public AudioSource [] audioSources; // careful. ends with an S (audiosource"S")
@@ -30,7 +33,23 @@ public class MusicController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        currentsong = region1song1;
+        //Start of section written by Patrick
+        loadMusicSettings();
+        if(region == 1)
+        {
+            if (song1) currentsong = region1song1;
+            else currentsong = region1song2
+        } else if(region == 2)
+        {
+            if (song1) currentsong = region2song1;
+            else currentsong = region2song2
+        } else if(region == 3)
+        {
+            if (song1) currentsong = region3song1;
+            else currentsong = region3song2
+        }
+        //End of section written by Patrick
+
         audioSources[0].clip = currentsong[0];
         audioSources[1].clip = currentsong[1];
         audioSources[2].clip = currentsong[2];
@@ -40,39 +59,17 @@ public class MusicController : MonoBehaviour
         MusicRestart1();
     }
 
-    // Update is called once per frame
-    void Update()
-    {/*
-        if (Input.GetKeyDown("u"))
+    //This next method was written by Patrick
+    private void loadMusicSettings()
+    {
+        if(SaveSystem.LoadPlayer != null)
         {
-            ChangeSong(1, true);
-        }
+            PlayerData data = SaveSystem.LoadPlayer();
 
-        if (Input.GetKeyDown("i"))
-        {
-            FadeInTrack(2);
+            region = data.musicRegion;
+            song1 = data.musicSong;
         }
-
-        if (Input.GetKeyDown("o"))
-        {
-            FadeOutTrack(2);
-        }
-
-        if (Input.GetKeyDown("p"))
-        {
-            MusicStop();
-        }
-
-        if (Input.GetKeyDown("l"))
-        {
-            MusicRestart();
-        }
-
-        if (Input.GetKeyDown("k"))
-        {
-            region = 2;
-            song1 = true;
-        } */
+        
     }
 
     // function used to fade in and out tracks

@@ -5,6 +5,9 @@ using System.Linq;
 
 public class DataTracking : MonoBehaviour
 {
+    /* This script was entirely written by Georg, as he is the Sound Designer of the group.
+     * To ensure that what he had in mind could be properly implemented, he chose to work on this script himself.
+     */
 
     public GameObject rightFoot; //Object Refernece to the stilt's right foot
     public GameObject leftFoot; //Object Refernece to the stilt's left foot

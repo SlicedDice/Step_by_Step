@@ -12,15 +12,13 @@ public class CharacterController : MonoBehaviour
     public float rotation; // How much the character rotates when pressing A and D (degree per secound)
 
 
-    public GameObject rightFoot; //Object Refernece to the stilt's right foot
-    public GameObject leftFoot; //Object Refernece to the stilt's left foot
+    public GameObject rightFoot; //Object Reference to the stilt's right foot
+    public GameObject leftFoot; //Object Reference to the stilt's left foot
     public float feetMassBase; //The base weight of the feet, changes how strong the character is held on the ground
     public float footWeightWhileMoving; //Exactly as the variable name describes, this is the variable effecting how heavy the foot is while moving a stilt
 
     public GameObject stiltLeft;
     public GameObject stiltRight; //Two Variables referencing the stilts
-
-    public GameObject rotationObj;
 
     private Vector2 lastMousePos = new Vector2(); //The last position of the mouse; to calculate the mouse movement
 
@@ -30,13 +28,13 @@ public class CharacterController : MonoBehaviour
     public bool foundRuinCollectible = false;
 
 
-    public bool movementByCamera = true;
+    public bool movementByCamera = true; //Bools to check off what exactly the controls are
     public bool invertedControls = true;
 
     private Vector3 respawnLocation; //Location when respawning with (R)
     private Quaternion respawnRotation;
 
-    private bool dead = false;
+    private bool dead = false; //So that the character can't be controlled while 'Dead'
 
     private GameController gameController;
     private CameraController mainCam;
