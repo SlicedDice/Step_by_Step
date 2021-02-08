@@ -35,20 +35,7 @@ public class MusicController : MonoBehaviour
     {
         //Start of section written by Patrick
         loadMusicSettings();
-        if(region == 1)
-        {
-            if (song1) currentsong = region1song1;
-            else currentsong = region1song2;
-        } else if(region == 2)
-        {
-            if (song1) currentsong = region2song1;
-            else currentsong = region2song2;
-        } else if(region == 3)
-        {
-            if (song1) currentsong = region3song1;
-            else currentsong = region3song2;
-        }
-        //End of section written by Patrick
+        UpdateCurrentSong();
 
         audioSources[0].clip = currentsong[0];
         audioSources[1].clip = currentsong[1];

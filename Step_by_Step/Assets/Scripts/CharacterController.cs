@@ -47,6 +47,7 @@ public class CharacterController : MonoBehaviour
     void Start()
     {
         
+
         mainRB = mainBody.GetComponent<Rigidbody>();
         lastMousePos = Input.mousePosition;
         leftFoot.GetComponent<Rigidbody>().mass = feetMassBase;

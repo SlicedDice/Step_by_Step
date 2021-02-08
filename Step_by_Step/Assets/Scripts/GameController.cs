@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.IO;
 
 public class GameController : MonoBehaviour
 {
@@ -46,7 +47,9 @@ public class GameController : MonoBehaviour
 
         characterController = GameObject.FindGameObjectWithTag("Player").GetComponent<CharacterController>();
 
-        LoadPlayer();
+        string path = Application.persistentDataPath + "/player.cgl";
+
+        if(File.Exists(path)) LoadPlayer();
         ResumeGame();
     }
 
@@ -74,8 +77,6 @@ public class GameController : MonoBehaviour
     }
     public void LoadPlayer()
     {
-        if(SaveSystem.LoadPlayer() != null)
-        {
             PlayerData data = SaveSystem.LoadPlayer();
 
             respawnLocation = new Vector3(data.respawnLocation[0], data.respawnLocation[1], data.respawnLocation[2]);
@@ -88,7 +89,6 @@ public class GameController : MonoBehaviour
 
             reset();
 
-        }
     }
     public void ExitGame()
     {
