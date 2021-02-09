@@ -47,7 +47,7 @@ public class GameController : MonoBehaviour
 
         characterController = GameObject.FindGameObjectWithTag("Player").GetComponent<CharacterController>();
 
-        string path = Application.persistentDataPath + "/player.cgl";
+        string path = Application.persistentDataPath + "/walkingTitlePlayer.cgl";
 
         if(File.Exists(path)) LoadPlayer();
         ResumeGame();
