@@ -15,15 +15,18 @@ public class BridgeRotationScript : MonoBehaviour
     //rotates Object around z-axis in clockwise direction
     void Update()
     {
-        if (isRotating == true)
+        if (hasRotated < rotationSize)
         {
-            thisRotation = rotationSpeed * Time.deltaTime;
-            transform.Rotate(0f, thisRotation, 0f, Space.Self);
-            hasRotated = hasRotated + thisRotation;
-            if (hasRotated >= rotationSize)
+            if (isRotating == true)
             {
-                isRotating = false;
+                thisRotation = rotationSpeed * Time.deltaTime;
+                transform.Rotate(0f, thisRotation, 0f, Space.Self);
+                hasRotated = hasRotated + thisRotation;
             }
+        }
+        if (hasRotated >= rotationSize)
+        {
+            isRotating = false;
         }
     }
 
