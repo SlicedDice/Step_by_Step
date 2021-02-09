@@ -10,6 +10,8 @@ public class pressurePlate : MonoBehaviour
     private bool activated = false;
 
     public ParticleSystem particleSystem;
+    public Color activatedShineColor;
+    public Color basicShineColor;
 
     void OnCollisionEnter(Collision collision)
     {
@@ -23,7 +25,7 @@ public class pressurePlate : MonoBehaviour
             }
             activated = true;
 
-            particleSystem.startColor = new Color(1f, 1f, 0f, 0.04f);
+            particleSystem.startColor = activatedShineColor;
             GetComponent<Rigidbody>().velocity = new Vector3();
             //GetComponent<Collider>().enabled = false;
 
@@ -37,7 +39,7 @@ public class pressurePlate : MonoBehaviour
             //GetComponent<Collider>().enabled = true;
             GetComponent<Rigidbody>().velocity = new Vector3();
 
-            particleSystem.startColor = new Color(1f, 1f, 1f, 0.04f);
+            particleSystem.startColor = basicShineColor;
             connectedGate.activatedPlates--;
             activated = false;
         }
@@ -45,6 +47,7 @@ public class pressurePlate : MonoBehaviour
     void Start()
     {
         pos = transform.position;
+        particleSystem.startColor = basicShineColor;
     }
     void FixedUpdate()
     {
