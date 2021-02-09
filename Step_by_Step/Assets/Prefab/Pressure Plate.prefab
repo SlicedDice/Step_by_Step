@@ -4886,9 +4886,9 @@ GameObject:
   - component: {fileID: 522068967042030124}
   - component: {fileID: 522068967042030125}
   - component: {fileID: 522068967042030122}
-  - component: {fileID: 6925627635668618813}
   - component: {fileID: 6297807957181176633}
   - component: {fileID: 3997595005414343251}
+  - component: {fileID: 3432210078899084187}
   m_Layer: 0
   m_Name: pressurePlate
   m_TagString: Pressure Plate
@@ -4905,7 +4905,7 @@ Transform:
   m_GameObject: {fileID: 522068967042030127}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.01, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2557529493412851718}
   m_RootOrder: 1
@@ -4917,7 +4917,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 522068967042030127}
-  m_Mesh: {fileID: -3885271357339950269, guid: 2f78ab71e6e5c22408fee383cf2da747, type: 3}
+  m_Mesh: {fileID: -5053925668127403250, guid: 9ec0576bb2b42b2488b27e316e87ca12, type: 3}
 --- !u!23 &522068967042030125
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4937,7 +4937,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2718479538504244382, guid: 2f78ab71e6e5c22408fee383cf2da747, type: 3}
+  - {fileID: 2100000, guid: 974be821f0a242e48a5a705655d1f3bf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4975,20 +4975,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 122
   m_CollisionDetection: 1
---- !u!64 &6925627635668618813
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 522068967042030127}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3885271357339950269, guid: 2f78ab71e6e5c22408fee383cf2da747, type: 3}
 --- !u!114 &6297807957181176633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5098,6 +5084,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!65 &3432210078899084187
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 522068967042030127}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.5625145, y: 0.1382404, z: 2.5625148}
+  m_Center: {x: -0.0000076293945, y: 0.3161762, z: 0.00000047683716}
 --- !u!1 &4023367587935584344
 GameObject:
   m_ObjectHideFlags: 0

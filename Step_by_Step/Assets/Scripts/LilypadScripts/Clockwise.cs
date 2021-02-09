@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Clockwise : MonoBehaviour
 {
+    //this script was written by Kai
     public float degreeValue;
 
     // Update is called once per frame

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class LinearMotion : MonoBehaviour
 {
+    //this script was written by Kai
     public float moveDistance;
     public bool reachedEdge;
 

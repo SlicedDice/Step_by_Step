@@ -45,7 +45,7 @@ public class pressurePlate : MonoBehaviour
     }
     void FixedUpdate()
     {
-        if (transform.position.y > pos.y + 1f) transform.position = new Vector3(transform.position.x, pos.y, transform.position.z);
+        if (transform.position.y > pos.y) transform.position = new Vector3(transform.position.x, pos.y, transform.position.z);
 
         if (activated) pushUpPlate();
     }
