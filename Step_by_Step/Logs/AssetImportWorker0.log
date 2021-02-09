@@ -1,829 +1,1355 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.0f1 (3721df5a8b28) revision 3613151'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16304 MB
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 32644 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Unity Projects\2020.2.0f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.2.0f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/CGL/Collaborative-Project_BA1/Step_by_Step/Step_by_Step
+C:/Users/kaija/Step_by_Step/Step_by_Step
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63472
-Successfully changed project path to: D:/CGL/Collaborative-Project_BA1/Step_by_Step/Step_by_Step
-D:/CGL/Collaborative-Project_BA1/Step_by_Step/Step_by_Step
+60142
+Successfully changed project path to: C:/Users/kaija/Step_by_Step/Step_by_Step
+C:/Users/kaija/Step_by_Step/Step_by_Step
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 39.60 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 47.69 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.0f1 (3721df5a8b28)
-[Subsystems] Discovering subsystems at path D:/Unity Projects/2020.2.0f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/CGL/Collaborative-Project_BA1/Step_by_Step/Step_by_Step/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/kaija/Step_by_Step/Step_by_Step/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Renderer: NVIDIA GeForce RTX 2080 with Max-Q Design (ID=0x1ed0)
     Vendor:   
-    VRAM:     4018 MB
-    Driver:   27.21.14.6079
+    VRAM:     8010 MB
+    Driver:   27.21.14.5763
 Initialize mono
-Mono path[0] = 'D:/Unity Projects/2020.2.0f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity Projects/2020.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Unity Projects/2020.2.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity Projects/2020.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000881 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002594 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 40.01 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 41.81 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.023 seconds
+- Completed reload, in  1.349 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001200 seconds.
+Registered in 0.001507 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002BDA1BA5030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BBA07EF010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BBA0912020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA274B300 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BBA04E34E0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BBA04E34E0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA2B3A010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BBA0613340 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Burst.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA1B6E830 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BBA0AA23E0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA1864020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA1864020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA27776C0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA27776C0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BBA0D8D020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BBA0912020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA187CC30 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BBA07FF620 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA19D1830 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA14FA020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BBA08D91A0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BBA08D0A30 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA1618020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Burst.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA19D1830 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA2917020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BBA0528DF0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA18B8020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BBA0FCB020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA18B8020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA18DDE30 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA13BFC80 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA1396FB0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA163C830 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 38.99 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 43.66 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.741 seconds
+- Completed reload, in  1.788 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2216 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 240.4 MB.
-System memory in use after: 240.4 MB.
+System memory in use before: 240.6 MB.
+System memory in use after: 240.6 MB.
 
-Unloading 102 unused Assets to reduce memory usage. Loaded Objects now: 2688.
-Total: 3.039300 ms (FindLiveObjects: 0.222000 ms CreateObjectMapping: 0.108500 ms MarkObjects: 2.251900 ms  DeleteObjects: 0.455800 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Prefab/Environment/grass1.fbx
-  artifactKey: Guid(6a627a7cb5d339140b4de2a8f5ddb35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/grass1.fbx using Guid(6a627a7cb5d339140b4de2a8f5ddb35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd307824ecd6d74542c079196cbd2079c') in 0.146551 seconds
-  Import took 0.149861 seconds .
+Unloading 102 unused Assets to reduce memory usage. Loaded Objects now: 2690.
+Total: 3.817700 ms (FindLiveObjects: 0.376200 ms CreateObjectMapping: 0.177800 ms MarkObjects: 2.795600 ms  DeleteObjects: 0.467300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Prefab/Environment/bush1.fbx
-  artifactKey: Guid(d7141e337d579e9469571315f4cd2e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/bush1.fbx using Guid(d7141e337d579e9469571315f4cd2e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0fc3dc7a60f64cc6c29f0d0224e50e') in 0.017054 seconds
-  Import took 0.020123 seconds .
+  path: Assets/Materials/bush2.mat
+  artifactKey: Guid(d9d7921d4ba7aba4a9eff5d417383217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/bush2.mat using Guid(d9d7921d4ba7aba4a9eff5d417383217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45df9643410338d1eac36a380bc6f8f') in 0.128641 seconds
+  Import took 0.134343 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Prefab/Environment/lotus.fbx
-  artifactKey: Guid(fa4120bb262af5346950fecbda47aafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/lotus.fbx using Guid(fa4120bb262af5346950fecbda47aafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15fc3cfd73ea0fc7a802000754f68395') in 0.016186 seconds
-  Import took 0.019348 seconds .
+  Time since last request: 0.000205 seconds.
+  path: Assets/Materials/grass2.mat
+  artifactKey: Guid(e7e27682fc977fb42a8c7f0199fe3900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/grass2.mat using Guid(e7e27682fc977fb42a8c7f0199fe3900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff9aad01477d1503d7396abf100aab7e') in 0.012127 seconds
+  Import took 0.016140 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Prefab/Environment/grass2.fbx
-  artifactKey: Guid(096121b18b793af4a8865345d725e3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/grass2.fbx using Guid(096121b18b793af4a8865345d725e3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a5135b7d35c00860acb8282ad565a8') in 0.018741 seconds
-  Import took 0.022187 seconds .
+  Time since last request: 0.000188 seconds.
+  path: Assets/Materials/shroom2.mat
+  artifactKey: Guid(71b55816cced13846bb82696d14a378d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/shroom2.mat using Guid(71b55816cced13846bb82696d14a378d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e67972ab6463d6afcbfbb148ef3845') in 0.012938 seconds
+  Import took 0.017322 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Prefab/Environment/stonesship.fbx
-  artifactKey: Guid(67bc380442375614183e56ceef73f92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/stonesship.fbx using Guid(67bc380442375614183e56ceef73f92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd39a9dcd87a7dc08a9849ba31bad98') in 0.022041 seconds
-  Import took 0.025868 seconds .
+  Time since last request: 0.000322 seconds.
+  path: Assets/ProBuilder Data/Default Material Palette.asset
+  artifactKey: Guid(e94e8ea3d1d926449b421724636aa153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProBuilder Data/Default Material Palette.asset using Guid(e94e8ea3d1d926449b421724636aa153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45e9b45d6d55ce8f51e231c28cfe9b6') in 0.008939 seconds
+  Import took 0.014426 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/Prefab/Environment/crystal1.fbx
-  artifactKey: Guid(7114ad9db0fce6442aeddcb27ae79036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/crystal1.fbx using Guid(7114ad9db0fce6442aeddcb27ae79036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e515df6d22f5b468df581423e3b5e1') in 0.018702 seconds
-  Import took 0.021962 seconds .
+  Time since last request: 0.000277 seconds.
+  path: Assets/Materials/grass4.mat
+  artifactKey: Guid(7a7ab098cdd2c4245bcf39f49b6b0cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/grass4.mat using Guid(7a7ab098cdd2c4245bcf39f49b6b0cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169f56ac150ef41c2b33c9286240ff4a') in 0.011462 seconds
+  Import took 0.016300 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Prefab/Environment/crystal2.fbx
-  artifactKey: Guid(3973ef8614ea8c841b3a25593923df06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/crystal2.fbx using Guid(3973ef8614ea8c841b3a25593923df06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e9e0cc4af2262acbfbf3f2ad02cfef') in 0.025697 seconds
-  Import took 0.029839 seconds .
+  Time since last request: 0.000225 seconds.
+  path: Assets/Materials/shroom3.mat
+  artifactKey: Guid(69b9fbc08ad81e44790cf29d9305716b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/shroom3.mat using Guid(69b9fbc08ad81e44790cf29d9305716b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7817c8a061dc80e5981cfbb3f0fe3063') in 0.011165 seconds
+  Import took 0.016636 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Prefab/Environment/shroom3 1.fbx
-  artifactKey: Guid(916608d82956e614a98dec05e278efb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/shroom3 1.fbx using Guid(916608d82956e614a98dec05e278efb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17a2f2788a108ea5c158a2973b8a90b') in 0.020006 seconds
-  Import took 0.023756 seconds .
+  Time since last request: 0.000202 seconds.
+  path: Assets/Materials/bush1.mat
+  artifactKey: Guid(cdaf9210a2c2bf24fb7e59a37df03d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/bush1.mat using Guid(cdaf9210a2c2bf24fb7e59a37df03d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735578ea73fd47bf500c69f15188cdf9') in 0.009426 seconds
+  Import took 0.013178 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Scenes/Testlevel_Profiles/Main Camera Profile.asset
-  artifactKey: Guid(1f768c31a04228c4b873ca6f960c0008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Testlevel_Profiles/Main Camera Profile.asset using Guid(1f768c31a04228c4b873ca6f960c0008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc802b017135038df22f28b9fb657f6c') in 0.026362 seconds
-  Import took 0.029745 seconds .
+  Time since last request: 0.000374 seconds.
+  path: Assets/Prefab/Environment/River.prefab
+  artifactKey: Guid(760cc44dc17957a43b32eeb4be2d309a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Environment/River.prefab using Guid(760cc44dc17957a43b32eeb4be2d309a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019078c44678f9a8b12c91f3ff734b45') in 0.024372 seconds
+  Import took 0.029240 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Prefab/Environment/crystal.fbx
-  artifactKey: Guid(55e4f9f7c3109514ca1689ad2b1fdc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/crystal.fbx using Guid(55e4f9f7c3109514ca1689ad2b1fdc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91adde53c351a964d6f108bf25be7241') in 0.025030 seconds
-  Import took 0.028320 seconds .
+  Time since last request: 0.000262 seconds.
+  path: Assets/Materials/Crystal2.mat
+  artifactKey: Guid(57c078ef7ed02874290c14cb87d7350e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Crystal2.mat using Guid(57c078ef7ed02874290c14cb87d7350e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a650de860118e36b2367b5de9a45791') in 0.011350 seconds
+  Import took 0.014942 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Prefab/Environment/shroom2 1.fbx
-  artifactKey: Guid(fa1f80482a1d41a4196e6fd494fd8bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/shroom2 1.fbx using Guid(fa1f80482a1d41a4196e6fd494fd8bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e0dc5cc20c70b22547b36e6a660b47') in 0.016766 seconds
-  Import took 0.019880 seconds .
+  Time since last request: 0.000205 seconds.
+  path: Assets/Materials/Gates.mat
+  artifactKey: Guid(31a0645efe7693841aa44a4d14e64807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Gates.mat using Guid(31a0645efe7693841aa44a4d14e64807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf608dfd4ce3a51cfede232c6f0fbd6') in 0.010239 seconds
+  Import took 0.013554 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/Prefab/Environment/tree4.fbx
-  artifactKey: Guid(45b971d259b095c4ab77415c46187a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/tree4.fbx using Guid(45b971d259b095c4ab77415c46187a04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71cfc6d8049e4eb3a7ef015b55f5f3c9') in 0.018671 seconds
-  Import took 0.021893 seconds .
+  Time since last request: 0.000241 seconds.
+  path: Assets/Materials/Crystal1.mat
+  artifactKey: Guid(e424e6e055e5adf4c84532f64e11379e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Crystal1.mat using Guid(e424e6e055e5adf4c84532f64e11379e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a98755d1ab02766d3036e84a325d98') in 0.011134 seconds
+  Import took 0.015351 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Scenes/Testlevel.unity
-  artifactKey: Guid(b91a140b179f3a74aa6d60ccf6116ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Testlevel.unity using Guid(b91a140b179f3a74aa6d60ccf6116ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dca35ae5ddb2c573c1e7489ea45abd7') in 0.002757 seconds
-  Import took 0.006079 seconds .
+  Time since last request: 0.000286 seconds.
+  path: Assets/Materials/stones.mat
+  artifactKey: Guid(cd543c4fcaa0a0445bca039161780982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/stones.mat using Guid(cd543c4fcaa0a0445bca039161780982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4497117c491189f4a75fa9bedc566c9') in 0.013034 seconds
+  Import took 0.017043 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Prefab/Environment/grass3 1.fbx
-  artifactKey: Guid(da323a17628cedd4980b8b7c316a2c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/grass3 1.fbx using Guid(da323a17628cedd4980b8b7c316a2c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c07bcd32a2777525f36a6ba1c3851eb') in 0.018550 seconds
-  Import took 0.021621 seconds .
+  Time since last request: 0.000219 seconds.
+  path: Assets/Materials/SkyBox.mat
+  artifactKey: Guid(78c3d1e678d67d34abef9ef623435b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/SkyBox.mat using Guid(78c3d1e678d67d34abef9ef623435b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4922cf9a2648442d693be9adbf0de04c') in 0.012270 seconds
+  Import took 0.015670 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Prefab/Environment/stump_with_leaves.fbx
-  artifactKey: Guid(6aae0cfe2ff2b214f9c31e899e6a1943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/stump_with_leaves.fbx using Guid(6aae0cfe2ff2b214f9c31e899e6a1943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6383caf40fc0557cdbbd80ae90ba87') in 0.032364 seconds
-  Import took 0.035902 seconds .
+  Time since last request: 0.000161 seconds.
+  path: Assets/Materials/greeny_diff.mat
+  artifactKey: Guid(0337efd7544bf5e4b9105b5fa06860f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/greeny_diff.mat using Guid(0337efd7544bf5e4b9105b5fa06860f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa654e5e4e5dd9f0e99869a858d6f85f') in 0.009131 seconds
+  Import took 0.013053 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Prefab/Environment/tree3.fbx
-  artifactKey: Guid(4b3bb0be74f0e49439e619c886c43eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/tree3.fbx using Guid(4b3bb0be74f0e49439e619c886c43eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8c05830d0d80f93bcb0d20ba391dcc') in 0.052526 seconds
-  Import took 0.056025 seconds .
+  Time since last request: 0.000245 seconds.
+  path: Assets/Materials/tree_leaves.mat
+  artifactKey: Guid(a9891d3a1f98f1a4a82459950129f073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/tree_leaves.mat using Guid(a9891d3a1f98f1a4a82459950129f073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb23cb95d60833818b1198654205026') in 0.009160 seconds
+  Import took 0.013330 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Prefab/Environment/bush3 1.fbx
-  artifactKey: Guid(e31edb6307f225640acbc9ff379c644c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/bush3 1.fbx using Guid(e31edb6307f225640acbc9ff379c644c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a83e420b6c74c70439216b06d6a5bda') in 0.025566 seconds
-  Import took 0.030733 seconds .
+  Time since last request: 0.000192 seconds.
+  path: Assets/Materials/lotus.mat
+  artifactKey: Guid(09eab1450517bce41b31edec79701d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/lotus.mat using Guid(09eab1450517bce41b31edec79701d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b6b8121f9b47c043bb3a031239da3c') in 0.010948 seconds
+  Import took 0.015132 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Prefab/Environment/grass4.fbx
-  artifactKey: Guid(6462489dfa0748e48b0a6994469f382b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/grass4.fbx using Guid(6462489dfa0748e48b0a6994469f382b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e112126b4cf71e09e84262f8d4a837a') in 0.027611 seconds
-  Import took 0.032087 seconds .
+  Time since last request: 0.000216 seconds.
+  path: Assets/Materials/bush3.mat
+  artifactKey: Guid(9e5f6f8d592f6a04787dbc7714a430f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/bush3.mat using Guid(9e5f6f8d592f6a04787dbc7714a430f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66460a2673f5c080a11169d296cf1b5') in 0.010622 seconds
+  Import took 0.014621 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Prefab/Environment/shroom1.fbx
-  artifactKey: Guid(d03fe4aedefed29459eb1e45ac8a2e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/shroom1.fbx using Guid(d03fe4aedefed29459eb1e45ac8a2e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac38ee5e2194818375a5849737f2bc8') in 0.035636 seconds
-  Import took 0.039033 seconds .
+  Time since last request: 0.000190 seconds.
+  path: Assets/Materials/stump.mat
+  artifactKey: Guid(4783756eacbe3ad46a521bd6931cc6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/stump.mat using Guid(4783756eacbe3ad46a521bd6931cc6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ae1061705ab09bbeaa521294bcebe7f') in 0.009033 seconds
+  Import took 0.012752 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Prefab/Environment/tree1 1.fbx
-  artifactKey: Guid(194231c476de0284f99fdc595e245b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/tree1 1.fbx using Guid(194231c476de0284f99fdc595e245b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07aebec071ee3255708b435a91a62cb7') in 0.022927 seconds
-  Import took 0.026557 seconds .
+  Time since last request: 0.000246 seconds.
+  path: Assets/Materials/smallrocks.mat
+  artifactKey: Guid(9ce71d57de8035d479d3056ec1dcb27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/smallrocks.mat using Guid(9ce71d57de8035d479d3056ec1dcb27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b2dc4cadbe9d0b582790a31677ec38') in 0.015614 seconds
+  Import took 0.019608 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000658 seconds.
-  path: Assets/Prefab/Environment/ship_full 1.fbx
-  artifactKey: Guid(82f2f45c6339a7f4da768605d36efb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/ship_full 1.fbx using Guid(82f2f45c6339a7f4da768605d36efb56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09168b30e91c0e15c7f4fbfe4931ccb') in 0.023390 seconds
-  Import took 0.026918 seconds .
+  Time since last request: 0.000202 seconds.
+  path: Assets/Materials/flowers.mat
+  artifactKey: Guid(0400e85eaef1f7a43b5b794d035c97bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/flowers.mat using Guid(0400e85eaef1f7a43b5b794d035c97bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf7012df11589d6b32df8c8762f77de') in 0.015203 seconds
+  Import took 0.019563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Materials/stump_leaves.mat
+  artifactKey: Guid(57a4777a7e3a6254ab2ca05f9b8ee129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/stump_leaves.mat using Guid(57a4777a7e3a6254ab2ca05f9b8ee129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299784b766d9088cbf0d44efe4d5bea2') in 0.009784 seconds
+  Import took 0.013400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Materials/corals.mat
+  artifactKey: Guid(089644cf4b109d746aa62cc42e5d5928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/corals.mat using Guid(089644cf4b109d746aa62cc42e5d5928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a8f8c32f2501fd5b23fd7db9472ff7') in 0.008762 seconds
+  Import took 0.012244 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000261 seconds.
-  path: Assets/Prefab/Environment/flowers1.fbx
-  artifactKey: Guid(651f6c3a9eda96e4b8fab1867ea07cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/flowers1.fbx using Guid(651f6c3a9eda96e4b8fab1867ea07cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e82a21f9464cda88569b91cfbf791bb') in 0.046902 seconds
-  Import took 0.050251 seconds .
+  path: Assets/Materials/CrystalCollectible.mat
+  artifactKey: Guid(8553bd53808847d40a806d4296f59c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/CrystalCollectible.mat using Guid(8553bd53808847d40a806d4296f59c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3cebeb35989dd2bf6a92e148a5bf2b') in 0.008544 seconds
+  Import took 0.012161 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Prefab/Environment/bush2.fbx
-  artifactKey: Guid(f36b0796d49dae64a9bb8a1fae2f1e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/bush2.fbx using Guid(f36b0796d49dae64a9bb8a1fae2f1e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeef62e403f455d91a6555e5aeb4e494') in 0.045637 seconds
-  Import took 0.049247 seconds .
+  Time since last request: 0.000151 seconds.
+  path: Assets/Materials/FENCE(pre).mat
+  artifactKey: Guid(debebc97a7d19434abc7f98d30c45715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/FENCE(pre).mat using Guid(debebc97a7d19434abc7f98d30c45715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa7f3ce4ae6268a417a79799a720c3e') in 0.025542 seconds
+  Import took 0.029232 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Prefab/Environment/tree2.fbx
-  artifactKey: Guid(acacfa0bb7b8f4045ac18771e83d85a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Environment/tree2.fbx using Guid(acacfa0bb7b8f4045ac18771e83d85a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d981bada5b7a3323f76c640fa68df58') in 0.049283 seconds
-  Import took 0.053026 seconds .
+  Time since last request: 0.000205 seconds.
+  path: Assets/Materials/tree_branch.mat
+  artifactKey: Guid(f6616fdc997f71b49ad71fe8e7e3d5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/tree_branch.mat using Guid(f6616fdc997f71b49ad71fe8e7e3d5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0633ef15cfe54771aca76a4051783b27') in 0.009602 seconds
+  Import took 0.013393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Materials/Ship.mat
+  artifactKey: Guid(fd694215f6d954547a93aa5fe8e03fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Ship.mat using Guid(fd694215f6d954547a93aa5fe8e03fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274620fd549d040f628fa33a5101e58a') in 0.012923 seconds
+  Import took 0.017145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Materials/Shroom1.mat
+  artifactKey: Guid(28381d966cd87e144b2ae77138cf6737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Shroom1.mat using Guid(28381d966cd87e144b2ae77138cf6737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d60a3de69cc25f4c7427cea2a0b6ad2') in 0.009618 seconds
+  Import took 0.013449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Materials/grass1.mat
+  artifactKey: Guid(719afb64bc1f78840a09feba174b77a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/grass1.mat using Guid(719afb64bc1f78840a09feba174b77a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ff7d0fc5890158d4becd6e6e821468') in 0.008901 seconds
+  Import took 0.013533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Materials/grass3.mat
+  artifactKey: Guid(701a53d9d7a42cb43b22f28eca3f67f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/grass3.mat using Guid(701a53d9d7a42cb43b22f28eca3f67f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e17fc9ba4ce360d94ce40d20d1642f') in 0.010286 seconds
+  Import took 0.014747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.005238 seconds.
+  path: Assets/Scripts/CameraController.cs
+  artifactKey: Guid(b8a4bafc8bf49e240a0b3bf5686efa32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CameraController.cs using Guid(b8a4bafc8bf49e240a0b3bf5686efa32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af4bceb993ec0c08654b51827bada14') in 0.007170 seconds
+  Import took 0.011310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.742019 seconds.
+  path: Assets/Scripts/BodyScript.cs
+  artifactKey: Guid(c52a3477e9cf4e646817c6a8e23b5dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BodyScript.cs using Guid(c52a3477e9cf4e646817c6a8e23b5dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908f59bf6653cede5afc634f610abd8c') in 0.002945 seconds
+  Import took 0.006969 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001126 seconds.
+Registered in 0.001388 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002BDA277B6D0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA4F0F2D0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA2A51030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDB2A272C0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BBA0FA5820 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA4F0F2D0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA2B3A010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA2145010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Burst.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA1B6E830 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA9201C50 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BBA0F81010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA2B3A010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA138B570 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA138B570 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA2145010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA2A51030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BBA0F81010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA2267030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BBA0FA5820 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA14FA020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BD5556B670 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDB2556120 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA16E0030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Burst.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA164D5F0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA277B6D0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA8CBBF70 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BBA0F81010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDD374EDE0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA918E010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA164D5F0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDAC354FC0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDB0560B00 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA164D5F0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.430 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 236.6 MB.
+System memory in use after: 236.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2735.
+Total: 3.784700 ms (FindLiveObjects: 0.276600 ms CreateObjectMapping: 0.131000 ms MarkObjects: 2.933200 ms  DeleteObjects: 0.442500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001557 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.507 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 236.7 MB.
+System memory in use after: 236.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2737.
+Total: 3.273400 ms (FindLiveObjects: 0.250600 ms CreateObjectMapping: 0.115200 ms MarkObjects: 2.456100 ms  DeleteObjects: 0.450500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1918.754607 seconds.
+  path: Assets/Shaders/New Material 1.mat
+  artifactKey: Guid(2b3bbc1dc29ced74788dff649f87e9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/New Material 1.mat using Guid(2b3bbc1dc29ced74788dff649f87e9e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d626845a7a144738b47e321c717fa7') in 0.072082 seconds
+  Import took 0.075437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Shaders/New Material.mat
+  artifactKey: Guid(8da92690f20d4e544bab6baac5aa4071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/New Material.mat using Guid(8da92690f20d4e544bab6baac5aa4071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90c83db16be34d7288d4905a47b980a') in 0.010264 seconds
+  Import took 0.014609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.290428 seconds.
+  path: Assets/Terrain/Terrain_0_0_7b1165cd-6a0e-4c3f-9381-6b8e7b30676f.asset
+  artifactKey: Guid(e038b8cd12ba76641ab9902376692279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Terrain_0_0_7b1165cd-6a0e-4c3f-9381-6b8e7b30676f.asset using Guid(e038b8cd12ba76641ab9902376692279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f569bc63d5577403ca83d7215c7570d') in 0.007995 seconds
+  Import took 0.011647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Terrain/TerrainData_373e88ab-5621-4524-bd20-b7b7a9027120.asset
+  artifactKey: Guid(050c272efdf72e54ab3644810a33499d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_373e88ab-5621-4524-bd20-b7b7a9027120.asset using Guid(050c272efdf72e54ab3644810a33499d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0547160cb30fb4eb8465324b0da53e1d') in 0.012621 seconds
+  Import took 0.016119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Terrain/TerrainData_ee2c1a89-a856-4e18-b8e3-e4e97312420a.asset
+  artifactKey: Guid(09003c2c5bcae0041a92dc3be82af535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_ee2c1a89-a856-4e18-b8e3-e4e97312420a.asset using Guid(09003c2c5bcae0041a92dc3be82af535) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree tree1 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree1 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: 'bcc2df071a60facdf2bbe942f7b91d37') in 0.040866 seconds
+  Import took 0.045568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Terrain/TerrainData_61fb3609-e385-43b2-af04-2641665a96ae.asset
+  artifactKey: Guid(8f0f0492259978044907615badf19077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_61fb3609-e385-43b2-af04-2641665a96ae.asset using Guid(8f0f0492259978044907615badf19077) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree tree1 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree1 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '5930583c02ae0741fed5c5d6833c22f5') in 0.027820 seconds
+  Import took 0.032370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Terrain/TerrainData_56e82422-31ad-40bf-8164-5a905a213cfd.asset
+  artifactKey: Guid(c7f465fd495f3d548aa51f57f870db01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_56e82422-31ad-40bf-8164-5a905a213cfd.asset using Guid(c7f465fd495f3d548aa51f57f870db01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree tree1 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree1 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '1d8eba035512f256ffc3fad96d313816') in 0.029766 seconds
+  Import took 0.034311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Terrain/TerrainData_97f5ff4c-5bf5-4779-b4e1-a800d24880c3.asset
+  artifactKey: Guid(3af9f2da8b753084cb78e975e40c0032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_97f5ff4c-5bf5-4779-b4e1-a800d24880c3.asset using Guid(3af9f2da8b753084cb78e975e40c0032) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: 'f552941c0d3a160d5de686b36dfa5ea0') in 0.025270 seconds
+  Import took 0.029754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Terrain/TerrainData_884bb55e-fba8-43d0-b245-38c04f3337b8.asset
+  artifactKey: Guid(c44acba9c2cc37641a7bd731e45d624d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_884bb55e-fba8-43d0-b245-38c04f3337b8.asset using Guid(c44acba9c2cc37641a7bd731e45d624d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: 'e19d4ec08dd6b9139e29aa2500bc0867') in 0.030020 seconds
+  Import took 0.033961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Terrain/TerrainData_497139cb-b22f-4dba-bab0-eee978e67dc1.asset
+  artifactKey: Guid(6b1c08ec5449ffa4392f739330ef19e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_497139cb-b22f-4dba-bab0-eee978e67dc1.asset using Guid(6b1c08ec5449ffa4392f739330ef19e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree tree1 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree1 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '4cf1830ee6c54e291fd05e26900c5548') in 0.024278 seconds
+  Import took 0.028703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Terrain/TerrainData_19f2b2bd-3902-4018-9df2-e852dc3c3da4.asset
+  artifactKey: Guid(592ee1b81cd5975498767aead1e1d960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_19f2b2bd-3902-4018-9df2-e852dc3c3da4.asset using Guid(592ee1b81cd5975498767aead1e1d960) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree tree1 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree1 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '73112273f6274edecd80150ef5af9c81') in 0.022894 seconds
+  Import took 0.028264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Terrain/TerrainData_ee9807b2-6188-4318-ada8-60ff3650a32c.asset
+  artifactKey: Guid(9afc68e39393479468ec5a618ad4588e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_ee9807b2-6188-4318-ada8-60ff3650a32c.asset using Guid(9afc68e39393479468ec5a618ad4588e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '60059911939333ec3fd705a3f71c681c') in 0.025965 seconds
+  Import took 0.030208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Terrain/TerrainData_aee881b1-d888-46bd-a3e1-7df33f1a6b87.asset
+  artifactKey: Guid(0afb2d8913232be4abb7b0fce308bfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_aee881b1-d888-46bd-a3e1-7df33f1a6b87.asset using Guid(0afb2d8913232be4abb7b0fce308bfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree tree1 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree1 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '38ab2670c2a70d5497968974bff78bac') in 0.029173 seconds
+  Import took 0.034316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Terrain/TerrainData_31d1a848-c414-469c-8bc0-8023f6ebfd10.asset
+  artifactKey: Guid(a267fcdf02701f74dad1d7071e46670c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_31d1a848-c414-469c-8bc0-8023f6ebfd10.asset using Guid(a267fcdf02701f74dad1d7071e46670c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree tree1 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree1 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '19d04a5bfe0dfd14eff823d78f44dd58') in 0.026469 seconds
+  Import took 0.031343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Terrain/TerrainData_d72eee6c-38a3-4048-b3e4-907fe7f7d04b.asset
+  artifactKey: Guid(76b6c26111d845f419d5c624d783c2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_d72eee6c-38a3-4048-b3e4-907fe7f7d04b.asset using Guid(76b6c26111d845f419d5c624d783c2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree tree1 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree1 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '38eb9df04aa8db7eaf055a28cde91727') in 0.027038 seconds
+  Import took 0.031759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Terrain/TerrainData_44fed95a-9717-4531-8952-164867ec53da.asset
+  artifactKey: Guid(8ef6364751c347c43b1ca45a7993a5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_44fed95a-9717-4531-8952-164867ec53da.asset using Guid(8ef6364751c347c43b1ca45a7993a5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree tree1 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree1 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: 'd29c2f993685549f7f456d1b8c93f2c8') in 0.022209 seconds
+  Import took 0.026984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Terrain/Terrain_0_0_f7b3dbd3-61c4-4e2b-afe0-f51505631942.asset
+  artifactKey: Guid(99254abe4968fc94daf4b0003017be69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/Terrain_0_0_f7b3dbd3-61c4-4e2b-afe0-f51505631942.asset using Guid(99254abe4968fc94daf4b0003017be69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree tree1 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree1 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '9deb5336c906a607fbedc2170af7de32') in 0.026624 seconds
+  Import took 0.031413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Terrain/TerrainData_eb0e069f-270c-4662-9b0d-a912a70fe9ba.asset
+  artifactKey: Guid(b9d85c2721cf5c148899b21a308e3690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_eb0e069f-270c-4662-9b0d-a912a70fe9ba.asset using Guid(b9d85c2721cf5c148899b21a308e3690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010b6e2f09ae9487a2549cf0c091085f') in 0.007115 seconds
+  Import took 0.010527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Terrain/TerrainData_069d2a38-b328-4a2f-ab89-640a51ba0564.asset
+  artifactKey: Guid(29982645333e5f942887880e8042c5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_069d2a38-b328-4a2f-ab89-640a51ba0564.asset using Guid(29982645333e5f942887880e8042c5e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree tree1 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree1 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '49473ef1a45507188826cfdcda695088') in 0.029717 seconds
+  Import took 0.034139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Terrain/TerrainData_7c625578-1423-4359-980d-cfb4ce41b864.asset
+  artifactKey: Guid(dbfa20ea2eb0ea343a21f019f73daf5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_7c625578-1423-4359-980d-cfb4ce41b864.asset using Guid(dbfa20ea2eb0ea343a21f019f73daf5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree tree1 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree1 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '93878e3eeabbf44d6296a292a6a29599') in 0.037705 seconds
+  Import took 0.043618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Terrain/TerrainData_38271eef-726e-4b42-8854-fe7756961c97.asset
+  artifactKey: Guid(f3628e574eb9eb24eb930b832d5c1b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_38271eef-726e-4b42-8854-fe7756961c97.asset using Guid(f3628e574eb9eb24eb930b832d5c1b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree tree1 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree1 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: 'ea1aee27d48dda21515e28f008e4e7d5') in 0.032021 seconds
+  Import took 0.036681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Terrain/TerrainData_5126c04e-1ba6-45f5-a736-fcdccf8bdee6.asset
+  artifactKey: Guid(c5bb99a380909d649902c1f24fb86196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_5126c04e-1ba6-45f5-a736-fcdccf8bdee6.asset using Guid(c5bb99a380909d649902c1f24fb86196) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree tree1 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree1 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: 'fce948020def5392f6a02aacefa19868') in 0.026869 seconds
+  Import took 0.032154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Terrain/TerrainData_358de8a1-f34c-41ed-aa48-369184148029.asset
+  artifactKey: Guid(8382e1f03a7b1db4781f5c85ae0adca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_358de8a1-f34c-41ed-aa48-369184148029.asset using Guid(8382e1f03a7b1db4781f5c85ae0adca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '6b444bc7afafd5ed095766f87b239ccc') in 0.026260 seconds
+  Import took 0.031080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Terrain/TerrainData_7d6272cd-db76-498d-8445-619fe1f4d299.asset
+  artifactKey: Guid(a0e9a52c25062ca48abd4cd8671bac3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_7d6272cd-db76-498d-8445-619fe1f4d299.asset using Guid(a0e9a52c25062ca48abd4cd8671bac3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree tree1 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree1 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: 'b63677af47a686fc66df79c5d1a714eb') in 0.032294 seconds
+  Import took 0.036882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Terrain/TerrainData_197357b6-73a0-4196-a095-22826d066b30.asset
+  artifactKey: Guid(1cdb8a41c89d53948ab6b7fa078e0080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_197357b6-73a0-4196-a095-22826d066b30.asset using Guid(1cdb8a41c89d53948ab6b7fa078e0080) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree tree1 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree1 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree tree2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '353cebdde1243b7d7cdd910396555e3a') in 0.024267 seconds
+  Import took 0.029318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Terrain/TerrainData_f503a87e-7fe6-43a7-8ed0-415a35473d28.asset
+  artifactKey: Guid(4217958cd4cd2094bbef9dc551954ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_f503a87e-7fe6-43a7-8ed0-415a35473d28.asset using Guid(4217958cd4cd2094bbef9dc551954ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bde86b96ddaed97eeda47dcdab0ab2f') in 0.018929 seconds
+  Import took 0.022934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Terrain/TerrainData_77a1dc5c-4106-41c5-b438-b56020f5f5d4.asset
+  artifactKey: Guid(3c87093fda3e95046b435d827f15d0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_77a1dc5c-4106-41c5-b438-b56020f5f5d4.asset using Guid(3c87093fda3e95046b435d827f15d0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f749d5c5b7c4ff48369f8003f51c08') in 0.007617 seconds
+  Import took 0.011099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.669012 seconds.
+  path: Assets/Prefab/BALL_L.fbx
+  artifactKey: Guid(1107704d9f8fcaf4285756946befa8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/BALL_L.fbx using Guid(1107704d9f8fcaf4285756946befa8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f57fc57d71be914b26b328dedbb002') in 0.067623 seconds
+  Import took 0.071529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Prefab/Character_fixed.prefab
+  artifactKey: Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character_fixed.prefab using Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50f3e860391e1ac3b355b3bd13d0431') in 0.038127 seconds
+  Import took 0.041886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Prefab/MySpecialLittleCollider.asset
+  artifactKey: Guid(1d3d978ba94619a42a3d33df8fd8a270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/MySpecialLittleCollider.asset using Guid(1d3d978ba94619a42a3d33df8fd8a270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28888e3a6386246e3f95126b06c97c7b') in 0.007709 seconds
+  Import took 0.011291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Prefab/OldTestCharacter.prefab
+  artifactKey: Guid(ed3282f8b10a2b845ba496c794e203df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/OldTestCharacter.prefab using Guid(ed3282f8b10a2b845ba496c794e203df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4847c49c0c87f6c58af00dd51e03b970') in 0.018191 seconds
+  Import took 0.022694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Prefab/Decorative sphere.prefab
+  artifactKey: Guid(c366b99fd39d5f742ab9fc2a38c572d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Decorative sphere.prefab using Guid(c366b99fd39d5f742ab9fc2a38c572d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae1a9e66d114b2e5fa23bdc3e7a4643') in 0.019824 seconds
+  Import took 0.023679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Prefab/Linear Movement.prefab
+  artifactKey: Guid(7f466edd7b8f24e469a1b7b678302d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Linear Movement.prefab using Guid(7f466edd7b8f24e469a1b7b678302d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e20e94e4c4cafb8252cc7e6dcab4e18') in 0.010033 seconds
+  Import took 0.013965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Prefab/Gate.prefab
+  artifactKey: Guid(cb304973aa396b94db94f54137173f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Gate.prefab using Guid(cb304973aa396b94db94f54137173f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7c71f2c529a5eec82d1d055cd7fd89') in 0.021897 seconds
+  Import took 0.026215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Prefab/pressure_plate.fbx
+  artifactKey: Guid(9ec0576bb2b42b2488b27e316e87ca12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/pressure_plate.fbx using Guid(9ec0576bb2b42b2488b27e316e87ca12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1b458a61df4189b0f38d7d74426c50') in 0.016519 seconds
+  Import took 0.020653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Prefab/Clockwise Rotation.prefab
+  artifactKey: Guid(8597fc475d2e2504da4c04a744a0e3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Clockwise Rotation.prefab using Guid(8597fc475d2e2504da4c04a744a0e3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e36e3d1b99e2fd8185bfff318a4926') in 0.021988 seconds
+  Import took 0.026146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Prefab/Counterclockwise Rotation.prefab
+  artifactKey: Guid(2e2fa38b047e00541ad0cf6d9310d633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Counterclockwise Rotation.prefab using Guid(2e2fa38b047e00541ad0cf6d9310d633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d2e7164d3a93df30f9d1a5da1fe3d2') in 0.009891 seconds
+  Import took 0.013775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Prefab/Character.prefab
+  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c4341f98c1f986ac744295a411ed809') in 0.028235 seconds
+  Import took 0.032391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Prefab/Sphere.prefab
+  artifactKey: Guid(502b9714d115ed940ac19ab47ef06d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Sphere.prefab using Guid(502b9714d115ed940ac19ab47ef06d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea69f9ea7b37f3ba6e5fff4e70c9c27') in 0.016262 seconds
+  Import took 0.019960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Prefab/MySpecialLittleCollider.prefab
+  artifactKey: Guid(b519ecab076e96042a8d9d315186e930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/MySpecialLittleCollider.prefab using Guid(b519ecab076e96042a8d9d315186e930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b95c8520f03fb85166e8dcf6ac853de') in 0.018676 seconds
+  Import took 0.022256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Prefab/Pressure Plate.prefab
+  artifactKey: Guid(7d7f61416b00f434b818bc4b03e17155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Pressure Plate.prefab using Guid(7d7f61416b00f434b818bc4b03e17155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fbb5576188bf65bffda04081de1ef5f') in 0.021818 seconds
+  Import took 0.025452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Prefab/Pillar.prefab
+  artifactKey: Guid(5dd195fd1ac5069459da34c1c7439a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Pillar.prefab using Guid(5dd195fd1ac5069459da34c1c7439a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe37ee88861b1d48268591d5e44bf52') in 0.019501 seconds
+  Import took 0.023391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Prefab/CollectibleItem.prefab
+  artifactKey: Guid(2bd24c5fb543dc14caabc3518af37488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/CollectibleItem.prefab using Guid(2bd24c5fb543dc14caabc3518af37488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffd6208817d88b9ec7a94435b877217') in 0.015907 seconds
+  Import took 0.020090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Prefab/Reset Zone.prefab
+  artifactKey: Guid(8dda4870712c685409aedb41ab12a132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Reset Zone.prefab using Guid(8dda4870712c685409aedb41ab12a132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d79e7b47be1c153217b8be20174c724') in 0.004457 seconds
+  Import took 0.008270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017141 seconds.
+  path: Assets/Prefab/Reset Zone.prefab
+  artifactKey: Guid(8dda4870712c685409aedb41ab12a132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Reset Zone.prefab using Guid(8dda4870712c685409aedb41ab12a132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d79e7b47be1c153217b8be20174c724') in 0.003502 seconds
+  Import took 0.007232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.609212 seconds.
+  path: Assets/Prefab/Mushroom Character
+  artifactKey: Guid(f18e4870a67f22e499343fde412a69cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Mushroom Character using Guid(f18e4870a67f22e499343fde412a69cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a2e0a5380b553df2040a3b12ca2b5d') in 0.002373 seconds
+  Import took 0.006141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.398899 seconds.
+  path: Assets/Prefab/Environment
+  artifactKey: Guid(e4324e355ecb0b94c8bb73fcbde0c747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Environment using Guid(e4324e355ecb0b94c8bb73fcbde0c747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1e9f772f831f176fbca3e805960591') in 0.002781 seconds
+  Import took 0.006305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.611854 seconds.
+  path: Assets/Prefab/Environment/fances
+  artifactKey: Guid(7022cb5bb9305354e8b8fa30e2854756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Environment/fances using Guid(7022cb5bb9305354e8b8fa30e2854756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6cf382471a2e51c258ee963d82ee57') in 0.002798 seconds
+  Import took 0.005936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069206 seconds.
+  path: Assets/Prefab/Environment/fances/fence1.fbx
+  artifactKey: Guid(61443490e190dc44b889e7ff2b5188bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Environment/fances/fence1.fbx using Guid(61443490e190dc44b889e7ff2b5188bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755beafff5d955fe32967b4595ea0bd3') in 0.012970 seconds
+  Import took 0.016493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Prefab/Environment/fances/fence5.fbx
+  artifactKey: Guid(7a19c5ac0e466234eaf12052cbbfb704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Environment/fances/fence5.fbx using Guid(7a19c5ac0e466234eaf12052cbbfb704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f58b160e8f50a9f0bbf4e458c13ee9e') in 0.016170 seconds
+  Import took 0.019488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Prefab/Environment/fances/fence4.fbx
+  artifactKey: Guid(7d8a00fd4e4765241bb3fe58938eae71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Environment/fances/fence4.fbx using Guid(7d8a00fd4e4765241bb3fe58938eae71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567c0558ee2763560092b5386cf9a2b7') in 0.019991 seconds
+  Import took 0.023427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Prefab/Environment/fances/pole1.fbx
+  artifactKey: Guid(bd3c4a8838520e141bc1d26ffe08e9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Environment/fances/pole1.fbx using Guid(bd3c4a8838520e141bc1d26ffe08e9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ede2ac9f7b7c6d63e8ba9b1f27e313') in 0.015918 seconds
+  Import took 0.020117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Prefab/Environment/fances/fence3.fbx
+  artifactKey: Guid(2a7fc67feaa51b345ba29ec062e2def7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Environment/fances/fence3.fbx using Guid(2a7fc67feaa51b345ba29ec062e2def7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d0ffc30bd1898e1bff0d062ee23730') in 0.018078 seconds
+  Import took 0.021805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Prefab/Environment/fances/fence2.fbx
+  artifactKey: Guid(76116b3aca648644e9f7f23caeb36fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Environment/fances/fence2.fbx using Guid(76116b3aca648644e9f7f23caeb36fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ab3fe894d8242f0b1874026c4f5246') in 0.014472 seconds
+  Import took 0.018080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.544190 seconds.
+  path: Assets/Prefab/Environment/fances/With Colliders
+  artifactKey: Guid(d9abcd4b6f02d41428c6be026ebcefd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Environment/fances/With Colliders using Guid(d9abcd4b6f02d41428c6be026ebcefd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b486795ea7d2ef4c67aa5a88d62a86b') in 0.002702 seconds
+  Import took 0.006054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000581 seconds.
+  path: Assets/Prefab/Environment/fances/With Colliders
+  artifactKey: Guid(d9abcd4b6f02d41428c6be026ebcefd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Environment/fances/With Colliders using Guid(d9abcd4b6f02d41428c6be026ebcefd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b486795ea7d2ef4c67aa5a88d62a86b') in 0.002213 seconds
+  Import took 0.005378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081070 seconds.
+  path: Assets/Prefab/Environment/fances/With Colliders/Checkpoint.prefab
+  artifactKey: Guid(3148314357b394f49b86389adcd2a8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Environment/fances/With Colliders/Checkpoint.prefab using Guid(3148314357b394f49b86389adcd2a8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e751b18ba1c37a1b16c0759067e044') in 0.010698 seconds
+  Import took 0.014249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Prefab/Environment/fances/With Colliders/fence2 Variant.prefab
+  artifactKey: Guid(103b2a3bd4212494ea588c3a02c0dd49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Environment/fances/With Colliders/fence2 Variant.prefab using Guid(103b2a3bd4212494ea588c3a02c0dd49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4bbcf9f989a782a5d6d4bae33aa836') in 0.013073 seconds
+  Import took 0.017514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Prefab/Environment/fances/With Colliders/fence4 Variant.prefab
+  artifactKey: Guid(5b1db7d343115684f9cffef8d6522934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Environment/fances/With Colliders/fence4 Variant.prefab using Guid(5b1db7d343115684f9cffef8d6522934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66bac58db368a5f19e250fe4cb0b59a') in 0.020507 seconds
+  Import took 0.024653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Prefab/Environment/fances/With Colliders/Pole with cylinder.prefab
+  artifactKey: Guid(8159d3ae9628a654eb8325027cce8383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Environment/fances/With Colliders/Pole with cylinder.prefab using Guid(8159d3ae9628a654eb8325027cce8383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd387578f88475f35c9bab2039a854a08') in 0.011263 seconds
+  Import took 0.014674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Prefab/Environment/fances/With Colliders/fence3 Variant.prefab
+  artifactKey: Guid(d59d197c50c8eec47af257f41eb0e69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Environment/fances/With Colliders/fence3 Variant.prefab using Guid(d59d197c50c8eec47af257f41eb0e69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94e0f1abbca2dd30a08ff57df9c0edd') in 0.011743 seconds
+  Import took 0.015236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Prefab/Environment/fances/With Colliders/fence1 Variant.prefab
+  artifactKey: Guid(8094ebfa53349d34c84b4ded4dd01bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Environment/fances/With Colliders/fence1 Variant.prefab using Guid(8094ebfa53349d34c84b4ded4dd01bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b71794725ad423d5b349cdf6eb9e93') in 0.012453 seconds
+  Import took 0.015745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Prefab/Environment/fances/With Colliders/fence5 Variant.prefab
+  artifactKey: Guid(cb41e12f424dd134da1d1e33e53628d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Environment/fances/With Colliders/fence5 Variant.prefab using Guid(cb41e12f424dd134da1d1e33e53628d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c2e23c2ba0ee218006e19bae4179d84') in 0.011975 seconds
+  Import took 0.015801 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002040 seconds.
+Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
 
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.110 seconds
+- Completed reload, in  1.144 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 236.3 MB.
-System memory in use after: 236.3 MB.
+System memory in use before: 248.1 MB.
+System memory in use after: 248.1 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2700.
-Total: 4.443100 ms (FindLiveObjects: 0.230300 ms CreateObjectMapping: 0.087800 ms MarkObjects: 3.163100 ms  DeleteObjects: 0.960300 ms)
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 2747.
+Total: 3.590700 ms (FindLiveObjects: 0.264400 ms CreateObjectMapping: 0.103200 ms MarkObjects: 2.864200 ms  DeleteObjects: 0.357800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001174 seconds.
+Registered in 0.001614 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002BDB07A0DB0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDAD4F0010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDAA05D020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDFF65E1D0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA96D78F0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDAEF86060 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA2B3A010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA3D7F010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Burst.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA8E640B0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDFA647260 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDB1842CE0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA1D77040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA9218E30 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDAA33E010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BBA0D0B020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDB0A64E50 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA89F9C20 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA592E3F0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA9844190 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDB18732D0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BBA0E78060 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDB2558590 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA8E640B0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Burst.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDB3181030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDB07A0DB0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDFE7EDF40 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDB1842CE0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDABFFEBE0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA90A13B0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDAFBF4EB0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDAC349270 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA1FBBDB0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA8CBCFA0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
 
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.027 seconds
+- Completed reload, in  1.513 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 236.4 MB.
-System memory in use after: 236.3 MB.
+System memory in use before: 248.1 MB.
+System memory in use after: 248.1 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2702.
-Total: 2.867500 ms (FindLiveObjects: 0.207700 ms CreateObjectMapping: 0.091000 ms MarkObjects: 2.256400 ms  DeleteObjects: 0.311300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 120.994645 seconds.
-  path: Assets/Scripts/GameController.cs
-  artifactKey: Guid(39c89b5c90519734eafa9d490576fb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameController.cs using Guid(39c89b5c90519734eafa9d490576fb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edad3a9927b5cbf7a37fd24e934dc9c6') in 0.017649 seconds
-  Import took 0.020989 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013376 seconds.
-  path: Assets/Scripts/GameController.cs
-  artifactKey: Guid(39c89b5c90519734eafa9d490576fb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameController.cs using Guid(39c89b5c90519734eafa9d490576fb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edad3a9927b5cbf7a37fd24e934dc9c6') in 0.002234 seconds
-  Import took 0.005976 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 52.333024 seconds.
-  path: Assets/Scripts/CameraController.cs
-  artifactKey: Guid(b8a4bafc8bf49e240a0b3bf5686efa32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CameraController.cs using Guid(b8a4bafc8bf49e240a0b3bf5686efa32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1b1a2aa8a5ebe1d8f1eb005f4a3dc8') in 0.005850 seconds
-  Import took 0.009439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.875646 seconds.
-  path: Assets/Prefab/Character.prefab
-  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6662762a991ca9fcfcd4ce08949940') in 0.075651 seconds
-  Import took 0.079898 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Prefab/Character_fixed.prefab
-  artifactKey: Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Character_fixed.prefab using Guid(d8d501ff3731a5147bbd35d6790742eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90346256e8198346287641cb3f64498c') in 0.030157 seconds
-  Import took 0.033406 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Prefab/Gate.prefab
-  artifactKey: Guid(cb304973aa396b94db94f54137173f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Gate.prefab using Guid(cb304973aa396b94db94f54137173f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfbe68705fca726dc88a829ae41c4972') in 0.020814 seconds
-  Import took 0.024069 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Prefab/Sphere.prefab
-  artifactKey: Guid(502b9714d115ed940ac19ab47ef06d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Sphere.prefab using Guid(502b9714d115ed940ac19ab47ef06d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14343ea10cf8691c243c7f0acb4e69b0') in 0.034865 seconds
-  Import took 0.038330 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Prefab/Pressure Plate.prefab
-  artifactKey: Guid(7d7f61416b00f434b818bc4b03e17155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Pressure Plate.prefab using Guid(7d7f61416b00f434b818bc4b03e17155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd290f2949435244033e6ae4c1289343c') in 0.033762 seconds
-  Import took 0.037119 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Prefab/CollectibleItem.prefab
-  artifactKey: Guid(2bd24c5fb543dc14caabc3518af37488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/CollectibleItem.prefab using Guid(2bd24c5fb543dc14caabc3518af37488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078bf1feaeb939e854e893780aec950f') in 0.018266 seconds
-  Import took 0.022263 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Prefab/Reset Zone.prefab
-  artifactKey: Guid(8dda4870712c685409aedb41ab12a132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Reset Zone.prefab using Guid(8dda4870712c685409aedb41ab12a132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa81480577341af46c6b0340f94cc2c6') in 0.003851 seconds
-  Import took 0.007055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.655678 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f461c3fa808f728145dc362a77766629') in 0.006177 seconds
-  Import took 0.009392 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004406 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f461c3fa808f728145dc362a77766629') in 0.002859 seconds
-  Import took 0.006289 seconds .
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2749.
+Total: 3.952100 ms (FindLiveObjects: 0.283100 ms CreateObjectMapping: 0.100600 ms MarkObjects: 3.159500 ms  DeleteObjects: 0.407200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001136 seconds.
+Registered in 0.001923 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002BDFF0A2050 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDB1E52010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDFF0AC2D0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDFF653D90 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDF8BBB010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDB3202010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDD3757F00 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA3D7F010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Burst.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDFBA518E0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDFA648D70 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDF8CEB010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA2B3A010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDFCA0E1A0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDF7C920A0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDFF643010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDFF0AC2D0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDFAC28020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA592E3F0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDF8BBB010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDFD706020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDFE5368A0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDFE55B460 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDAC09A010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Burst.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA9978030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDFF0A2050 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDACD9E030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDF8CEB010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BD555768D0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDFD916030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDFC844820 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA5CDB950 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDB0A66BE0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDB275A030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
 
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.054 seconds
+- Completed reload, in  1.703 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 247.5 MB.
-System memory in use after: 247.4 MB.
-
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2707.
-Total: 3.204200 ms (FindLiveObjects: 0.208400 ms CreateObjectMapping: 0.086300 ms MarkObjects: 2.531700 ms  DeleteObjects: 0.375900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 63.606587 seconds.
-  path: Assets/Prefab/Character.prefab
-  artifactKey: Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Character.prefab using Guid(79128dff884ec684db46a9c8fbc049e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e640ac1292571e7d054b898ef209db97') in 0.058347 seconds
-  Import took 0.062166 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001452 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002BDB07A0DB0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA9FB9840 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDAA05D020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BBA5CA4690 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BBA0FA5820 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDFF54F100 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDD3757F00 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA3D7F010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Burst.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA9FC8930 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDF8CFDA10 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDB1842CE0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDABA82010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA9218E30 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDAA33E010 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BBA0D0B020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDB1835020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDF84CF2C0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA592E3F0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDAA51BA40 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Animation.Rigging.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDAE319040 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA58FFBD0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDAD75BE90 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA9FC8930 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Burst.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDB3181030 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDB07A0DB0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDF8F23F40 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDB1842CE0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.TerrainTools.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDABFFEBE0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDF850DE30 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA99DA3B0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDAC34BE20 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDA1FBBDB0 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.ProGrids.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002BDAD120020 doesn't match image D:\CGL\Collaborative-Project_BA1\Step_by_Step\Step_by_Step\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 248.1 MB.
+System memory in use after: 248.1 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2751.
+Total: 3.993400 ms (FindLiveObjects: 0.240000 ms CreateObjectMapping: 0.094600 ms MarkObjects: 3.261700 ms  DeleteObjects: 0.396100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002131 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Warning: Annotation not found!
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool)
-UnityEditor.ProBuilder.HierarchyListener:.cctor ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
-[C:\buildslave\unity\build\Editor/Src/AnnotationManager.cpp line 229]
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
 
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.325 seconds
+- Completed reload, in  1.729 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2105 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 247.5 MB.
-System memory in use after: 247.4 MB.
+System memory in use before: 248.1 MB.
+System memory in use after: 248.1 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2710.
-Total: 2.886500 ms (FindLiveObjects: 0.217800 ms CreateObjectMapping: 0.081000 ms MarkObjects: 2.253600 ms  DeleteObjects: 0.332200 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2753.
+Total: 4.640800 ms (FindLiveObjects: 0.570700 ms CreateObjectMapping: 0.191900 ms MarkObjects: 3.431800 ms  DeleteObjects: 0.444800 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
