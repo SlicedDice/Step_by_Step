@@ -50,7 +50,7 @@ public class GameController : MonoBehaviour
         mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
         mainCam = mainCamera.GetComponent<CameraController>();
 
-        characterController = GameObject.FindGameObjectWithTag("Player").GetComponent<CharacterController>();
+        characterController = GameObject.FindGameObjectWithTag("FullPlayer").GetComponent<CharacterController>();
 
         string path = Application.persistentDataPath + "/walkingTitlePlayer.cgl";
 

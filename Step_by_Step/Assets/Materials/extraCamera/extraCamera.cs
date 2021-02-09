@@ -15,8 +15,11 @@ public class extraCamera : MonoBehaviour
     {
         if (buffer <= 0f)
         {
+
             if (Input.GetKey("v") && !inControl)
             {
+                character = GameObject.FindGameObjectWithTag("FullPlayer");
+
                 inControl = true;
                 character.SetActive(false);
                 mainCamera.enabled = false;
@@ -25,6 +28,8 @@ public class extraCamera : MonoBehaviour
             }
             else if (Input.GetKey("v") && inControl)
             {
+                character = GameObject.FindGameObjectWithTag("FullPlayer");
+
                 inControl = false;
                 character.SetActive(true);
                 mainCamera.enabled = true;
