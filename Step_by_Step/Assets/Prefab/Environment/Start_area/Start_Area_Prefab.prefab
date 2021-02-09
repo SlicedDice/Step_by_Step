@@ -215,7 +215,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -462981019419857548, guid: fce059c5bc020d6449f9705c73c7c027, type: 3}
 --- !u!64 &4836557183153866015
@@ -229,7 +229,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4579454407841743219, guid: 9cce7508d8cdcfd44a2c19b4c733c954, type: 3}
 --- !u!114 &3340865297645468250
@@ -2722,6 +2722,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bridge
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9cce7508d8cdcfd44a2c19b4c733c954, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cce7508d8cdcfd44a2c19b4c733c954, type: 3}
 --- !u!1 &8975121877051381409 stripped
@@ -2870,6 +2874,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: fce059c5bc020d6449f9705c73c7c027, type: 3}
       propertyPath: m_Name
       value: start area
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fce059c5bc020d6449f9705c73c7c027, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fce059c5bc020d6449f9705c73c7c027, type: 3}
