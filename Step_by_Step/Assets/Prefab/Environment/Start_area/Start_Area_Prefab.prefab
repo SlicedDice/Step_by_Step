@@ -215,7 +215,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -462981019419857548, guid: fce059c5bc020d6449f9705c73c7c027, type: 3}
 --- !u!64 &4836557183153866015
@@ -229,7 +229,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4579454407841743219, guid: 9cce7508d8cdcfd44a2c19b4c733c954, type: 3}
 --- !u!114 &3340865297645468250
@@ -248,6 +248,7 @@ MonoBehaviour:
   rotationSize: 185
   hasRotated: 0
   isRotating: 0
+  source: {fileID: 0}
 --- !u!1001 &24072923907495273
 PrefabInstance:
   m_ObjectHideFlags: 0
