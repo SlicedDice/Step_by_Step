@@ -936,7 +936,6 @@ MonoBehaviour:
   footWeightWhileMoving: 0.15
   stiltLeft: {fileID: 5482947322054686779}
   stiltRight: {fileID: 45698286113703185}
-  rotationObj: {fileID: 6840605447505951676}
   foundBeanstalkCollectible: 0
   foundShipCollectible: 0
   foundRuinCollectible: 0
