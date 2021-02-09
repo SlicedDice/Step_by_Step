@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.IO;
-using System.Runtime.Serialization.Formatters.Binary;
 
 public class MainMenu : MonoBehaviour
 {
-    public bool controlsByCamera = false;;
+    public bool controlsByCamera = false;
     public bool inverted = false;
 
     public void Start()
@@ -35,7 +34,7 @@ public class MainMenu : MonoBehaviour
     
     public void saveOptions()
     {
-        SaveSysten.SaveOptions(controlsByCamera, inverted);
+        SaveSystem.SaveOptions(controlsByCamera, inverted); 
     }
     public void loadOptions()
     {
