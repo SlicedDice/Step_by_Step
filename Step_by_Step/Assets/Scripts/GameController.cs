@@ -228,6 +228,8 @@ public class GameController : MonoBehaviour
 
         movementByCamera = data.movementByCamera;
         invertedControls = data.inverted;
+        characterController.movementByCamera = movementByCamera;
+        characterController.invertedControls = invertedControls;
 
         changeButtonColors();
     }
