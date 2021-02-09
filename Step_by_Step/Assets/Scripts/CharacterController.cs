@@ -160,13 +160,13 @@ public class CharacterController : MonoBehaviour
     {
         float rot = rotation * Time.deltaTime;
 
-        if (Input.GetKey("q"))
+        if (Input.GetKey("a"))
         {
             //mainBody.transform.Rotate(0f, -rot, 0f, Space.World);
             stiltLeft.transform.Rotate(0f, -rot, 0f, Space.World);
             leftFoot.transform.Rotate(0f, -rot, 0f, Space.World);
         }
-        else if (Input.GetKey("e"))
+        else if (Input.GetKey("d"))
         {
             //mainBody.transform.Rotate(0f, rot, 0f, Space.World);
             stiltLeft.transform.Rotate(0f, rot, 0f, Space.World);
