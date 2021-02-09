@@ -583,6 +583,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: {fileID: 6840605446966507423}
+  positionLink: {fileID: 6840605446513353521}
   linkedUp: 0
   touching: 0
   otherFoot: {fileID: 5819521620867752463}
@@ -965,6 +966,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: {fileID: 6840605446966507423}
+  positionLink: {fileID: 6840605447652912922}
   linkedUp: 0
   touching: 0
   otherFoot: {fileID: 3529220440071055177}
@@ -1117,6 +1119,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 20dc4a2b18ebefc48bef173102173713, type: 3}
       propertyPath: m_Name
       value: new_mushroomcolour
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 20dc4a2b18ebefc48bef173102173713, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20dc4a2b18ebefc48bef173102173713, type: 3}

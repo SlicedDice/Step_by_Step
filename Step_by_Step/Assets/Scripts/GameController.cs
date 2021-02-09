@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.IO;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
@@ -54,6 +55,7 @@ public class GameController : MonoBehaviour
         string path = Application.persistentDataPath + "/walkingTitlePlayer.cgl";
 
         if(File.Exists(path)) LoadPlayer();
+        loadOptions();
         ResumeGame();
     }
 
@@ -201,5 +203,72 @@ public class GameController : MonoBehaviour
             default:
                 break;
         }
+    }
+
+
+    //Stuff for the in-game menu
+
+    public Button byCameraButton;
+    public Button byCharacterButton;
+    public Button invertedButton;
+    public Button regularButton;
+
+    public void saveOptions()
+    {
+        SaveSystem.SaveOptions(movementByCamera, invertedControls);
+    }
+    public void loadOptions()
+    {
+        OptionData data = SaveSystem.LoadOptions();
+
+        movementByCamera = data.movementByCamera;
+        invertedControls = data.inverted;
+
+        changeButtonColors();
+    }
+
+    public void changeButtonColors()
+    {
+        if (movementByCamera)
+        {
+            byCameraButton.interactable = false;
+            byCharacterButton.interactable = true;
+        }
+        else if (!movementByCamera)
+        {
+            byCharacterButton.interactable = false;
+            byCameraButton.interactable = true;
+        }
+        if (invertedControls)
+        {
+            invertedButton.interactable = false;
+            regularButton.interactable = true;
+        }
+        else if (!invertedControls)
+        {
+            regularButton.interactable = false;
+            invertedButton.interactable = true;
+        }
+    }
+
+    public void setControlsByCamera()
+    {
+        movementByCamera = true;
+        changeButtonColors();
+    }
+    public void setControlsByCharacter()
+    {
+        movementByCamera = false;
+        changeButtonColors();
+    }
+    public void setControlsInverted()
+    {
+        invertedControls = true;
+        changeButtonColors();
+    }
+    public void setControlsRegular()
+    {
+        invertedControls = false;
+        changeButtonColors();
     }
 }

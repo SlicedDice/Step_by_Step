@@ -5,7 +5,7 @@ using UnityEngine;
 public class StickyScript : MonoBehaviour
 {
     public GameObject character;
-    private GameObject positionLink;
+    public GameObject positionLink;
     private Vector3 lastLinkPosition;
 
     public bool linkedUp = false;
