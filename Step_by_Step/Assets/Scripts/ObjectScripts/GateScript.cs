@@ -12,7 +12,7 @@ public class GateScript : MonoBehaviour
     private Animator doorAnim;
     private AudioSource doorAudio;
 
-    bool gateOpen = false;
+    public bool gateOpen = false;
     void Start()
     {
         doorAnim = GetComponent<Animator>();
@@ -27,7 +27,7 @@ public class GateScript : MonoBehaviour
             gateOpen = true;
         }
     }
-
+     
     void openGate()
     {
         doorAnim.SetTrigger("Open Doors");
