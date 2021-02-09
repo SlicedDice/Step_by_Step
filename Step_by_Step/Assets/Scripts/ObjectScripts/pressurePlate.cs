@@ -13,23 +13,26 @@ public class pressurePlate : MonoBehaviour
     public Color activatedShineColor;
     public Color basicShineColor;
 
+    private float timer = 1f;
+
     void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Wet Ground" || collision.gameObject.tag == "Swamp Ground")
         {
 
-            if (!activated)
+            if (!activated && timer <= 0f)
             {
                 GetComponent<AudioSource>().Play();
                 connectedGate.increaseActivated();
-            }
-            activated = true;
-
-            particleSystem.startColor = activatedShineColor;
-            GetComponent<Rigidbody>().velocity = new Vector3();
-            //GetComponent<Collider>().enabled = false;
-
+                timer = 1f;
             
+                activated = true;
+
+                particleSystem.startColor = activatedShineColor;
+                GetComponent<Rigidbody>().velocity = new Vector3();
+                //GetComponent<Collider>().enabled = false;
+            }
+
         }
     }
     void OnCollisionExit(Collision collision)
@@ -56,7 +59,10 @@ public class pressurePlate : MonoBehaviour
     {
         if (transform.position.y > pos.y) transform.position = new Vector3(transform.position.x, pos.y, transform.position.z);
 
-        if (activated) pushUpPlate();
+        if (activated && !connectedGate.gateOpen) pushUpPlate();
+
+        timer -= Time.deltaTime;
+        
     }
 
     void pushUpPlate()

@@ -38,6 +38,10 @@ public class GameController : MonoBehaviour
     public bool invertedControls;
     public bool movementByCamera;
 
+    public GameObject beanstalkCollectible;
+    public GameObject shipCollectible;
+    public GameObject ruinCollectible;
+
     private void Start()
     {
         musicController = GameObject.FindGameObjectWithTag("GameController").GetComponent<MusicController>(); // Part of George's code
@@ -87,7 +91,26 @@ public class GameController : MonoBehaviour
             characterController.invertedControls = data.invertedControls;
             characterController.movementByCamera = data.movementByCamera;
 
-            reset();
+        foundBeanstalkCollectible = data.beanstalkCollectible;
+        foundShipCollectible = data.shipwreckCollectible;
+        foundRuinCollectible = data.ruinCollectible;
+
+        if (foundBeanstalkCollectible)
+        {
+            beanstalkCollectible.SetActive(false);
+            rotateCamera(1);
+        }
+        if (foundShipCollectible)
+        {
+            shipCollectible.SetActive(false);
+            rotateCamera(2);
+        }
+        if (foundRuinCollectible)
+        {
+            ruinCollectible.SetActive(false);
+            rotateCamera(0);
+        }
+        reset();
 
     }
     public void ExitGame()
@@ -152,7 +175,8 @@ public class GameController : MonoBehaviour
         characterController.foundRuinCollectible = foundRuinCollectible;
         characterController.invertedControls = invertedControls;
         characterController.movementByCamera = movementByCamera;
-
+        
+        
         musicController.MusicRestart(); // george code
     }
 
