@@ -54,7 +54,7 @@ public class BodyScript : MonoBehaviour
                 case "RuinCollectible":
                     characterController.foundRuinCollectible = true;
                     gameController.foundRuinCollectible = true;
-                    gameController.rotateCamera(3);
+                    gameController.rotateCamera(0);
                     break;
                 default:
                     gameController.rotateCamera(0);

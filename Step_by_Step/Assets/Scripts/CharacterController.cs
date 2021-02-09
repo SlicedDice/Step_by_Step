@@ -136,27 +136,19 @@ public class CharacterController : MonoBehaviour
         {
             mainRB.AddForce(-mainRB.transform.forward * balanceThrust);
         }
-        else if (Input.GetKey("a"))
-        {
-            mainRB.AddForce(-mainRB.transform.right * balanceThrust);
-        }
-        else if (Input.GetKey("d"))
-        {
-            mainRB.AddForce(mainRB.transform.right * balanceThrust);
-        }
     }
 
     void rotateCharacterRightStilt()
     {
         float rot = rotation * Time.deltaTime;
 
-        if (Input.GetKey("q"))
+        if (Input.GetKey("a"))
         {
             //mainBody.transform.Rotate(0f, -rot, 0f, Space.World);
             stiltRight.transform.Rotate(0f, -rot, 0f, Space.World);
             rightFoot.transform.Rotate(0f, -rot, 0f, Space.World);
         }
-        else if (Input.GetKey("e"))
+        else if (Input.GetKey("d"))
         {
             //mainBody.transform.Rotate(0f, rot, 0f, Space.World);
             stiltRight.transform.Rotate(0f, rot, 0f, Space.World);
