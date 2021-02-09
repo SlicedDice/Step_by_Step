@@ -194,7 +194,7 @@ public class GameController : MonoBehaviour
                 mainCamera.transform.rotation = new Quaternion(0.251807213f, 0.390980363f, -0.112111792f, 0.878156304f);
                 break;
             case 1: //y = -70
-                mainCamera.transform.rotation = new Quaternion(0.225788876f, -0.551357031f, 0.15809904f, 0.787419558f);
+                mainCamera.transform.rotation = new Quaternion(-0.225788876f, 0.551357031f, -0.15809904f, -0.787419558f);
                 break;
             case 2: //y = 180
                 mainCamera.transform.rotation = new Quaternion(0.0120231612f, 0.960346818f, -0.275374949f, 0.0419297516f);
