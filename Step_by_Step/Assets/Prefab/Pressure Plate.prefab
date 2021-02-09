@@ -4990,6 +4990,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   connectedGate: {fileID: 0}
+  particleSystem: {fileID: 369071880640161202}
+  activatedShineColor: {r: 1, g: 1, b: 0, a: 0.039215688}
+  basicShineColor: {r: 1, g: 1, b: 1, a: 0.039215688}
 --- !u!82 &3997595005414343251
 AudioSource:
   m_ObjectHideFlags: 0

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 
 public class MusicController : MonoBehaviour
 {
@@ -30,11 +31,14 @@ public class MusicController : MonoBehaviour
     public int region = 1; // stores information about the region the player is in
     public bool song1 = true; // true if song1, false if song2
 
+
+
     // Start is called before the first frame update
     void Start()
     {
-        //Start of section written by Patrick
-        loadMusicSettings();
+        string path = Application.persistentDataPath + "/walkingTitlePlayer.cgl";
+
+        if (File.Exists(path)) loadMusicSettings();
         UpdateCurrentSong();
 
         audioSources[0].clip = currentsong[0];
@@ -49,6 +53,7 @@ public class MusicController : MonoBehaviour
     //This next method was written by Patrick
     private void loadMusicSettings()
     {
+
         PlayerData data = SaveSystem.LoadPlayer();
 
         region = data.musicRegion;

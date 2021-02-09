@@ -37,11 +37,14 @@ public class pressurePlate : MonoBehaviour
         if(collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Wet Ground" || collision.gameObject.tag == "Swamp Ground")
         {
             //GetComponent<Collider>().enabled = true;
+
+            connectedGate.activatedPlates--;
+            activated = false;
+
             GetComponent<Rigidbody>().velocity = new Vector3();
 
             particleSystem.startColor = basicShineColor;
-            connectedGate.activatedPlates--;
-            activated = false;
+            
         }
     }
     void Start()
