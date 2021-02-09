@@ -20,7 +20,7 @@ public class BodyScript : MonoBehaviour
     }
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Wet Ground" || collision.gameObject.tag == "Swamp Ground"|| collision.gameObject.tag == "River")
+        if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Wet Ground" || collision.gameObject.tag == "Swamp Ground" || collision.gameObject.tag == "River" || collision.gameObject.tag == "Lilypads")
         {
             gameController.GameOver();
             audioSource.clip = impactSound;
@@ -61,7 +61,7 @@ public class BodyScript : MonoBehaviour
                     break;
             }
         }
-        else if(col.gameObject.tag == "River")
+        else if(col.gameObject.tag == "River" || col.gameObject.tag == "Wet Ground" || col.gameObject.tag == "Lilypads")
         {
             audioSource.clip = waterSound;
             audioSource.Play();

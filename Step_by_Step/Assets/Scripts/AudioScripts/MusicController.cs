@@ -37,6 +37,8 @@ public class MusicController : MonoBehaviour
     void Start()
     {
         string path = Application.persistentDataPath + "/walkingTitlePlayer.cgl";
+        tracker = GameObject.FindGameObjectWithTag("Foot").GetComponent<DataTracking>();
+
 
         if (File.Exists(path)) loadMusicSettings();
         UpdateCurrentSong();
@@ -45,7 +47,6 @@ public class MusicController : MonoBehaviour
         audioSources[1].clip = currentsong[1];
         audioSources[2].clip = currentsong[2];
 
-        tracker = GameObject.FindGameObjectWithTag("Foot").GetComponent<DataTracking>();
 
         MusicRestart1();
     }

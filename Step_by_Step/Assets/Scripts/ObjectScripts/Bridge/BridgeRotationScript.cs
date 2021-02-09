@@ -11,6 +11,8 @@ public class BridgeRotationScript : MonoBehaviour
     public float hasRotated = 0;
     public bool isRotating;
 
+    public AudioSource source;
+
     // Update is called once per frame
     //rotates Object around z-axis in clockwise direction
     void Update()
@@ -19,6 +21,8 @@ public class BridgeRotationScript : MonoBehaviour
         {
             if (isRotating == true)
             {
+                if (hasRotated == 0f) source.Play();
+
                 thisRotation = rotationSpeed * Time.deltaTime;
                 transform.Rotate(0f, thisRotation, 0f, Space.Self);
                 hasRotated = hasRotated + thisRotation;
@@ -27,6 +31,7 @@ public class BridgeRotationScript : MonoBehaviour
         if (hasRotated >= rotationSize)
         {
             isRotating = false;
+            source.Stop();
         }
     }
 
