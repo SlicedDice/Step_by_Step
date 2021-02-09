@@ -63,10 +63,12 @@ public class GameController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            
             if (activePauseMenu)
             {
                 pauseMenu.SetActive(false);
                 activePauseMenu = false;
+                saveOptions();
                 ResumeGame();
             }
             else if (!activePauseMenu)
@@ -75,6 +77,7 @@ public class GameController : MonoBehaviour
                 activePauseMenu = true;
                 PauseGame();
             }
+            
         }
     }
     public void SavePlayer()
@@ -216,6 +219,8 @@ public class GameController : MonoBehaviour
     public void saveOptions()
     {
         SaveSystem.SaveOptions(movementByCamera, invertedControls);
+        characterController.movementByCamera = movementByCamera;
+        characterController.invertedControls = invertedControls;
     }
     public void loadOptions()
     {
