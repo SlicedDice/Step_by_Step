@@ -9,6 +9,8 @@ public class pressurePlate : MonoBehaviour
 
     private bool activated = false;
 
+    public ParticleSystem particleSystem;
+
     void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Wet Ground" || collision.gameObject.tag == "Swamp Ground")
@@ -21,7 +23,7 @@ public class pressurePlate : MonoBehaviour
             }
             activated = true;
 
-
+            particleSystem.startColor = new Color(1f, 1f, 0f, 0.04f);
             GetComponent<Rigidbody>().velocity = new Vector3();
             //GetComponent<Collider>().enabled = false;
 
@@ -35,6 +37,7 @@ public class pressurePlate : MonoBehaviour
             //GetComponent<Collider>().enabled = true;
             GetComponent<Rigidbody>().velocity = new Vector3();
 
+            particleSystem.startColor = new Color(1f, 1f, 1f, 0.04f);
             connectedGate.activatedPlates--;
             activated = false;
         }
