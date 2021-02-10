@@ -18,7 +18,7 @@ public class MainMenu : MonoBehaviour
 
     public void Start()
     {
-        string path = Application.persistentDataPath + "/walkingTitlePlayer.cgl";
+        string path = Application.persistentDataPath + "/walkingTitleOptions.cgl";
 
         //Same as loadOptions(), make it work
 
