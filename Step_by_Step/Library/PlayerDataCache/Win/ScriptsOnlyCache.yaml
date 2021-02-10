@@ -38,9 +38,6 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.PostProcessing.PostProcessVolume
     - UnityEngine.Rendering.PostProcessing.ScreenSpaceReflections
     - UnityEngine.Rendering.PostProcessing.Vignette
-    Unity.ProBuilder.Editor.dll:
-    - UnityEditor.ProBuilder.EditorToolbar
-    - UnityEditor.ProBuilder.ProBuilderEditor
     Unity.ProBuilder.dll:
     - UnityEngine.ProBuilder.ProBuilderMesh
     Unity.Rider.Editor.dll:
@@ -1121,4 +1118,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Testlevel.unity
   - Assets/Scenes/Main Menu/Main Menu.unity
-  playerPath: C:/Users/kaija/OneDrive/Desktop/Builds/Walking_Title_2/Step_by_Step.exe
+  playerPath: C:/Users/kaija/OneDrive/Desktop/Builds/Walking_Title_3/Step_by_Step.exe
